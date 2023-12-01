@@ -350,29 +350,29 @@ C {devices/lab_pin.sym} 70 810 2 0 {name=p34 sig_type=std_logic lab=ff_13B}
 C {devices/lab_pin.sym} 220 810 2 0 {name=p35 sig_type=std_logic lab=ff_14B}
 C {devices/lab_pin.sym} 370 810 2 0 {name=p36 sig_type=std_logic lab=ff_15B}
 C {devices/lab_pin.sym} 510 810 2 0 {name=p37 sig_type=std_logic lab=ff_16B}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} -160 90 0 0 {name=X1}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} -10 90 0 0 {name=X2}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} -160 90 0 0 {name=X1}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} -10 90 0 0 {name=X2}
 C {devices/lab_pin.sym} 370 -20 2 0 {name=p38 sig_type=std_logic lab=phi_3}
 C {devices/lab_pin.sym} 370 110 2 0 {name=p39 sig_type=std_logic lab=phi_3B}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} 140 90 0 0 {name=X3}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} 290 90 0 0 {name=X4}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} 140 90 0 0 {name=X3}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} 290 90 0 0 {name=X4}
 C {devices/lab_pin.sym} 220 -20 2 0 {name=p10 sig_type=std_logic lab=phi_2}
 C {devices/lab_pin.sym} 220 110 2 0 {name=p11 sig_type=std_logic lab=phi_2B}
 C {devices/lab_pin.sym} 0 370 0 0 {name=p23 sig_type=std_logic lab=CLK}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} -160 320 0 0 {name=X5}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} -10 320 0 0 {name=X6}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} 140 320 0 0 {name=X7}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} 290 320 0 0 {name=X8}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} -160 320 0 0 {name=X5}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} -10 320 0 0 {name=X6}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} 140 320 0 0 {name=X7}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} 290 320 0 0 {name=X8}
 C {devices/lab_pin.sym} 0 610 0 0 {name=p47 sig_type=std_logic lab=CLK}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} -160 560 0 0 {name=X9}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} -10 560 0 0 {name=X10}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} 140 560 0 0 {name=X11}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} 290 560 0 0 {name=X12}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} -160 560 0 0 {name=X9}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} -10 560 0 0 {name=X10}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} 140 560 0 0 {name=X11}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} 290 560 0 0 {name=X12}
 C {devices/lab_pin.sym} 0 840 0 0 {name=p56 sig_type=std_logic lab=CLK}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} -160 790 0 0 {name=X13}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} -10 790 0 0 {name=X14}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} 140 790 0 0 {name=X15}
-C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/shift_register/andrew_mp2_files/d_flipflop/d_flipflop.sym} 290 790 0 0 {name=X16}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} -160 790 0 0 {name=X13}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} -10 790 0 0 {name=X14}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} 140 790 0 0 {name=X15}
+C {./andrew_mp2_files/d_flipflop/d_flipflop.sym} 290 790 0 0 {name=X16}
 C {devices/lab_pin.sym} 70 210 2 0 {name=p24 sig_type=std_logic lab=phi_5}
 C {devices/lab_pin.sym} 220 210 2 0 {name=p40 sig_type=std_logic lab=phi_6}
 C {devices/lab_pin.sym} 370 210 2 0 {name=p41 sig_type=std_logic lab=phi_7}
