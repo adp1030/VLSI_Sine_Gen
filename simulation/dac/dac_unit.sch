@@ -22,13 +22,13 @@ lab=Vphi_b}
 N 120 220 130 220 {
 lab=Vphi}
 N 160 250 160 260 {
-lab=Iunit-}
+lab=Viun}
 N 340 250 340 260 {
-lab=Iunit+}
+lab=Viup}
 N 180 50 190 50 {
 lab=Vbp}
 N 180 130 190 130 {
-lab=Vbp2}
+lab=Vcp}
 N 220 180 340 180 {
 lab=#net2}
 C {madvlsi/pmos3.sym} 220 50 0 0 {name=M1
@@ -95,6 +95,6 @@ C {madvlsi/vdd.sym} 220 10 0 0 {name=l1 lab=VDD}
 C {devices/ipin.sym} 120 220 0 0 {name=p1 lab=Vphi}
 C {devices/ipin.sym} 180 50 0 0 {name=p2 lab=Vbp}
 C {devices/ipin.sym} 180 130 0 0 {name=p3 lab=Vcp}
-C {devices/opin.sym} 160 260 0 0 {name=p4 lab=Iunit-}
-C {devices/opin.sym} 340 260 0 0 {name=p5 lab=Iunit+}
+C {devices/opin.sym} 160 260 0 0 {name=p4 lab=Viun}
+C {devices/opin.sym} 340 260 0 0 {name=p5 lab=Viup}
 C {devices/ipin.sym} 300 220 0 0 {name=p6 lab=Vphi_b}
