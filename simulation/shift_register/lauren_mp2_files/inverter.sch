@@ -9,23 +9,27 @@ N -10 -30 -10 40 {
 lab=A}
 N -10 40 -0 40 {
 lab=A}
-N 30 40 30 80 {
-lab=VN}
 N -30 0 -10 0 {
 lab=A}
 N -10 -40 -10 -30 {
 lab=A}
 N -10 -40 -0 -40 {
 lab=A}
-N 30 -80 30 -40 {
-lab=VP}
 N 30 -10 30 10 {
 lab=Y}
 N 30 -0 50 -0 {
 lab=Y}
-C {madvlsi/pmos4.sym} 30 -40 0 0 {name=M1
+N 30 -80 30 -70 {
+lab=VDD}
+N 30 70 30 80 {
+lab=GND}
+C {devices/ipin.sym} -30 0 0 0 {name=p1 lab=A}
+C {devices/opin.sym} 50 0 0 0 {name=p4 lab=Y}
+C {madvlsi/vdd.sym} 30 -80 0 0 {name=l1 lab=VDD}
+C {madvlsi/pmos3.sym} 30 -40 0 0 {name=M1
 L=0.15
 W=1
+body=VDD
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -37,10 +41,11 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {madvlsi/nmos4.sym} 30 40 0 0 {name=M2
+C {madvlsi/nmos3.sym} 30 40 0 0 {name=M2
 L=0.15
 W=1
-nf=1 
+body=GND
+nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -51,7 +56,4 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/ipin.sym} -30 0 0 0 {name=p1 lab=A}
-C {devices/iopin.sym} 30 -80 3 0 {name=p2 lab=VP}
-C {devices/iopin.sym} 30 80 1 0 {name=p3 lab=VN}
-C {devices/opin.sym} 50 0 0 0 {name=p4 lab=Y}
+C {madvlsi/gnd.sym} 30 80 0 0 {name=l2 lab=GND}
