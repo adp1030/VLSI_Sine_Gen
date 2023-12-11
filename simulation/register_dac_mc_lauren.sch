@@ -5,6 +5,20 @@ K {}
 V {}
 S {}
 E {}
+N 400 590 400 630 {
+lab=V_CLK}
+N 400 630 660 630 {
+lab=V_CLK}
+N 730 390 760 390 {
+lab=#net1}
+N 760 390 760 550 {
+lab=#net1}
+N 720 550 760 550 {
+lab=#net1}
+N 730 410 730 570 {
+lab=#net2}
+N 720 570 730 570 {
+lab=#net2}
 C {madvlsi/tt_models.sym} 830 400 0 0 {
 name=TT_MODELS
 only_toplevel=false
@@ -31,8 +45,8 @@ C {devices/lab_pin.sym} 470 470 2 0 {name=p7 sig_type=std_logic lab=phi5}
 C {devices/lab_pin.sym} 470 490 2 0 {name=p8 sig_type=std_logic lab=phi6}
 C {devices/lab_pin.sym} 470 510 2 0 {name=p9 sig_type=std_logic lab=phi7}
 C {devices/lab_pin.sym} 470 530 2 0 {name=p10 sig_type=std_logic lab=Vff8}
-C {devices/lab_pin.sym} 730 390 2 0 {name=p11 sig_type=std_logic lab=Vout+}
-C {devices/lab_pin.sym} 730 410 2 0 {name=p12 sig_type=std_logic lab=Vout-}
+C {devices/lab_pin.sym} 600 550 2 1 {name=p11 sig_type=std_logic lab=Vout+}
+C {devices/lab_pin.sym} 600 570 2 1 {name=p12 sig_type=std_logic lab=Vout-}
 C {devices/lab_pin.sym} 330 530 2 1 {name=p13 sig_type=std_logic lab=Vff16}
 C {devices/lab_pin.sym} 330 390 2 1 {name=p14 sig_type=std_logic lab=Vff9}
 C {devices/lab_pin.sym} 330 410 2 1 {name=p15 sig_type=std_logic lab=Vff10}
@@ -64,7 +78,6 @@ C {devices/lab_pin.sym} 610 490 2 0 {name=p26 sig_type=std_logic lab=phi6f}
 C {devices/lab_pin.sym} 610 510 2 0 {name=p27 sig_type=std_logic lab=phi7f}
 C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
 .ic v(phi1)=0 v(phi2)=0 v(phi3)=0 v(phi4)=0 v(phi5)=0 v(phi6)=0 v(phi7)=0 v(Vff8)=0 v(Vff9)=1.8 v(Vff10)=1.8 v(Vff11)=1.8 v(Vff12)=1.8 v(Vff13)=1.8 v(Vff14)=1.8 v(Vff15)=1.8 v(Vff16)=1.8
-.tran 0.01n 1u
 .control
   set wr_vecnames
   set wr_singlescale
@@ -72,11 +85,13 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
   let mc_runs = 10
   let run = 1
   dowhile run <= mc_runs
-    op
-    wrdata ~/VLSI_Sine_Gen/simulation/sim_data/register_dac_mc_\{$&run\}.txt v(Vout+) v(Vout-)
+    tran 0.1n 1u
+    wrdata ~/VLSI_Sine_Gen/simulation/sim_data/register_dac_mc_\{$&run\}.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)
     reset
     let run = run + 1
-    end
+  end
+  quit
 .endc
 "
 }
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/filter/filter.sym} 910 360 0 1 {name=x17}
