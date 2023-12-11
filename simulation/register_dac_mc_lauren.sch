@@ -30,8 +30,8 @@ C {madvlsi/vsource.sym} 1060 580 0 0 {name=Vdd
 value=1.8}
 C {madvlsi/gnd.sym} 1060 610 0 0 {name=l2 lab=GND}
 C {madvlsi/vdd.sym} 1060 550 0 0 {name=l3 lab=VDD}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac.sym} 420 200 0 0 {name=x1}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/register_lauren.sym} 590 580 0 0 {name=x2}
+C {./dac.sym} 420 200 0 0 {name=x1}
+C {./register_lauren.sym} 590 580 0 0 {name=x2}
 C {devices/lab_pin.sym} 400 590 2 1 {name=p2 sig_type=std_logic lab=V_CLK}
 C {devices/lab_pin.sym} 470 390 2 0 {name=p3 sig_type=std_logic lab=phi1}
 C {devices/lab_pin.sym} 470 410 2 0 {name=p4 sig_type=std_logic lab=phi2}
@@ -51,20 +51,20 @@ C {devices/lab_pin.sym} 330 450 2 1 {name=p17 sig_type=std_logic lab=Vff12}
 C {devices/lab_pin.sym} 330 470 2 1 {name=p18 sig_type=std_logic lab=Vff13}
 C {devices/lab_pin.sym} 330 490 2 1 {name=p19 sig_type=std_logic lab=Vff14}
 C {devices/lab_pin.sym} 330 510 2 1 {name=p20 sig_type=std_logic lab=Vff15}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 550 390 0 0 {name=X3}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 550 410 0 0 {name=X4}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 550 430 0 0 {name=X5}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 550 450 0 0 {name=X6}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 550 470 0 0 {name=X7}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 550 490 0 0 {name=X8}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 550 510 0 0 {name=X9}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 620 390 0 0 {name=X10}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 620 410 0 0 {name=X11}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 620 430 0 0 {name=X12}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 620 450 0 0 {name=X13}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 620 470 0 0 {name=X14}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 620 490 0 0 {name=X15}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 620 510 0 0 {name=X16}
+C {./dac/inverter.sym} 550 390 0 0 {name=X3}
+C {./dac/inverter.sym} 550 410 0 0 {name=X4}
+C {./dac/inverter.sym} 550 430 0 0 {name=X5}
+C {./dac/inverter.sym} 550 450 0 0 {name=X6}
+C {./dac/inverter.sym} 550 470 0 0 {name=X7}
+C {./dac/inverter.sym} 550 490 0 0 {name=X8}
+C {./dac/inverter.sym} 550 510 0 0 {name=X9}
+C {./dac/inverter.sym} 620 390 0 0 {name=X10}
+C {./dac/inverter.sym} 620 410 0 0 {name=X11}
+C {./dac/inverter.sym} 620 430 0 0 {name=X12}
+C {./dac/inverter.sym} 620 450 0 0 {name=X13}
+C {./dac/inverter.sym} 620 470 0 0 {name=X14}
+C {./dac/inverter.sym} 620 490 0 0 {name=X15}
+C {./dac/inverter.sym} 620 510 0 0 {name=X16}
 C {devices/lab_pin.sym} 610 390 2 0 {name=p21 sig_type=std_logic lab=phi1f}
 C {devices/lab_pin.sym} 610 410 2 0 {name=p22 sig_type=std_logic lab=phi2f}
 C {devices/lab_pin.sym} 610 430 2 0 {name=p23 sig_type=std_logic lab=phi3f}
@@ -90,4 +90,4 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
 .endc
 "
 }
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/filter/filter.sym} 910 360 0 1 {name=x17}
+C {./filter/filter.sym} 910 360 0 1 {name=x17}
