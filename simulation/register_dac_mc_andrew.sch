@@ -15,6 +15,10 @@ N 730 410 730 570 {
 lab=#net2}
 N 720 570 730 570 {
 lab=#net2}
+N 630 300 690 300 {}
+N 690 300 690 350 {}
+N 630 320 650 320 {}
+N 650 320 650 350 {}
 C {madvlsi/tt_models.sym} 830 400 0 0 {
 name=TT_MODELS
 only_toplevel=false
@@ -91,3 +95,4 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
 "
 }
 C {./filter/filter.sym} 910 360 0 1 {name=x17}
+C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 540 220 0 0 {name=X18}

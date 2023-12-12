@@ -16,6 +16,10 @@ N 400 590 820 590 {
 lab=V_CLK}
 N 820 470 820 590 {
 lab=V_CLK}
+N 630 320 650 320 {}
+N 650 320 650 350 {}
+N 630 300 690 300 {}
+N 690 300 690 350 {}
 C {madvlsi/tt_models.sym} 1010 370 0 0 {
 name=TT_MODELS
 only_toplevel=false
@@ -77,3 +81,4 @@ C {devices/lab_pin.sym} 610 470 2 0 {name=p25 sig_type=std_logic lab=phi5f}
 C {devices/lab_pin.sym} 610 490 2 0 {name=p26 sig_type=std_logic lab=phi6f}
 C {devices/lab_pin.sym} 610 510 2 0 {name=p27 sig_type=std_logic lab=phi7f}
 C {./filter/filter.sym} 570 200 0 0 {name=x17}
+C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 540 220 0 0 {name=X18}
