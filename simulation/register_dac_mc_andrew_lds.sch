@@ -82,7 +82,7 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
   let run = 1
   dowhile run <= mc_runs
     tran 0.1n 1u
-    wrdata ~/VLSI_Sine_Gen/simulation/sim_data/register_dac_mc_\{$&run\}.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)
+    wrdata ~/Documents/VLSI_Sine_Gen/simulation/sim_data/register_dac_mc_lds\{$&run\}.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)
     reset
     let run = run + 1
   end
