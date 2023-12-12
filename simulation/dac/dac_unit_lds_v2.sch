@@ -5,8 +5,6 @@ K {}
 V {}
 S {}
 E {}
-N 300 -110 300 -20 {
-lab=Vcp}
 N 280 -60 550 -60 {
 lab=Vphi_b}
 N 550 -60 550 -10 {
@@ -27,8 +25,6 @@ N 520 20 520 180 {
 lab=#net2}
 N 480 180 520 180 {
 lab=#net2}
-N 380 130 450 130 {
-lab=Vcp}
 N 820 20 820 180 {
 lab=#net3}
 N 750 20 760 20 {
@@ -43,7 +39,7 @@ N 580 20 660 20 {
 lab=Viup}
 N 580 180 660 180 {
 lab=Viun}
-N 450 -80 790 -80 {
+N 450 -120 790 -120 {
 lab=Vbp}
 N 790 -80 790 -10 {
 lab=Vbp}
@@ -67,8 +63,6 @@ N 550 120 690 120 {
 lab=Vphi}
 N 690 120 690 150 {
 lab=Vphi}
-N 300 130 380 130 {
-lab=Vcp}
 N 300 -100 380 -100 {
 lab=Vcp}
 N 330 -10 330 20 {
@@ -83,10 +77,6 @@ N 330 150 330 180 {
 lab=VDD}
 N 330 150 360 150 {
 lab=VDD}
-N 300 -20 300 130 {
-lab=Vcp}
-N 450 130 450 150 {
-lab=Vcp}
 N 820 20 850 20 {
 lab=#net3}
 N 880 -10 910 -10 {
@@ -103,6 +93,17 @@ N 690 -60 960 -60 {
 lab=Vphi_b}
 N 690 120 960 120 {
 lab=Vphi}
+N 510 -100 510 150 {
+lab=Vcp}
+N 450 150 510 150 {
+lab=Vcp}
+N 300 -110 300 -100 {
+lab=Vcp}
+N 450 -130 450 -110 {
+lab=Vbp}
+N 790 -120 790 -80 {
+lab=Vbp}
+N 300 -130 300 -110 {}
 C {madvlsi/pmos3.sym} 450 20 1 0 {name=M1
 L=0.5
 W=6
@@ -165,8 +166,8 @@ spiceprefix=X
 }
 C {madvlsi/vdd.sym} 490 -10 0 1 {name=l1 lab=VDD}
 C {devices/ipin.sym} 280 120 0 0 {name=p1 lab=Vphi}
-C {devices/ipin.sym} 450 -110 3 1 {name=p2 lab=Vbp}
-C {devices/ipin.sym} 300 -110 3 1 {name=p3 lab=Vcp}
+C {devices/ipin.sym} 450 -130 3 1 {name=p2 lab=Vbp}
+C {devices/ipin.sym} 300 -130 3 1 {name=p3 lab=Vcp}
 C {devices/opin.sym} 590 260 3 1 {name=p4 lab=Viun}
 C {devices/opin.sym} 650 260 3 1 {name=p5 lab=Viup}
 C {devices/ipin.sym} 280 -60 0 0 {name=p6 lab=Vphi_b}

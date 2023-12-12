@@ -1,0 +1,22 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Class dac_unit.spice (0):  Merged 2 parallel devices.
+Class dac_unit_lds_v2.spice (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: dac_unit.spice                  |Circuit 2: dac_unit_lds_v2.spice           
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (12->10)           |sky130_fd_pr__pfet_01v8 (12->10)           
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match with 7 symmetries.
+Cells have no pins;  pin matching not needed.
+Device classes dac_unit.spice and dac_unit_lds_v2.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.
