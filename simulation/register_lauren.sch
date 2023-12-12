@@ -129,46 +129,70 @@ N 310 800 310 830 {
 lab=V_CLK}
 N 160 800 160 830 {
 lab=V_CLK}
-N 50 20 90 20 {}
-N 50 50 90 50 {}
-N 200 20 240 20 {}
-N 200 50 240 50 {}
-N 350 20 390 20 {}
-N 350 50 390 50 {}
-N 350 250 390 250 {}
-N 350 280 390 280 {}
-N 200 250 240 250 {}
-N 200 280 240 280 {}
-N 50 280 90 280 {}
-N 50 250 90 250 {}
-N 50 520 90 520 {}
-N 50 490 90 490 {}
-N 200 520 240 520 {}
-N 200 490 240 490 {}
-N 350 520 390 520 {}
-N 350 490 390 490 {}
-N 350 750 390 750 {}
-N 350 720 390 720 {}
-N 200 750 240 750 {}
-N 200 720 240 720 {}
-N 50 750 90 750 {}
-N 50 720 90 720 {}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 0 0 0 {name=X1}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 0 0 0 {name=X2}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 0 0 0 {name=X3}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 0 0 0 {name=X4}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 230 0 0 {name=X5}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 230 0 0 {name=X6}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 230 0 0 {name=X7}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 230 0 0 {name=X8}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 470 0 0 {name=X9}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 470 0 0 {name=X10}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 470 0 0 {name=X11}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 470 0 0 {name=X12}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 700 0 0 {name=X13}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 700 0 0 {name=X14}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 700 0 0 {name=X15}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 700 0 0 {name=X16}
+N 50 20 90 20 {
+lab=Vphi1}
+N 50 50 90 50 {
+lab=#net5}
+N 200 20 240 20 {
+lab=Vphi2}
+N 200 50 240 50 {
+lab=#net6}
+N 350 20 390 20 {
+lab=Vphi3}
+N 350 50 390 50 {
+lab=#net7}
+N 350 250 390 250 {
+lab=Vphi7}
+N 350 280 390 280 {
+lab=#net8}
+N 200 250 240 250 {
+lab=Vphi6}
+N 200 280 240 280 {
+lab=#net9}
+N 50 280 90 280 {
+lab=#net10}
+N 50 250 90 250 {
+lab=Vphi5}
+N 50 520 90 520 {
+lab=#net11}
+N 50 490 90 490 {
+lab=Vff9}
+N 200 520 240 520 {
+lab=#net12}
+N 200 490 240 490 {
+lab=Vff10}
+N 350 520 390 520 {
+lab=#net13}
+N 350 490 390 490 {
+lab=Vff11}
+N 350 750 390 750 {
+lab=#net14}
+N 350 720 390 720 {
+lab=Vff15}
+N 200 750 240 750 {
+lab=#net15}
+N 200 720 240 720 {
+lab=Vff14}
+N 50 750 90 750 {
+lab=#net16}
+N 50 720 90 720 {
+lab=Vff13}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 0 0 0 {name=X1}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 0 0 0 {name=X2}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 0 0 0 {name=X3}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 0 0 0 {name=X4}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 230 0 0 {name=X5}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 230 0 0 {name=X6}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 230 0 0 {name=X7}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 230 0 0 {name=X8}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 470 0 0 {name=X9}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 470 0 0 {name=X10}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 470 0 0 {name=X11}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 470 0 0 {name=X12}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 700 0 0 {name=X13}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 700 0 0 {name=X14}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 700 0 0 {name=X15}
+C {./shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 700 0 0 {name=X16}
 C {devices/opin.sym} 90 20 0 0 {name=p1 lab=Vphi1}
 C {devices/opin.sym} 240 20 0 0 {name=p3 lab=Vphi2}
 C {devices/opin.sym} 390 20 0 0 {name=p4 lab=Vphi3}
