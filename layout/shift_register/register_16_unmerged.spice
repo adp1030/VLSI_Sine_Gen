@@ -1,0 +1,56 @@
+* NGSPICE file created from register_16_unmerged.ext - technology: sky130A
+
+.subckt csrl_dff D DB CLK Q QB VP VN
+X0 a_330_630# CLK VP VP sky130_fd_pr__pfet_01v8 ad=0.433 pd=3.03 as=0.5 ps=3.16 w=4 l=0.15
+X1 a_50_n280# CLK VN VN sky130_fd_pr__nfet_01v8 ad=0.533 pd=3.13 as=1.6 ps=9.4 w=4 l=0.15
+X2 Q QB a_330_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1 l=0.15
+X3 a_70_630# CLK DB VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X4 Q CLK a_10_1040# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X5 a_10_1040# CLK D VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X6 a_10_1040# a_70_630# a_50_n280# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.533 ps=3.13 w=1 l=0.15
+X7 QB Q a_330_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1 l=0.15
+X8 VP a_70_630# a_10_1040# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3.16 as=0.25 ps=1.5 w=1 l=0.15
+X9 QB CLK a_70_630# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X10 a_70_630# a_10_1040# a_50_n280# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.533 ps=3.13 w=1 l=0.15
+X11 VP a_10_1040# a_70_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3.16 as=0.25 ps=1.5 w=1 l=0.15
+X12 VN Q QB VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X13 VN QB Q VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+.ends
+
+
+* Top level circuit register_16_unmerged
+
+Xcsrl_dff_10 csrl_dff_9/Q csrl_dff_9/QB csrl_dff_9/CLK csrl_dff_11/D csrl_dff_11/DB
++ csrl_dff_9/VP VSUBS csrl_dff
+Xcsrl_dff_11 csrl_dff_11/D csrl_dff_11/DB csrl_dff_9/CLK csrl_dff_12/D csrl_dff_12/DB
++ csrl_dff_9/VP VSUBS csrl_dff
+Xcsrl_dff_12 csrl_dff_12/D csrl_dff_12/DB csrl_dff_9/CLK csrl_dff_13/D csrl_dff_13/DB
++ csrl_dff_9/VP VSUBS csrl_dff
+Xcsrl_dff_13 csrl_dff_13/D csrl_dff_13/DB csrl_dff_9/CLK csrl_dff_14/D csrl_dff_14/DB
++ csrl_dff_9/VP VSUBS csrl_dff
+Xcsrl_dff_14 csrl_dff_14/D csrl_dff_14/DB csrl_dff_9/CLK csrl_dff_15/D csrl_dff_15/DB
++ csrl_dff_9/VP VSUBS csrl_dff
+Xcsrl_dff_15 csrl_dff_15/D csrl_dff_15/DB csrl_dff_9/CLK csrl_dff_0/D csrl_dff_0/DB
++ csrl_dff_9/VP VSUBS csrl_dff
+Xcsrl_dff_16 csrl_dff_0/Q csrl_dff_0/QB csrl_dff_9/CLK csrl_dff_2/D csrl_dff_2/DB
++ csrl_dff_9/VP VSUBS csrl_dff
+Xcsrl_dff_0 csrl_dff_0/D csrl_dff_0/DB csrl_dff_9/CLK csrl_dff_0/Q csrl_dff_0/QB csrl_dff_9/VP
++ VSUBS csrl_dff
+Xcsrl_dff_2 csrl_dff_2/D csrl_dff_2/DB csrl_dff_9/CLK csrl_dff_3/D csrl_dff_3/DB csrl_dff_9/VP
++ VSUBS csrl_dff
+Xcsrl_dff_3 csrl_dff_3/D csrl_dff_3/DB csrl_dff_9/CLK csrl_dff_4/D csrl_dff_4/DB csrl_dff_9/VP
++ VSUBS csrl_dff
+Xcsrl_dff_4 csrl_dff_4/D csrl_dff_4/DB csrl_dff_9/CLK csrl_dff_5/D csrl_dff_5/DB csrl_dff_9/VP
++ VSUBS csrl_dff
+Xcsrl_dff_5 csrl_dff_5/D csrl_dff_5/DB csrl_dff_9/CLK csrl_dff_6/D csrl_dff_6/DB csrl_dff_9/VP
++ VSUBS csrl_dff
+Xcsrl_dff_6 csrl_dff_6/D csrl_dff_6/DB csrl_dff_9/CLK csrl_dff_7/D csrl_dff_7/DB csrl_dff_9/VP
++ VSUBS csrl_dff
+Xcsrl_dff_7 csrl_dff_7/D csrl_dff_7/DB csrl_dff_9/CLK csrl_dff_8/D csrl_dff_8/DB csrl_dff_9/VP
++ VSUBS csrl_dff
+Xcsrl_dff_9 csrl_dff_9/D csrl_dff_9/DB csrl_dff_9/CLK csrl_dff_9/Q csrl_dff_9/QB csrl_dff_9/VP
++ VSUBS csrl_dff
+Xcsrl_dff_8 csrl_dff_8/D csrl_dff_8/DB csrl_dff_9/CLK csrl_dff_9/D csrl_dff_9/DB csrl_dff_9/VP
++ VSUBS csrl_dff
+.end
+
