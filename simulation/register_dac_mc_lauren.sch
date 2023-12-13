@@ -15,11 +15,19 @@ N 730 410 730 570 {
 lab=#net2}
 N 720 570 730 570 {
 lab=#net2}
+N 630 340 650 340 {
+lab=#net3}
+N 650 340 650 350 {
+lab=#net3}
+N 630 320 690 320 {
+lab=#net4}
+N 690 320 690 350 {
+lab=#net4}
 C {madvlsi/tt_models.sym} 830 400 0 0 {
 name=TT_MODELS
 only_toplevel=false
 value=".option wnflag=1
-.param MC_SWITCH=1.0
+.param MC_SWITCH=0.0
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
 C {madvlsi/vsource.sym} 850 580 0 0 {name=V_CLK
@@ -82,7 +90,7 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
   let run = 1
   dowhile run <= mc_runs
     tran 0.1n 1u
-    wrdata ~/VLSI_Sine_Gen/simulation/sim_data/register_dac_mc_\{$&run\}.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)
+    wrdata ~/VLSI_Sine_Gen/simulation/sim_data/mc_data/register_dac_mc_m0\{$&run\}.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)
     reset
     let run = run + 1
   end
@@ -91,3 +99,4 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
 "
 }
 C {./filter/filter.sym} 910 360 0 1 {name=x17}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 540 240 0 0 {name=X18}
