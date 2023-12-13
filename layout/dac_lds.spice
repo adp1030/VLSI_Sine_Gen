@@ -1,0 +1,128 @@
+** sch_path: /home/madvlsi/Documents/VLSI_Sine_Gen/simulation/dac_lds.sch
+**.subckt dac_lds Vphi1 Vphi2 Vphi3 Vphi4 Vphi5 Vphi6 Vphi7 Viout+ Viout- Vcp Vbp
+*.ipin Vphi1
+*.ipin Vphi2
+*.ipin Vphi3
+*.ipin Vphi4
+*.ipin Vphi5
+*.ipin Vphi6
+*.ipin Vphi7
+*.opin Viout+
+*.opin Viout-
+*.ipin Vcp
+*.ipin Vbp
+x1 Vbp Vcp Viout+ Viout- Vphi1 net1 dac_unit_lds_v2
+x2 Vbp Vcp Viout+ Viout- Vphi1 net1 dac_unit_lds_v2
+x3 Vbp Vcp Viout+ Viout- Vphi1 net1 dac_unit_lds_v2
+x4 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds_v2
+x5 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds_v2
+x6 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds_v2
+x7 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds_v2
+x8 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds_v2
+x9 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds_v2
+x10 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds_v2
+x11 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds_v2
+x12 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds_v2
+x13 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds_v2
+x14 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds_v2
+x15 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds_v2
+x16 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds_v2
+x17 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds_v2
+x18 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds_v2
+x19 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds_v2
+x20 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds_v2
+x21 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds_v2
+x22 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds_v2
+x23 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds_v2
+x24 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds_v2
+x25 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds_v2
+x26 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds_v2
+x27 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds_v2
+x28 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds_v2
+x29 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds_v2
+x30 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds_v2
+x31 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds_v2
+x32 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds_v2
+x33 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds_v2
+x34 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds_v2
+x35 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds_v2
+x36 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds_v2
+x38 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds_v2
+x37 Vbp Vcp Viout+ Viout- Vphi7 net7 dac_unit_lds_v2
+x39 Vbp Vcp Viout+ Viout- Vphi7 net7 dac_unit_lds_v2
+x40 Vbp Vcp Viout+ Viout- Vphi7 net7 dac_unit_lds_v2
+X42 Vphi1 net1 inverter
+X43 Vphi2 net2 inverter
+X44 Vphi3 net3 inverter
+X45 Vphi4 net4 inverter
+X46 Vphi5 net5 inverter
+X47 Vphi6 net6 inverter
+X48 Vphi7 net7 inverter
+**.ends
+
+* expanding   symbol:  ./dac/dac_unit_lds_v2.sym # of pins=6
+** sym_path: /home/madvlsi/Documents/VLSI_Sine_Gen/simulation/dac/dac_unit_lds_v2.sym
+** sch_path: /home/madvlsi/Documents/VLSI_Sine_Gen/simulation/dac/dac_unit_lds_v2.sch
+.subckt dac_unit_lds_v2 Vbp Vcp Viup Viun Vphi Vphi_b
+*.ipin Vphi
+*.ipin Vbp
+*.ipin Vcp
+*.opin Viun
+*.opin Viup
+*.ipin Vphi_b
+XM1 net1 Vbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM2 net2 Vcp net1 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM3 Viun Vphi net2 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM4 Viup Vphi_b net2 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM5 net3 Vbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM6 net4 Vcp net3 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM7 Viun Vphi net4 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM8 Viup Vphi_b net4 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM9 VDD VDD net1 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM10 net1 VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM11 VDD VDD net3 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM12 net3 VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  ./dac/inverter.sym # of pins=2
+** sym_path: /home/madvlsi/Documents/VLSI_Sine_Gen/simulation/dac/inverter.sym
+** sch_path: /home/madvlsi/Documents/VLSI_Sine_Gen/simulation/dac/inverter.sch
+.subckt inverter A Y
+*.ipin A
+*.opin Y
+XM1 Y A VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM2 Y A GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.GLOBAL VDD
+.GLOBAL GND
+.end
