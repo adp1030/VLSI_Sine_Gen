@@ -1,0 +1,50 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: inverter                        |Circuit 2: inverter                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: inverter                        |Circuit 2: inverter                        
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VP                                         |VDD **Mismatch**                           
+VN                                         |GND **Mismatch**                           
+---------------------------------------------------------------------------------------
+Cell pin lists for inverter and inverter altered to match.
+Device classes inverter and inverter are equivalent.
+Flattening unmatched subcell dac_unit in circuit dac_v2.spice (0)(40 instances)
+Flattening unmatched subcell dac_unit_lds_v2 in circuit dac_lds.spice (1)(40 instances)
+
+Class dac_v2.spice (0):  Merged 80 parallel devices.
+Class dac_lds.spice (1):  Merged 80 parallel devices.
+Subcircuit summary:
+Circuit 1: dac_v2.spice                    |Circuit 2: dac_lds.spice                   
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (480->400)         |sky130_fd_pr__pfet_01v8 (480->400)         
+inverter (7)                               |inverter (7)                               
+Number of devices: 407                     |Number of devices: 407                     
+Number of nets: 180                        |Number of nets: 180                        
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match with 49 symmetries.
+Cells have no pins;  pin matching not needed.
+Device classes dac_v2.spice and dac_lds.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.
