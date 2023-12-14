@@ -16,10 +16,14 @@ N 400 590 820 590 {
 lab=V_CLK}
 N 820 470 820 590 {
 lab=V_CLK}
-N 630 320 650 320 {}
-N 650 320 650 350 {}
-N 630 300 690 300 {}
-N 690 300 690 350 {}
+N 630 320 650 320 {
+lab=#net3}
+N 650 320 650 350 {
+lab=#net3}
+N 630 300 690 300 {
+lab=#net4}
+N 690 300 690 350 {
+lab=#net4}
 C {madvlsi/tt_models.sym} 1010 370 0 0 {
 name=TT_MODELS
 only_toplevel=false
@@ -29,9 +33,9 @@ value=".option wnflag=1
 }
 C {devices/code_shown.sym} 320 660 0 0 {name=SPICE only_toplevel=false value=".ic v(phi1)=0 v(phi2)=0 v(phi3)=0 v(phi4)=0 v(phi5)=0 v(phi6)=0 v(phi7)=0 v(Vff8)=0 v(Vff9)=1.8 v(Vff10)=1.8 v(Vff11)=1.8 v(Vff12)=1.8 v(Vff13)=1.8 v(Vff14)=1.8 v(Vff15)=1.8 v(Vff16)=1.8
 .tran 0.01n 1u
-wrdata ~/Documents/VLSI_Sine_Gen/simulation/sim_data/register_dac_20ns.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)"}
+.save v(phi1f), v(phi2f), v(phi3f), v(phi4f), v(phi5f), v(phi6f), v(phi7f)"}
 C {madvlsi/vsource.sym} 1030 550 0 0 {name=V_CLK
-value="pulse(0 1.8 2n 2n 2n 8n 20n)"}
+value="pulse(0 1.8 1n 1n 1n 4n 10n)"}
 C {madvlsi/gnd.sym} 1030 580 0 0 {name=l1 lab=GND}
 C {devices/lab_pin.sym} 1030 520 2 0 {name=p1 sig_type=std_logic lab=V_CLK}
 C {madvlsi/vsource.sym} 950 550 0 0 {name=Vdd
@@ -82,3 +86,8 @@ C {devices/lab_pin.sym} 610 490 2 0 {name=p26 sig_type=std_logic lab=phi6f}
 C {devices/lab_pin.sym} 610 510 2 0 {name=p27 sig_type=std_logic lab=phi7f}
 C {./filter/filter.sym} 570 200 0 0 {name=x17}
 C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 540 220 0 0 {name=X18}
+C {madvlsi/isource.sym} 1250 560 2 0 {name=Ib
+value=2u}
+C {madvlsi/gnd.sym} 1250 590 0 0 {name=l4 lab=GND}
+C {devices/lab_pin.sym} 1250 530 2 0 {name=p28 sig_type=std_logic lab=VB}
+C {devices/lab_pin.sym} 560 310 0 0 {name=p29 sig_type=std_logic lab=VB}

@@ -90,7 +90,7 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
   let run = 1
   dowhile run <= mc_runs
     tran 0.1n 1u
-    wrdata ~/Documents/VLSI_Sine_Gen/simulation/sim_data/register_dac_mc_lds\{$&run\}.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)
+    wrdata ~/Documents/VLSI_Sine_Gen/simulation/sim_data/register_dac_mc_lds_bias_\{$&run\}.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)
     reset
     let run = run + 1
   end
@@ -100,3 +100,8 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
 }
 C {./filter/filter.sym} 910 360 0 1 {name=x17}
 C {/home/madvlsi/Documents/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 540 220 0 0 {name=X18}
+C {madvlsi/isource.sym} 1170 580 2 0 {name=Ib
+value=2u}
+C {madvlsi/gnd.sym} 1170 610 0 0 {name=l4 lab=GND}
+C {devices/lab_pin.sym} 1170 550 2 0 {name=p28 sig_type=std_logic lab=VB}
+C {devices/lab_pin.sym} 560 310 0 0 {name=p29 sig_type=std_logic lab=VB}
