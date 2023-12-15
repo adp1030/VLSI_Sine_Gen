@@ -7,10 +7,12 @@ Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v
 Equate elements:  no current cell.
 Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
 Flattening unmatched subcell csrl_dff3_lds in circuit register_lauren.spice (0)(16 instances)
-Flattening unmatched subcell csrl_dff in circuit register_16_unmerged.spice (1)(16 instances)
+Flattening unmatched subcell csrl_dff2 in circuit register16.spice (1)(14 instances)
+Flattening unmatched subcell csrl_dff3 in circuit register16.spice (1)(1 instance)
+Flattening unmatched subcell csrl_dff1 in circuit register16.spice (1)(1 instance)
 
 Subcircuit summary:
-Circuit 1: register_lauren.spice           |Circuit 2: register_16_unmerged.spice      
+Circuit 1: register_lauren.spice           |Circuit 2: register16.spice                
 -------------------------------------------|-------------------------------------------
 sky130_fd_pr__pfet_01v8 (112)              |sky130_fd_pr__pfet_01v8 (112)              
 sky130_fd_pr__nfet_01v8 (112)              |sky130_fd_pr__nfet_01v8 (112)              
@@ -21,7 +23,7 @@ Resolving symmetries by property value.
 Resolving symmetries by pin name.
 Netlists match with 12 symmetries.
 Cells have no pins;  pin matching not needed.
-Device classes register_lauren.spice and register_16_unmerged.spice are equivalent.
+Device classes register_lauren.spice and register16.spice are equivalent.
 
 Final result: Circuits match uniquely.
 .
