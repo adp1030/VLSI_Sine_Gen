@@ -1,15 +1,14 @@
 * NGSPICE file created from dac_unit.ext - technology: sky130A
 
-X0 a_1440_150# Vcp a_1070_1810# VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
-X1 VP Vbp a_100_150# VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
-X2 a_1440_150# Vbp VP VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
-X3 a_300_150# Vcp a_100_150# VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
-X4 Viup Vphi_b a_300_150# VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=3 ps=13 w=6 l=0.5
-X5 a_1070_1810# Vphi_b Viup VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=3 ps=13 w=6 l=0.5
-X6 VP VP a_1440_150# VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
-X7 a_100_150# VP VP VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
-X8 a_1070_1810# Vphi Viun VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
-X9 a_100_150# VP VP VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
-X10 Viun Vphi a_300_150# VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
-X11 VP VP a_1440_150# VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
-
+X0 a_3270_1770# Vcp a_2870_360# VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X1 VP VP Viup VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X2 a_2870_360# Vcp a_2270_1770# VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X3 Viun Vphi a_2870_360# VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X4 a_2870_360# Vphi Viun VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X5 Viup VP VP VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X6 VP Vbp a_3270_1770# VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
+X7 a_3270_1770# VP VP VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=3 ps=13 w=6 l=0.5
+X8 VP VP a_2270_1770# VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=3 ps=13 w=6 l=0.5
+X9 a_2270_1770# Vbp VP VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
+X10 Viup Vphi_b a_2870_360# VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
+X11 a_2870_360# Vphi_b Viup VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
