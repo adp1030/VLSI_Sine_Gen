@@ -23,6 +23,8 @@ N 630 320 690 320 {
 lab=#net4}
 N 690 320 690 350 {
 lab=#net4}
+N 540 270 560 270 {
+lab=GND}
 C {madvlsi/tt_models.sym} 830 400 0 0 {
 name=TT_MODELS
 only_toplevel=false
@@ -100,3 +102,6 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
 }
 C {./filter/filter.sym} 910 360 0 1 {name=x17}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 540 240 0 0 {name=X18}
+C {madvlsi/isource.sym} 560 300 0 0 {name=I1
+value=1u}
+C {madvlsi/gnd.sym} 540 270 0 0 {name=l4 lab=GND}

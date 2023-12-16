@@ -1,0 +1,13 @@
+* SPICE3 file created from mimcap.ext - technology: sky130A
+
+X0 bot a_2360_6440# GND sky130_fd_pr__res_xhigh_po_0p35 l=3.5
+X1 bot a_2360_6440# GND sky130_fd_pr__res_xhigh_po_0p35 l=3.5
+X2 bot a_2360_1100# GND sky130_fd_pr__res_xhigh_po_0p35 l=3.5
+X3 bot bot sky130_fd_pr__cap_mim_m3_1 l=10 w=8
+X4 bot a_2360_1100# GND sky130_fd_pr__res_xhigh_po_0p35 l=3.5
+X5 bot bot GND sky130_fd_pr__res_xhigh_po_0p35 l=3.5
+X6 bot bot GND sky130_fd_pr__res_xhigh_po_0p35 l=3.5
+X7 bot bot GND sky130_fd_pr__res_xhigh_po_0p35 l=3.5
+X8 bot bot GND sky130_fd_pr__res_xhigh_po_0p35 l=3.5
+X9 bot bot sky130_fd_pr__cap_mim_m3_1 l=10 w=8
+C0 bot GND 17.1f **FLOATING

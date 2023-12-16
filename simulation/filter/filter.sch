@@ -38,19 +38,19 @@ lab=#net2}
 N 1700 1610 1700 1660 {
 lab=#net2}
 C {madvlsi/resistor.sym} 1380 1690 0 0 {name=R1
-value=2k
+value=40k
 m=1}
 C {madvlsi/resistor.sym} 1800 1690 0 0 {name=R2
-value=2k
+value=40k
 m=1}
 C {madvlsi/resistor.sym} 1510 1660 1 0 {name=R3
-value=1k
+value=20k
 m=1}
 C {madvlsi/resistor.sym} 1670 1660 1 0 {name=R4
-value=1k
+value=20k
 m=1}
 C {madvlsi/capacitor.sym} 1590 1660 1 0 {name=C1
-value=5p
+value=160f
 m=1}
 C {madvlsi/gnd.sym} 1380 1730 0 0 {name=l3 lab=GND}
 C {madvlsi/gnd.sym} 1800 1730 0 0 {name=l4 lab=GND}
@@ -59,11 +59,11 @@ C {devices/opin.sym} 1630 1710 0 0 {name=p2 lab=Vout-}
 C {devices/ipin.sym} 1380 1630 0 0 {name=p3 lab=Viout+}
 C {devices/ipin.sym} 1800 1630 0 1 {name=p4 lab=Viout-}
 C {madvlsi/resistor.sym} 1440 1660 1 0 {name=R5
-value=1k
+value=20k
 m=1}
 C {madvlsi/resistor.sym} 1740 1660 1 0 {name=R6
-value=1k
+value=20k
 m=1}
 C {madvlsi/capacitor.sym} 1590 1610 1 0 {name=C2
-value=5p
+value=160f
 m=1}
