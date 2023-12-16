@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1702598958
+timestamp 1702679440
 << poly >>
 rect -60 895 -20 905
 rect -60 875 -50 895
@@ -24,6 +24,13 @@ rect 4510 875 4530 895
 rect -55 600 -35 620
 rect 4515 600 4535 620
 << locali >>
+rect 265 1055 285 1140
+rect 540 1055 560 1140
+rect 815 1055 835 1140
+rect 1090 1055 1110 1140
+rect 1365 1055 1385 1140
+rect 1640 1055 1660 1140
+rect 1915 1055 1935 1140
 rect -60 895 -20 905
 rect -60 875 -50 895
 rect -30 885 -20 895
@@ -72,69 +79,77 @@ rect 4505 600 4515 620
 rect 4535 600 4570 620
 rect 4505 595 4570 600
 rect 5 70 25 525
-rect 5 0 25 40
+rect 5 -15 25 25
 use csrl_dff1  csrl_dff1_0
-timestamp 1702598151
+timestamp 1702679324
 transform 1 0 550 0 1 270
-box -565 -270 -220 805
+box -565 -285 -220 805
 use csrl_dff2  csrl_dff2_0
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 825 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_1
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 1100 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_2
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 1375 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_3
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 1650 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_4
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 1925 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_5
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 2200 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_6
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 2475 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_7
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 2750 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_8
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 3025 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_9
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 3300 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_10
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 3575 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_11
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 3850 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_12
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 4125 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff2  csrl_dff2_13
-timestamp 1702598904
+timestamp 1702679305
 transform 1 0 4400 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
 use csrl_dff3  csrl_dff3_0
-timestamp 1702598958
+timestamp 1702679378
 transform 1 0 4715 0 1 270
-box -585 -270 -220 805
+box -585 -285 -220 805
+<< labels >>
+rlabel locali 275 1140 275 1140 1 Vphi1
+rlabel locali 550 1140 550 1140 1 Vphi2
+rlabel locali 825 1140 825 1140 1 Vphi3
+rlabel locali 1100 1140 1100 1140 1 Vphi4
+rlabel locali 1375 1140 1375 1140 1 Vphi5
+rlabel locali 1650 1140 1650 1140 1 Vphi6
+rlabel locali 1925 1140 1925 1140 1 Vphi7
 << end >>

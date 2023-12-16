@@ -1,0 +1,7 @@
+** sch_path: /home/madvlsi/VLSI_Sine_Gen/simulation/filter/res.sch
+**.subckt res
+XR10 net1 net2 GND sky130_fd_pr__res_xhigh_po L=3.5 mult=1 m=1
+XR1 net3 net1 GND sky130_fd_pr__res_xhigh_po L=3.5 mult=1 m=1
+**.ends
+.GLOBAL GND
+.end

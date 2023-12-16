@@ -1,0 +1,78 @@
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po and Circuit 2 cell sky130_fd_pr__res_xhigh_po are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__res_xhigh_po and sky130_fd_pr__res_xhigh_po are equivalent.
+
+Class filter_lvs.spice (0):  Merged 2 series devices.
+Class filter.spice (1):  Merged 4 series devices.
+Subcircuit summary:
+Circuit 1: filter_lvs.spice                |Circuit 2: filter.spice                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (2)             
+sky130_fd_pr__res_xhigh_po (6->4)          |sky130_fd_pr__res_xhigh_po (8->4)          
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__res_xhigh_po:R10 vs. sky130_fd_pr__res_xhigh_po:0:
+ L circuit1: 7   circuit2: 10.5   (delta=40%, cutoff=1%)
+sky130_fd_pr__res_xhigh_po:R10 vs. sky130_fd_pr__res_xhigh_po:0:
+Property W in circuit1 has no matching property in circuit2
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance sky130_fd_pr__res_xhigh_po:R10 network:
+  m = 1
+  mult = 1
+  L = 7
+  W = 0.35
++
+  m = 1
+  mult = 1
+  L = 10
+  W = 1
+Circuit 2 instance sky130_fd_pr__res_xhigh_po:0 network:
+  l = 10.5
+  S = 1
+sky130_fd_pr__res_xhigh_po:R8 vs. sky130_fd_pr__res_xhigh_po:2:
+ L circuit1: 7   circuit2: 10.5   (delta=40%, cutoff=1%)
+sky130_fd_pr__res_xhigh_po:R8 vs. sky130_fd_pr__res_xhigh_po:2:
+Property W in circuit1 has no matching property in circuit2
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance sky130_fd_pr__res_xhigh_po:R8 network:
+  m = 1
+  mult = 1
+  L = 7
+  W = 0.35
++
+  m = 1
+  mult = 1
+  L = 10
+  W = 1
+Circuit 2 instance sky130_fd_pr__res_xhigh_po:2 network:
+  l = 10.5
+  S = 1
+sky130_fd_pr__res_xhigh_po:R9 vs. sky130_fd_pr__res_xhigh_po:5:
+ L circuit1: 10   circuit2: 3.5   (delta=96.3%, cutoff=1%)
+sky130_fd_pr__res_xhigh_po:R9 vs. sky130_fd_pr__res_xhigh_po:5:
+Property W in circuit1 has no matching property in circuit2
+sky130_fd_pr__res_xhigh_po:R7 vs. sky130_fd_pr__res_xhigh_po:7:
+ L circuit1: 10   circuit2: 3.5   (delta=96.3%, cutoff=1%)
+sky130_fd_pr__res_xhigh_po:R7 vs. sky130_fd_pr__res_xhigh_po:7:
+Property W in circuit1 has no matching property in circuit2
+sky130_fd_pr__cap_mim_m3_1:C4 vs. sky130_fd_pr__cap_mim_m3_1:3:
+ L circuit1: 8   circuit2: 10   (delta=22.2%, cutoff=1%)
+ W circuit1: 10   circuit2: 8   (delta=22.2%, cutoff=1%)
+sky130_fd_pr__cap_mim_m3_1:C3 vs. sky130_fd_pr__cap_mim_m3_1:9:
+ L circuit1: 8   circuit2: 10   (delta=22.2%, cutoff=1%)
+ W circuit1: 10   circuit2: 8   (delta=22.2%, cutoff=1%)
+Cells have no pins;  pin matching not needed.
+Device classes filter_lvs.spice and filter.spice are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ filter_lvs.spice

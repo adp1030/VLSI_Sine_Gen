@@ -1,0 +1,4 @@
+* NGSPICE file created from res_test.ext - technology: sky130A
+
+X0 a_1470_3130# a_1670_1990# GND sky130_fd_pr__res_high_po l=3.5
+X1 a_1470_3130# a_1470_1990# GND sky130_fd_pr__res_high_po l=3.5

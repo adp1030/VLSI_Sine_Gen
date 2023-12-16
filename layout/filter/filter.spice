@@ -1,0 +1,12 @@
+* NGSPICE file created from mimcap.ext - technology: sky130A
+
+X0 Viout+ a_2360_6260# VN sky130_fd_pr__res_xhigh_po l=3.5
+X1 VN a_2360_6260# VN sky130_fd_pr__res_xhigh_po l=3.5
+X2 VN a_2360_1100# VN sky130_fd_pr__res_xhigh_po l=3.5
+X3 a_1460_5820# a_1090_2450# sky130_fd_pr__cap_mim_m3_1 l=10 w=8
+X4 Viout- a_2360_1100# VN sky130_fd_pr__res_xhigh_po l=3.5
+X5 a_1460_5820# Vout+ VN sky130_fd_pr__res_xhigh_po l=3.5
+X6 a_1090_2450# Viout- VN sky130_fd_pr__res_xhigh_po l=3.5
+X7 a_1090_2450# Vout- VN sky130_fd_pr__res_xhigh_po l=3.5
+X8 a_1460_5820# Viout+ VN sky130_fd_pr__res_xhigh_po l=3.5
+X9 Vout+ Vout- sky130_fd_pr__cap_mim_m3_1 l=10 w=8

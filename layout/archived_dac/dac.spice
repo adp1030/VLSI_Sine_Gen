@@ -1,6 +1,6 @@
 * NGSPICE file created from dac.ext - technology: sky130A
 
-.subckt dac_unit Vbp Vcp Vphi Vphi_b Viup Viun VP a_2270_1770# a_3270_1770#
+.subckt dac_unit Vbp Vcp Vphi Vphi_b Viup Viun VP
 X0 a_3270_1770# Vcp a_2870_360# VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
 X1 VP VP Viup VP sky130_fd_pr__pfet_01v8 ad=3 pd=13 as=1.5 ps=6.5 w=6 l=0.5
 X2 a_2870_360# Vcp a_2270_1770# VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6.5 w=6 l=0.5
@@ -18,85 +18,45 @@ X11 a_2870_360# Vphi_b Viup VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=1.5 ps=6
 
 * Top level circuit dac
 
-Xdac_unit_4 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit_4/a_2270_1770#
-+ dac_unit_4/a_3270_1770# dac_unit
-Xdac_unit_5 Vbp Vcp Vphi1 Vphi1_b Viout+ Viout- dac_unit_5/VP dac_unit_5/a_2270_1770#
-+ dac_unit_5/a_3270_1770# dac_unit
-Xdac_unit_6 Vbp Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit_6/a_2270_1770#
-+ dac_unit_6/a_3270_1770# dac_unit
-Xdac_unit_7 Vbp Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit_7/a_2270_1770#
-+ dac_unit_7/a_3270_1770# dac_unit
-Xdac_unit_8 Vbp Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit_8/a_2270_1770#
-+ dac_unit_9/a_2270_1770# dac_unit
-Xdac_unit_9 Vbp Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit_9/a_2270_1770#
-+ dac_unit_9/a_3270_1770# dac_unit
-Xdac_unit_40 Vbp Vcp Vphi1 Vphi1_b Viout+ Viout- dac_unit_4/VP dac_unit_40/a_2270_1770#
-+ dac_unit_40/a_3270_1770# dac_unit
-Xdac_unit_30 Vbp Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit_31/a_3270_1770#
-+ dac_unit_30/a_3270_1770# dac_unit
-Xdac_unit_20 Vbp Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit_20/a_2270_1770#
-+ dac_unit_20/a_3270_1770# dac_unit
-Xdac_unit_31 Vbp Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit_32/a_3270_1770#
-+ dac_unit_31/a_3270_1770# dac_unit
-Xdac_unit_21 Vbp Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit_21/a_2270_1770#
-+ dac_unit_22/a_2270_1770# dac_unit
-Xdac_unit_10 Vbp Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit_9/a_3270_1770#
-+ dac_unit_7/a_2270_1770# dac_unit
-Xdac_unit_32 Vbp Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit_33/a_3270_1770#
-+ dac_unit_32/a_3270_1770# dac_unit
-Xdac_unit_22 Vbp Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit_22/a_2270_1770#
-+ dac_unit_23/a_2270_1770# dac_unit
-Xdac_unit_11 Vbp Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit_14/a_3270_1770#
-+ dac_unit_11/a_3270_1770# dac_unit
-Xdac_unit_33 Vbp Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit_34/a_3270_1770#
-+ dac_unit_33/a_3270_1770# dac_unit
-Xdac_unit_23 Vbp Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit_23/a_2270_1770#
-+ dac_unit_24/a_2270_1770# dac_unit
-Xdac_unit_12 Vbp Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit_7/a_3270_1770#
-+ dac_unit_14/a_2270_1770# dac_unit
-Xdac_unit_34 Vbp Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit_34/a_2270_1770#
-+ dac_unit_34/a_3270_1770# dac_unit
-Xdac_unit_35 Vbp Vcp Vphi1 Vphi1_b Viout+ Viout- dac_unit_4/VP dac_unit_35/a_2270_1770#
-+ dac_unit_40/a_2270_1770# dac_unit
-Xdac_unit_13 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit_13/a_2270_1770#
-+ dac_unit_1/a_2270_1770# dac_unit
-Xdac_unit_25 Vbp Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit_28/a_3270_1770#
-+ dac_unit_27/a_2270_1770# dac_unit
-Xdac_unit_24 Vbp Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit_24/a_2270_1770#
-+ dac_unit_28/a_2270_1770# dac_unit
-Xdac_unit_14 Vbp Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit_14/a_2270_1770#
-+ dac_unit_14/a_3270_1770# dac_unit
-Xdac_unit_36 Vbp Vcp Vphi7 Vphi7_b Viout+ Viout- dac_unit_37/VP dac_unit_36/a_2270_1770#
-+ dac_unit_37/a_2270_1770# dac_unit
-Xdac_unit_15 Vbp Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit_6/a_3270_1770#
-+ dac_unit_16/a_2270_1770# dac_unit
-Xdac_unit_37 Vbp Vcp Vphi7 Vphi7_b Viout+ Viout- dac_unit_37/VP dac_unit_37/a_2270_1770#
-+ dac_unit_37/a_3270_1770# dac_unit
-Xdac_unit_26 Vbp Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit_26/a_2270_1770#
-+ dac_unit_34/a_2270_1770# dac_unit
-Xdac_unit_27 Vbp Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit_27/a_2270_1770#
-+ dac_unit_27/a_3270_1770# dac_unit
-Xdac_unit_38 Vbp Vcp Vphi7 Vphi7_b Viout+ Viout- dac_unit_6/VP dac_unit_38/a_2270_1770#
-+ dac_unit_38/a_3270_1770# dac_unit
-Xdac_unit_16 Vbp Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit_16/a_2270_1770#
-+ dac_unit_17/a_2270_1770# dac_unit
-Xdac_unit_28 Vbp Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit_28/a_2270_1770#
-+ dac_unit_28/a_3270_1770# dac_unit
-Xdac_unit_17 Vbp Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit_17/a_2270_1770#
-+ dac_unit_18/a_2270_1770# dac_unit
-Xdac_unit_29 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit_4/a_3270_1770#
-+ dac_unit_29/a_3270_1770# dac_unit
-Xdac_unit_18 Vbp Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit_18/a_2270_1770#
-+ dac_unit_19/a_2270_1770# dac_unit
-Xdac_unit_19 Vbp Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit_19/a_2270_1770#
-+ dac_unit_20/a_2270_1770# dac_unit
-Xdac_unit_0 Vbp Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit_0/a_2270_1770#
-+ dac_unit_8/a_2270_1770# dac_unit
-Xdac_unit_1 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit_1/a_2270_1770#
-+ dac_unit_2/a_2270_1770# dac_unit
-Xdac_unit_3 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit_3/a_2270_1770#
-+ dac_unit_4/a_2270_1770# dac_unit
-Xdac_unit_2 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit_2/a_2270_1770#
-+ dac_unit_3/a_2270_1770# dac_unit
+Xdac_unit_4 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit
+Xdac_unit_5 Vbp dac_unit_5/Vcp Vphi1 Vphi1_b Viout+ Viout- dac_unit_5/VP dac_unit
+Xdac_unit_6 Vbp dac_unit_6/Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit
+Xdac_unit_7 Vbp dac_unit_9/Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit
+Xdac_unit_8 Vbp dac_unit_9/Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit
+Xdac_unit_9 Vbp dac_unit_9/Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit
+Xdac_unit_40 Vbp Vcp Vphi1 Vphi1_b Viout+ Viout- dac_unit_4/VP dac_unit
+Xdac_unit_30 Vbp dac_unit_37/Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit
+Xdac_unit_20 Vbp dac_unit_6/Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit
+Xdac_unit_31 Vbp dac_unit_37/Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit
+Xdac_unit_21 Vbp dac_unit_5/Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit
+Xdac_unit_10 Vbp dac_unit_9/Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit
+Xdac_unit_32 Vbp dac_unit_37/Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit
+Xdac_unit_11 Vbp dac_unit_9/Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit
+Xdac_unit_22 Vbp dac_unit_5/Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit
+Xdac_unit_33 Vbp dac_unit_37/Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit
+Xdac_unit_23 Vbp dac_unit_5/Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit
+Xdac_unit_12 Vbp dac_unit_9/Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit
+Xdac_unit_34 Vbp dac_unit_37/Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit
+Xdac_unit_35 Vbp Vcp Vphi1 Vphi1_b Viout+ Viout- dac_unit_4/VP dac_unit
+Xdac_unit_13 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit
+Xdac_unit_25 Vbp dac_unit_5/Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit
+Xdac_unit_24 Vbp dac_unit_5/Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit
+Xdac_unit_14 Vbp dac_unit_9/Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit
+Xdac_unit_36 Vbp dac_unit_37/Vcp Vphi7 Vphi7_b Viout+ Viout- dac_unit_37/VP dac_unit
+Xdac_unit_37 Vbp dac_unit_37/Vcp Vphi7 Vphi7_b Viout+ Viout- dac_unit_37/VP dac_unit
+Xdac_unit_15 Vbp dac_unit_6/Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit
+Xdac_unit_26 Vbp dac_unit_37/Vcp Vphi6 Vphi6_b Viout+ Viout- dac_unit_37/VP dac_unit
+Xdac_unit_38 Vbp dac_unit_6/Vcp Vphi7 Vphi7_b Viout+ Viout- dac_unit_6/VP dac_unit
+Xdac_unit_27 Vbp dac_unit_5/Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit
+Xdac_unit_16 Vbp dac_unit_6/Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit
+Xdac_unit_28 Vbp dac_unit_5/Vcp Vphi3 Vphi3_b Viout+ Viout- dac_unit_5/VP dac_unit
+Xdac_unit_17 Vbp dac_unit_6/Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit
+Xdac_unit_29 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit
+Xdac_unit_18 Vbp dac_unit_6/Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit
+Xdac_unit_19 Vbp dac_unit_6/Vcp Vphi5 Vphi5_b Viout+ Viout- dac_unit_6/VP dac_unit
+Xdac_unit_0 Vbp dac_unit_9/Vcp Vphi4 Vphi4_b Viout+ Viout- dac_unit_9/VP dac_unit
+Xdac_unit_1 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit
+Xdac_unit_3 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit
+Xdac_unit_2 Vbp Vcp Vphi2 Vphi2_b Viout+ Viout- dac_unit_4/VP dac_unit
 .end
 

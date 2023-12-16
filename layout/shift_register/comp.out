@@ -21,7 +21,7 @@ Number of nets: 99                         |Number of nets: 99
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
 Resolving symmetries by pin name.
-Netlists match with 12 symmetries.
+Netlists match uniquely.
 Cells have no pins;  pin matching not needed.
 Device classes register_lauren.spice and register16.spice are equivalent.
 
