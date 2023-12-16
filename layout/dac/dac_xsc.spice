@@ -1,6 +1,5 @@
 ** sch_path: /home/madvlsi/VLSI_Sine_Gen/simulation/dac.sch
-**.subckt dac Vphi1 Vphi2 Vphi3 Vphi4 Vphi5 Vphi6 Vphi7 Viout+ Viout- Vcp Vbp Vphi1_b Vphi2_b
-*+ Vphi3_b Vphi4_b Vphi5_b Vphi6_b Vphi7_b
+**.subckt dac Vphi1 Vphi2 Vphi3 Vphi4 Vphi5 Vphi6 Vphi7 Viout+ Viout- Vcp Vbp
 *.ipin Vphi1
 *.ipin Vphi2
 *.ipin Vphi3
@@ -12,53 +11,53 @@
 *.opin Viout-
 *.ipin Vcp
 *.ipin Vbp
-*.ipin Vphi1_b
-*.ipin Vphi2_b
-*.ipin Vphi3_b
-*.ipin Vphi4_b
-*.ipin Vphi5_b
-*.ipin Vphi6_b
-*.ipin Vphi7_b
-x1 Vbp Vcp Viout+ Viout- Vphi1 Vphi1_b dac_unit_lds2
-x2 Vbp Vcp Viout+ Viout- Vphi1 Vphi1_b dac_unit_lds2
-x3 Vbp Vcp Viout+ Viout- Vphi1 Vphi1_b dac_unit_lds2
-x4 Vbp Vcp Viout+ Viout- Vphi2 Vphi2_b dac_unit_lds2
-x5 Vbp Vcp Viout+ Viout- Vphi2 Vphi2_b dac_unit_lds2
-x6 Vbp Vcp Viout+ Viout- Vphi2 Vphi2_b dac_unit_lds2
-x7 Vbp Vcp Viout+ Viout- Vphi2 Vphi2_b dac_unit_lds2
-x8 Vbp Vcp Viout+ Viout- Vphi2 Vphi2_b dac_unit_lds2
-x9 Vbp Vcp Viout+ Viout- Vphi2 Vphi2_b dac_unit_lds2
-x10 Vbp Vcp Viout+ Viout- Vphi3 Vphi3_b dac_unit_lds2
-x11 Vbp Vcp Viout+ Viout- Vphi3 Vphi3_b dac_unit_lds2
-x12 Vbp Vcp Viout+ Viout- Vphi3 Vphi3_b dac_unit_lds2
-x13 Vbp Vcp Viout+ Viout- Vphi3 Vphi3_b dac_unit_lds2
-x14 Vbp Vcp Viout+ Viout- Vphi3 Vphi3_b dac_unit_lds2
-x15 Vbp Vcp Viout+ Viout- Vphi3 Vphi3_b dac_unit_lds2
-x16 Vbp Vcp Viout+ Viout- Vphi3 Vphi3_b dac_unit_lds2
-x17 Vbp Vcp Viout+ Viout- Vphi4 Vphi4_b dac_unit_lds2
-x18 Vbp Vcp Viout+ Viout- Vphi4 Vphi4_b dac_unit_lds2
-x19 Vbp Vcp Viout+ Viout- Vphi4 Vphi4_b dac_unit_lds2
-x20 Vbp Vcp Viout+ Viout- Vphi4 Vphi4_b dac_unit_lds2
-x21 Vbp Vcp Viout+ Viout- Vphi4 Vphi4_b dac_unit_lds2
-x22 Vbp Vcp Viout+ Viout- Vphi4 Vphi4_b dac_unit_lds2
-x23 Vbp Vcp Viout+ Viout- Vphi4 Vphi4_b dac_unit_lds2
-x24 Vbp Vcp Viout+ Viout- Vphi5 Vphi5_b dac_unit_lds2
-x25 Vbp Vcp Viout+ Viout- Vphi5 Vphi5_b dac_unit_lds2
-x26 Vbp Vcp Viout+ Viout- Vphi5 Vphi5_b dac_unit_lds2
-x27 Vbp Vcp Viout+ Viout- Vphi5 Vphi5_b dac_unit_lds2
-x28 Vbp Vcp Viout+ Viout- Vphi5 Vphi5_b dac_unit_lds2
-x29 Vbp Vcp Viout+ Viout- Vphi5 Vphi5_b dac_unit_lds2
-x30 Vbp Vcp Viout+ Viout- Vphi5 Vphi5_b dac_unit_lds2
-x31 Vbp Vcp Viout+ Viout- Vphi6 Vphi6_b dac_unit
-x32 Vbp Vcp Viout+ Viout- Vphi6 Vphi6_b dac_unit
-x33 Vbp Vcp Viout+ Viout- Vphi6 Vphi6_b dac_unit
-x34 Vbp Vcp Viout+ Viout- Vphi6 Vphi6_b dac_unit
-x35 Vbp Vcp Viout+ Viout- Vphi6 Vphi6_b dac_unit
-x36 Vbp Vcp Viout+ Viout- Vphi6 Vphi6_b dac_unit
-x38 Vbp Vcp Viout+ Viout- Vphi4 Vphi4_b dac_unit_lds2
-x37 Vbp Vcp Viout+ Viout- Vphi7 Vphi7_b dac_unit
-x39 Vbp Vcp Viout+ Viout- Vphi7 Vphi7_b dac_unit
-x40 Vbp Vcp Viout+ Viout- Vphi7 Vphi7_b dac_unit
+x1 Vbp Vcp Viout+ Viout- Vphi1 net1 dac_unit_lds2
+x2 Vbp Vcp Viout+ Viout- Vphi1 net1 dac_unit_lds2
+x3 Vbp Vcp Viout+ Viout- Vphi1 net1 dac_unit_lds2
+x4 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds2
+x5 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds2
+x6 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds2
+x7 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds2
+x8 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds2
+x9 Vbp Vcp Viout+ Viout- Vphi2 net2 dac_unit_lds2
+x10 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds2
+x11 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds2
+x12 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds2
+x13 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds2
+x14 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds2
+x15 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds2
+x16 Vbp Vcp Viout+ Viout- Vphi3 net3 dac_unit_lds2
+x17 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds2
+x18 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds2
+x19 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds2
+x20 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds2
+x21 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds2
+x22 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds2
+x23 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds2
+x24 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds2
+x25 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds2
+x26 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds2
+x27 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds2
+x28 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds2
+x29 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds2
+x30 Vbp Vcp Viout+ Viout- Vphi5 net5 dac_unit_lds2
+x31 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds2
+x32 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds2
+x33 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds2
+x34 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds2
+x35 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds2
+x36 Vbp Vcp Viout+ Viout- Vphi6 net6 dac_unit_lds2
+x38 Vbp Vcp Viout+ Viout- Vphi4 net4 dac_unit_lds2
+x37 Vbp Vcp Viout+ Viout- Vphi7 net7 dac_unit_lds2
+x39 Vbp Vcp Viout+ Viout- Vphi7 net7 dac_unit_lds2
+x40 Vbp Vcp Viout+ Viout- Vphi7 net7 dac_unit_lds2
+X41 Vphi7 net7 inverter
+X42 Vphi6 net6 inverter
+X43 Vphi5 net5 inverter
+X44 Vphi4 net4 inverter
+X45 Vphi3 net3 inverter
+X46 Vphi2 net2 inverter
+X47 Vphi1 net1 inverter
 **.ends
 
 * expanding   symbol:  ./dac/dac_unit_lds2.sym # of pins=6
@@ -110,29 +109,20 @@ XM12 VDD VDD Viup VDD sky130_fd_pr__pfet_01v8 L=0.5 W=6 nf=1 ad='int((nf+1)/2) *
 .ends
 
 
-* expanding   symbol:  ./dac/dac_unit.sym # of pins=6
-** sym_path: /home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym
-** sch_path: /home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sch
-.subckt dac_unit Vbp Vcp Viup Viun Vphi Vphi_b
-*.ipin Vphi
-*.ipin Vbp
-*.ipin Vcp
-*.opin Viun
-*.opin Viup
-*.ipin Vphi_b
-XM1 net1 Vbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=12 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+* expanding   symbol:  /home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym # of pins=2
+** sym_path: /home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym
+** sch_path: /home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sch
+.subckt inverter A Y
+*.ipin A
+*.opin Y
+XM1 Y A VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
 + sa=0 sb=0 sd=0 mult=1 m=1
-XM2 net2 Vcp net1 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=12 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
-XM3 Viun Vphi net2 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=12 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
-XM4 Viup Vphi_b net2 VDD sky130_fd_pr__pfet_01v8 L=0.5 W=12 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM2 Y A GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
 + sa=0 sb=0 sd=0 mult=1 m=1
 .ends
 
 .GLOBAL VDD
+.GLOBAL GND
 .end

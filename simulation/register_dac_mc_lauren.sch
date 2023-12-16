@@ -100,8 +100,8 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
 .endc
 "
 }
-C {./filter/filter.sym} 910 360 0 1 {name=x17}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 540 240 0 0 {name=X18}
 C {madvlsi/isource.sym} 560 300 0 0 {name=I1
 value=1u}
 C {madvlsi/gnd.sym} 540 270 0 0 {name=l4 lab=GND}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/filter/filter_lvs.sym} 410 360 0 0 {name=x17}
