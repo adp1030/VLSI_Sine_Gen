@@ -37,8 +37,8 @@ N 1410 1720 1470 1720 {
 lab=Viout+}
 N 1410 2160 1470 2160 {
 lab=Viout-}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1470 1940 0 1 {name=C3 model=cap_mim_m3_1 W=10 L=8 MF=1 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1620 1940 0 0 {name=C4 model=cap_mim_m3_1 W=10 L=8 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1470 1940 0 1 {name=C3 model=cap_mim_m3_1 W=8 L=10 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1620 1940 0 0 {name=C4 model=cap_mim_m3_1 W=8 L=10 MF=1 spiceprefix=X}
 C {sky130_fd_pr/res_xhigh_po.sym} 1470 2030 0 0 {name=R7
 W=1
 L=10

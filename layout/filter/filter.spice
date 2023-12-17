@@ -1,12 +1,16 @@
-* NGSPICE file created from mimcap.ext - technology: sky130A
+* SPICE3 file created from filter.ext - technology: sky130A
 
-X0 Viout+ a_2360_6260# VN sky130_fd_pr__res_xhigh_po l=3.5
-X1 VN a_2360_6260# VN sky130_fd_pr__res_xhigh_po l=3.5
-X2 VN a_2360_1100# VN sky130_fd_pr__res_xhigh_po l=3.5
-X3 a_1460_5820# a_1090_2450# sky130_fd_pr__cap_mim_m3_1 l=10 w=8
-X4 Viout- a_2360_1100# VN sky130_fd_pr__res_xhigh_po l=3.5
-X5 a_1460_5820# Vout+ VN sky130_fd_pr__res_xhigh_po l=3.5
-X6 a_1090_2450# Viout- VN sky130_fd_pr__res_xhigh_po l=3.5
-X7 a_1090_2450# Vout- VN sky130_fd_pr__res_xhigh_po l=3.5
-X8 a_1460_5820# Viout+ VN sky130_fd_pr__res_xhigh_po l=3.5
-X9 Vout+ Vout- sky130_fd_pr__cap_mim_m3_1 l=10 w=8
+X0 a_1090_2650# Vout- VN sky130_fd_pr__res_xhigh_po l=3.5
+X1 a_1860_5330# Vout+ VN sky130_fd_pr__res_xhigh_po l=3.5
+X2 a_1860_5330# Viout+ VN sky130_fd_pr__res_xhigh_po l=3.5
+X3 VN a_2700_1500# VN sky130_fd_pr__res_xhigh_po l=3.5
+X4 a_1860_5330# a_1090_2650# sky130_fd_pr__cap_mim_m3_1 l=8 w=10
+X5 Viout- a_2700_1500# VN sky130_fd_pr__res_xhigh_po l=3.5
+X6 Vout+ Vout- sky130_fd_pr__cap_mim_m3_1 l=8 w=10
+X7 a_1860_5770# Viout+ VN sky130_fd_pr__res_xhigh_po l=3.5
+X8 a_1860_5770# VN VN sky130_fd_pr__res_xhigh_po l=3.5
+X9 a_1090_2650# Viout- VN sky130_fd_pr__res_xhigh_po l=3.5
+C0 Vout- VN 4.06f **FLOATING
+C1 a_1090_2650# VN 4.51f **FLOATING
+C2 a_1860_5330# VN 3.04f **FLOATING
+C3 Viout+ VN 2.37f **FLOATING

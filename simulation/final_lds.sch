@@ -40,7 +40,6 @@ lab=#net11}
 C {./register_lauren.sym} 690 580 0 0 {name=x2}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 540 240 0 0 {name=X18}
 C {devices/ipin.sym} 560 330 0 0 {name=p1 lab=Vb}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac_lds.sym} 420 200 0 0 {name=x1}
 C {devices/opin.sym} 430 390 0 1 {name=p2 lab=Vff9}
 C {devices/opin.sym} 430 410 0 1 {name=p3 lab=Vff10}
 C {devices/opin.sym} 430 430 0 1 {name=p4 lab=Vff11}
@@ -54,3 +53,4 @@ C {devices/opin.sym} 570 530 0 0 {name=p11 lab=Vff8}
 C {devices/opin.sym} 600 550 0 1 {name=p12 lab=Vout+}
 C {devices/opin.sym} 600 570 0 1 {name=p13 lab=Vout-}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/filter/filter_lvs.sym} 910 360 0 1 {name=x3}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac.sym} 420 200 0 0 {name=x1}
