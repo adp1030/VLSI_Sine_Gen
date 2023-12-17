@@ -77,18 +77,18 @@ Flattening unmatched subcell register_lauren in circuit final_lds.spice (0)(1 in
 Flattening unmatched subcell csrl_dff3_lds in circuit final_lds.spice (0)(16 instances)
 Flattening unmatched subcell v_gen_lds in circuit final_lds.spice (0)(1 instance)
 Flattening unmatched subcell filter_lvs in circuit final_lds.spice (0)(1 instance)
-Flattening unmatched subcell v_gen in circuit updated_final.spice (1)(1 instance)
-Flattening unmatched subcell filter in circuit updated_final.spice (1)(1 instance)
-Flattening unmatched subcell register16 in circuit updated_final.spice (1)(1 instance)
-Flattening unmatched subcell csrl_dff2 in circuit updated_final.spice (1)(14 instances)
-Flattening unmatched subcell csrl_dff3 in circuit updated_final.spice (1)(1 instance)
-Flattening unmatched subcell csrl_dff1 in circuit updated_final.spice (1)(1 instance)
+Flattening unmatched subcell v_gen in circuit final.spice (1)(1 instance)
+Flattening unmatched subcell filter in circuit final.spice (1)(1 instance)
+Flattening unmatched subcell register16 in circuit final.spice (1)(1 instance)
+Flattening unmatched subcell csrl_dff2 in circuit final.spice (1)(14 instances)
+Flattening unmatched subcell csrl_dff3 in circuit final.spice (1)(1 instance)
+Flattening unmatched subcell csrl_dff1 in circuit final.spice (1)(1 instance)
 
 Class final_lds.spice (0):  Merged 11 parallel devices.
-Class updated_final.spice (1):  Merged 11 parallel devices.
-Class updated_final.spice (1):  Merged 2 series devices.
+Class final.spice (1):  Merged 11 parallel devices.
+Class final.spice (1):  Merged 2 series devices.
 Subcircuit summary:
-Circuit 1: final_lds.spice                 |Circuit 2: updated_final.spice             
+Circuit 1: final_lds.spice                 |Circuit 2: final.spice                     
 -------------------------------------------|-------------------------------------------
 sky130_fd_pr__pfet_01v8 (610->443)         |sky130_fd_pr__pfet_01v8 (610->443)         
 sky130_fd_pr__nfet_01v8 (130->127)         |sky130_fd_pr__nfet_01v8 (130->127)         
@@ -122,7 +122,7 @@ filter_lvs:3/sky130_fd_pr__res_xhigh_po:R10 vs. filter_0/sky130_fd_pr__res_xhigh
 filter_lvs:3/sky130_fd_pr__res_xhigh_po:R10 vs. filter_0/sky130_fd_pr__res_xhigh_po:8:
 Property W in circuit1 has no matching property in circuit2
 Cells have no pins;  pin matching not needed.
-Device classes final_lds.spice and updated_final.spice are equivalent.
+Device classes final_lds.spice and final.spice are equivalent.
 
 Final result: Circuits match uniquely.
 Property errors were found.
