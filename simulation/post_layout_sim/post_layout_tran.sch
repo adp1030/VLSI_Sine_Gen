@@ -12,7 +12,7 @@ value=".option wnflag=1
 .param MC_SWITCH=0.0
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
-C {devices/code_shown.sym} -20 660 0 0 {name=SPICE only_toplevel=false value=".include ~/VLSI_Sine_Gen/simulation/post_layout_sim/final.spice
+C {devices/code_shown.sym} -20 660 0 0 {name=SPICE only_toplevel=false value=".include ~/VLSI_Sine_Gen/simulation/post_layout_sim/final_postlayout.spice
 .ic v(Vphi1)=0 v(Vphi2)=0 v(Vphi3)=0 v(Vphi4)=0 v(Vphi5)=0 v(Vphi6)=0 v(Vphi7)=0 v(Vff8)=0 v(Vff9)=1.8 v(Vff10)=1.8 v(Vff11)=1.8 v(Vff12)=1.8 v(Vff13)=1.8 v(Vff14)=1.8 v(Vff15)=1.8 v(Vff16)=1.8
 .tran 0.1n 1u
 .save all"}
@@ -45,7 +45,7 @@ C {devices/lab_pin.sym} 770 600 2 0 {name=p20 sig_type=std_logic lab=Vff15}
 C {madvlsi/gnd.sym} 880 580 0 0 {name=l4 lab=GND}
 C {devices/lab_pin.sym} 880 520 2 0 {name=p28 sig_type=std_logic lab=Vb}
 C {devices/lab_pin.sym} 630 320 0 0 {name=p29 sig_type=std_logic lab=Vb}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/post_layout_sim/final.sym} 420 0 0 0 {}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/post_layout_sim/final_postlayout.sym} 420 0 0 0 {}
 C {devices/lab_pin.sym} 950 520 2 0 {name=p21 sig_type=std_logic lab=VP}
 C {madvlsi/vsource.sym} 1240 550 0 0 {name=Vdd1
 value=0}

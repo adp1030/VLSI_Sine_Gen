@@ -1,0 +1,1775 @@
+timestamp 1702887642
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use filter filter_0 1 0 -13640 0 1 270
+use inverter inverter_0 1 0 -10040 0 1 9250
+use inverter inverter_2 1 0 -10450 0 1 9250
+use inverter inverter_13 1 0 -10040 0 1 9950
+use inverter inverter_12 1 0 -10040 0 1 10650
+use inverter inverter_11 1 0 -10040 0 1 11350
+use inverter inverter_10 1 0 -10450 0 1 9950
+use inverter inverter_9 1 0 -10450 0 1 10650
+use inverter inverter_8 1 0 -10450 0 1 11350
+use inverter inverter_7 1 0 -10040 0 1 12050
+use inverter inverter_4 1 0 -10450 0 1 12050
+use v_gen v_gen_0 1 0 -14150 0 1 14750
+use inverter inverter_6 1 0 -10040 0 1 12750
+use inverter inverter_5 1 0 -10040 0 1 13450
+use inverter inverter_3 1 0 -10450 0 1 12750
+use inverter inverter_1 1 0 -10450 0 1 13450
+use register16 register16_0 0 1 -13430 -1 0 13770
+use dac dac_0 1 0 -9020 0 1 14490
+port "Vff16" 22 -11220 4730 -11220 4730 m1
+port "CLK" 2 -14580 13790 -14580 13790 m1
+port "VN" 4 -14580 15440 -14580 15440 m1
+port "VP" 3 -14580 16830 -14580 16830 m1
+port "Voutp" 5 -14580 2010 -14580 2010 li
+port "Voutn" 6 -14580 4030 -14580 4030 li
+port "Vff15" 21 -11280 5520 -11280 5520 li
+port "Vff14" 20 -11280 6070 -11280 6070 li
+port "Vff13" 19 -11280 6620 -11280 6620 li
+port "Vff12" 18 -11280 7170 -11280 7170 li
+port "Vff11" 17 -11280 7720 -11280 7720 li
+port "Vff10" 16 -11280 8270 -11280 8270 li
+port "Vff9" 15 -11280 8820 -11280 8820 li
+port "Vff8" 14 -11280 9370 -11280 9370 li
+port "Vphi7" 13 -11150 9920 -11150 9920 li
+port "Vphi6" 12 -11150 10470 -11150 10470 li
+port "Vphi5" 11 -11150 11020 -11150 11020 li
+port "Vphi4" 10 -11150 11570 -11150 11570 li
+port "Vphi3" 9 -11150 12120 -11150 12120 li
+port "Vphi2" 8 -11150 12670 -11150 12670 li
+port "Vphi1" 7 -11150 13220 -11150 13220 li
+port "Vb" 1 -14580 14750 -14580 14750 li
+node "Vff16" 0 50.2258 -11220 4730 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6000 320 0 0 0 0 0 0 0 0 0 0
+node "m1_n10130_9080#" 0 263.467 -10130 9080 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100800 1480 0 0 0 0 0 0 0 0 0 0
+node "m1_n10130_9780#" 0 227.002 -10130 9780 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100800 1480 0 0 0 0 0 0 0 0 0 0
+node "m1_n10130_10480#" 0 239.798 -10130 10480 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100800 1480 0 0 0 0 0 0 0 0 0 0
+node "m1_n10130_11180#" 0 250.167 -10130 11180 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100800 1480 0 0 0 0 0 0 0 0 0 0
+node "m1_n10130_11880#" 0 253.717 -10130 11880 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100800 1480 0 0 0 0 0 0 0 0 0 0
+node "m1_n10140_12580#" 0 248.706 -10140 12580 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100800 1480 0 0 0 0 0 0 0 0 0 0
+node "m1_n10130_13280#" 0 259.94 -10130 13280 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100800 1480 0 0 0 0 0 0 0 0 0 0
+node "m1_n13290_13690#" 0 1531.16 -13290 13690 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1168400 4380 0 0 0 0 0 0 0 0 0 0
+node "CLK" 2 580.414 -14580 13790 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 114400 2740 0 0 0 0 0 0 0 0 0 0
+node "VN" 0 906.829 -14580 15440 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 531000 3260 0 0 0 0 0 0 0 0 0 0
+node "VP" 0 953.816 -14580 16830 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 540000 3300 0 0 0 0 0 0 0 0 0 0
+node "m1_n9090_17470#" 0 132.104 -9090 17470 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24000 760 0 0 0 0 0 0 0 0 0 0
+node "li_n10380_1490#" 100 5006.8 -10380 1490 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34700 1060 1527200 34180 0 0 0 0 0 0 0 0 0 0
+node "li_n14550_1530#" 132 8069.29 -14550 1530 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50400 1580 2075500 51320 0 0 0 0 0 0 0 0 0 0
+node "Voutp" 40 121.53 -14580 2010 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15400 580 0 0 0 0 0 0 0 0 0 0 0 0
+node "Voutn" 339 1049.31 -14580 4030 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 169600 4400 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n11530_3870#" 19 2745.62 -11530 3870 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130200 1460 1736500 10200 0 0 0 0 0 0 0 0 0 0
+node "Vff15" 13 29.2788 -11280 5520 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1600 160 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vff14" 13 27.892 -11280 6070 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1600 160 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vff13" 13 27.892 -11280 6620 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1600 160 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vff12" 13 27.8105 -11280 7170 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1600 160 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vff11" 13 27.8105 -11280 7720 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1600 160 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vff10" 13 27.8105 -11280 8270 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1600 160 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vff9" 13 27.8105 -11280 8820 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1600 160 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n10150_9000#" 2546 2446.04 -10150 9000 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 329000 16260 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n10180_9700#" 2371 1339.17 -10180 9700 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 306000 15140 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vff8" 13 24.022 -11280 9370 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1600 160 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vphi7" 445 531.47 -11150 9920 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 55600 2860 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n10140_10400#" 1843 1275 -10140 10400 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 232800 11660 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vphi6" 384 410.873 -11150 10470 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48000 2480 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vphi5" 339 380.933 -11150 11020 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42400 2200 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n10150_11100#" 1027 979.057 -10150 11100 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128400 6500 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vphi4" 285 337.737 -11150 11570 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35600 1860 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n10150_11800#" 234 305.003 -10150 11800 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29200 1540 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vphi3" 246 303.139 -11150 12120 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30800 1620 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vphi2" 173 201.567 -11150 12670 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21600 1160 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n10140_12500#" 489 574.819 -10140 12500 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65200 3240 0 0 0 0 0 0 0 0 0 0 0 0
+node "Vphi1" 150 196.382 -11150 13220 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18800 1020 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n11980_13790#" 86 6311.76 -11980 13790 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37600 1100 2064100 27120 0 0 0 0 0 0 0 0 0 0
+node "Vb" 147 220.515 -14580 14750 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18400 1000 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n10150_13200#" 1328 1675.28 -10150 13200 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 166000 8380 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n10020_16120#" 1406 1610.3 -10020 16120 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18100 1100 0 0 150400 5840 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n9960_17590#" 1542 618.837 -9960 17590 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28800 1980 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "Vff14" "Vff15" 1.89591
+cap "li_n10150_11100#" "m1_n10130_9080#" 75.6641
+cap "Vphi2" "m1_n10140_12580#" 0.409898
+cap "m1_n10130_11880#" "m1_n10140_12580#" 42.4561
+cap "li_n14550_1530#" "Voutp" 65.9773
+cap "m1_n10130_11880#" "li_n10150_11800#" 50.7768
+cap "m1_n10130_9080#" "li_n10150_9000#" 14.48
+cap "li_n10150_11800#" "Vphi3" 1.4011
+cap "Vphi1" "li_n10150_13200#" 1.4011
+cap "Vb" "VP" 0.25998
+cap "Vphi2" "Vphi3" 17.2234
+cap "li_n10150_11100#" "Vphi4" 1.34565
+cap "m1_n10130_11880#" "Vphi3" 0.750625
+cap "m1_n10130_13280#" "li_n11980_13790#" 28.765
+cap "m1_n10130_9780#" "li_n10140_10400#" 74.259
+cap "m1_n10130_9780#" "li_n11980_13790#" 8.8
+cap "li_n14550_1530#" "li_n10150_9000#" 206.088
+cap "Vff9" "Vff8" 1.89591
+cap "VN" "CLK" 18.6792
+cap "li_n11980_13790#" "li_n10150_13200#" 600.42
+cap "li_n11980_13790#" "a_n10020_16120#" 56.3264
+cap "Vphi7" "li_n10180_9700#" 16.0592
+cap "m1_n10130_9080#" "li_n10140_10400#" 59.7651
+cap "Vphi7" "Vff8" 6.57481
+cap "m1_n9090_17470#" "a_n10020_16120#" 97.6452
+cap "m1_n10130_13280#" "li_n10140_12500#" 76.929
+cap "Vff10" "Vff9" 1.89591
+cap "Vff14" "li_n10150_9000#" 0.791925
+cap "Vphi6" "m1_n10130_9780#" 0.505647
+cap "li_n10150_11100#" "li_n10140_10400#" 842.725
+cap "li_n10150_13200#" "li_n10140_12500#" 237.842
+cap "li_n10150_11100#" "li_n11980_13790#" 1.19953
+cap "li_n10150_11100#" "Vphi5" 14.4612
+cap "Vff10" "Vff11" 1.89591
+cap "li_n11980_13790#" "Vphi4" 154.209
+cap "Vphi5" "Vphi4" 46.6896
+cap "Vb" "m1_n13290_13690#" 0.505672
+cap "Vff12" "li_n10150_9000#" 0.851419
+cap "li_n10180_9700#" "li_n11530_3870#" 155.314
+cap "Vff16" "li_n11530_3870#" 24.6896
+cap "Vff16" "li_n10180_9700#" 0.0230951
+cap "li_n14550_1530#" "Voutn" 545.343
+cap "Vphi1" "li_n11980_13790#" 74.4356
+cap "li_n10380_1490#" "li_n14550_1530#" 8846.93
+cap "m1_n13290_13690#" "li_n11980_13790#" 89.3736
+cap "m1_n10130_10480#" "m1_n10130_9780#" 43.2281
+cap "m1_n10130_13280#" "m1_n10140_12580#" 42.4561
+cap "m1_n10130_13280#" "li_n10150_11800#" 0.0468584
+cap "m1_n10130_9780#" "li_n10150_11800#" 0.0124651
+cap "li_n11980_13790#" "li_n10140_10400#" 1.04841
+cap "m1_n10130_11180#" "li_n10150_11100#" 39.6057
+cap "m1_n10140_12580#" "li_n10150_13200#" 1.76475
+cap "Vphi5" "li_n10140_10400#" 1.36364
+cap "Vphi5" "li_n11980_13790#" 197.888
+cap "li_n10150_11800#" "li_n10150_13200#" 0.183718
+cap "li_n10380_1490#" "li_n10150_9000#" 13.1701
+cap "m1_n10130_11880#" "m1_n10130_13280#" 0.346457
+cap "m1_n9090_17470#" "li_n11980_13790#" 14.6667
+cap "m1_n10130_11180#" "Vphi4" 0.737291
+cap "Vphi7" "m1_n10130_9080#" 0.318039
+cap "Vb" "CLK" 0.820342
+cap "m1_n10130_10480#" "li_n10150_11100#" 104.792
+cap "li_n11980_13790#" "li_n10140_12500#" 4.4553
+cap "li_n10150_11100#" "m1_n10140_12580#" 0.00310144
+cap "Vphi6" "li_n10140_10400#" 15.8413
+cap "li_n11530_3870#" "Vff15" 0.910822
+cap "m1_n13290_13690#" "CLK" 47.1429
+cap "Vphi6" "li_n11980_13790#" 223.011
+cap "li_n10150_11100#" "li_n10150_11800#" 10.9257
+cap "Vff16" "Vff15" 0.0840745
+cap "Vphi6" "Vphi5" 50.8839
+cap "CLK" "li_n11980_13790#" 0.795166
+cap "li_n10150_11800#" "Vphi4" 3.79967
+cap "Vff9" "li_n10150_9000#" 0.851419
+cap "li_n10180_9700#" "m1_n10130_9780#" 25.1005
+cap "li_n10150_13200#" "a_n9960_17590#" 0.358142
+cap "a_n10020_16120#" "a_n9960_17590#" 10.5189
+cap "m1_n10130_11180#" "li_n11980_13790#" 8.8
+cap "Vphi7" "li_n10150_9000#" 1.44068
+cap "Vff11" "li_n10150_9000#" 0.851419
+cap "li_n10180_9700#" "m1_n10130_9080#" 68.9467
+cap "Vphi3" "Vphi4" 21.0973
+cap "m1_n10130_10480#" "li_n10140_10400#" 32.0249
+cap "Vphi1" "Vphi2" 18.4851
+cap "m1_n10130_10480#" "li_n11980_13790#" 8.8
+cap "li_n11980_13790#" "m1_n10140_12580#" 9.33025
+cap "m1_n10130_10480#" "Vphi5" 0.487312
+cap "li_n14550_1530#" "li_n11530_3870#" 1746.89
+cap "li_n14550_1530#" "li_n10180_9700#" 17.6163
+cap "li_n10180_9700#" "li_n10150_11100#" 0.183718
+cap "li_n10150_11800#" "li_n11980_13790#" 0.81479
+cap "Vphi7" "li_n11980_13790#" 137.045
+cap "Vphi1" "Vphi3" 1.46974
+cap "Vphi7" "Vphi5" 0.183718
+cap "Vff12" "Vff11" 1.89591
+cap "Vphi2" "li_n11980_13790#" 91.819
+cap "m1_n10130_11880#" "li_n11980_13790#" 8.8
+cap "li_n11530_3870#" "li_n10150_9000#" 163.275
+cap "VN" "VP" 79.2
+cap "li_n10180_9700#" "li_n10150_9000#" 2002
+cap "m1_n10140_12580#" "li_n10140_12500#" 117.701
+cap "Vff16" "li_n10150_9000#" 0.0636274
+cap "li_n10150_11800#" "li_n10140_12500#" 9.63663
+cap "li_n11980_13790#" "Vphi3" 129.496
+cap "Vff13" "li_n10150_9000#" 0.791925
+cap "Vff14" "Vff16" 0.0153967
+cap "Vphi5" "Vphi3" 0.367435
+cap "Vphi6" "Vphi7" 92.0442
+cap "Vff14" "Vff13" 1.89591
+cap "Vphi2" "li_n10140_12500#" 4.93191
+cap "m1_n10130_11880#" "li_n10140_12500#" 2.41093
+cap "m1_n10130_10480#" "m1_n10130_11180#" 43.2281
+cap "li_n11980_13790#" "a_n9960_17590#" 25.5612
+cap "Vff10" "li_n10150_9000#" 0.851419
+cap "li_n11530_3870#" "li_n10140_10400#" 1.87662
+cap "m1_n10130_13280#" "li_n10150_13200#" 84.1279
+cap "li_n10180_9700#" "li_n10140_10400#" 1552.36
+cap "m1_n10130_11180#" "li_n10150_11800#" 12.2275
+cap "li_n10180_9700#" "li_n11980_13790#" 0.833233
+cap "m1_n9090_17470#" "a_n9960_17590#" 2.17561
+cap "m1_n10130_9780#" "m1_n10130_9080#" 43.2281
+cap "a_n10020_16120#" "li_n10150_13200#" 66.6241
+cap "Vff12" "Vff13" 1.89591
+cap "m1_n10130_11880#" "m1_n10130_11180#" 43.2281
+cap "VN" "Vb" 54.886
+cap "m1_n10130_10480#" "li_n10150_11800#" 0.144774
+cap "m1_n10130_9780#" "li_n10150_11100#" 75.4861
+cap "Vff15" "li_n10150_9000#" 0.791925
+cap "li_n10150_11800#" "m1_n10140_12580#" 0.188317
+cap "li_n11530_3870#" "Voutn" 49.2995
+cap "VN" "m1_n13290_13690#" 5.4382
+cap "Vphi6" "li_n10180_9700#" 1.42061
+cap "filter_0/Vout-" "filter_0/Vout+" 0.408237
+cap "filter_0/Viout+" "filter_0/Vout+" 8.00271
+cap "filter_0/Vout-" "filter_0/Viout+" 72.6998
+cap "filter_0/a_n750_1380#" "filter_0/Viout+" 109.116
+cap "filter_0/VN" "filter_0/Viout+" 1.84505
+cap "filter_0/Vout+" "filter_0/Viout+" 0.754015
+cap "dac_0/dac_unit_26/VP" "filter_0/a_2570_3400#" 7.88521
+cap "filter_0/a_2570_3400#" "dac_0/dac_unit_26/Vphi" 1.16453
+cap "filter_0/Viout-" "dac_0/inverter_0/VN" 30.8595
+cap "filter_0/Viout-" "filter_0/a_1640_1100#" 0.476457
+cap "filter_0/a_2570_3400#" "dac_0/dac_unit_26/Vphi_b" 2.24342
+cap "filter_0/a_2570_3400#" "dac_0/inverter_0/Y" 0.121448
+cap "filter_0/a_2570_3400#" "li_n14550_1530#" 10.5377
+cap "li_n14550_1530#" "dac_0/inverter_0/VN" 59.8465
+cap "filter_0/a_2570_3400#" "dac_0/inverter_0/A" 3.56691
+cap "filter_0/a_2570_3400#" "dac_0/inverter_0/VN" 10.1458
+cap "dac_0/inverter_0/A" "dac_0/inverter_0/VN" 6.28521
+cap "dac_0/inverter_0/Y" "li_n14550_1530#" 6.51896
+cap "dac_0/inverter_0/VN" "li_n14550_1530#" 254.853
+cap "filter_0/Viout-" "li_n14550_1530#" 12.1884
+cap "dac_0/inverter_0/Y" "dac_0/inverter_0/A" 6.74377
+cap "filter_0/Viout-" "dac_0/inverter_0/A" 47.4764
+cap "dac_0/inverter_0/VN" "dac_0/inverter_0/A" 63.5835
+cap "dac_0/dac_unit_26/Vphi" "filter_0/Viout-" 0.0473304
+cap "dac_0/inverter_0/VN" "dac_0/dac_unit_26/Vphi" 1.20606
+cap "dac_0/dac_unit_26/Viup" "li_n14550_1530#" 1.16556
+cap "filter_0/Viout-" "filter_0/a_1640_1100#" 0.476457
+cap "dac_0/dac_unit_26/Vphi_b" "li_n14550_1530#" 5.18696
+cap "dac_0/dac_unit_26/Vphi_b" "dac_0/inverter_0/A" 101.902
+cap "dac_0/inverter_0/A" "li_n14550_1530#" 105.925
+cap "filter_0/a_2570_3400#" "dac_0/inverter_0/A" 2.10501
+cap "dac_0/dac_unit_26/Vphi" "li_n14550_1530#" 1.19732
+cap "dac_0/dac_unit_26/Vphi" "dac_0/inverter_0/A" -0.759967
+cap "dac_0/inverter_0/VN" "filter_0/Viout-" 30.8803
+cap "dac_0/dac_unit_26/Vphi" "filter_0/a_2570_3400#" 0.228885
+cap "dac_0/dac_unit_26/VP" "li_n14550_1530#" 8.36715
+cap "dac_0/dac_unit_26/VP" "dac_0/inverter_0/A" 18.1161
+cap "dac_0/dac_unit_26/Vphi_b" "li_n14550_1530#" 1.00411
+cap "dac_0/dac_unit_26/VP" "li_n14550_1530#" 0.844341
+cap "filter_0/Viout-" "dac_0/dac_unit_26/Viup" 0.805997
+cap "dac_0/dac_unit_26/Viun" "filter_0/Viout-" 0.460804
+cap "dac_0/dac_unit_26/Vphi" "filter_0/Viout-" 0.55412
+cap "li_n14550_1530#" "dac_0/dac_unit_26/Viup" 2.46783
+cap "li_n14550_1530#" "dac_0/dac_unit_26/Viun" 0.664809
+cap "dac_0/inverter_0/A" "filter_0/Viout-" 2.58666
+cap "dac_0/inverter_0/A" "dac_0/dac_unit_26/Vphi_b" 0.00826777
+cap "dac_0/dac_unit_26/VP" "dac_0/inverter_0/A" 0.0222564
+cap "li_n14550_1530#" "dac_0/dac_unit_26/Vphi" 0.675991
+cap "dac_0/inverter_0/A" "li_n14550_1530#" 777.534
+cap "dac_0/inverter_0/A" "dac_0/dac_unit_26/Viup" 0.0749026
+cap "dac_0/dac_unit_26/a_2870_360#" "filter_0/Viout-" 0.17654
+cap "li_n14550_1530#" "dac_0/dac_unit_26/a_2870_360#" 0.206674
+cap "dac_0/dac_unit_26/Vphi_b" "filter_0/Viout-" 0.771945
+cap "dac_0/dac_unit_26/VP" "filter_0/Viout-" 0.681271
+cap "li_n10380_1490#" "dac_0/dac_unit_26/Vphi_b" 0.353028
+cap "li_n14550_1530#" "dac_0/dac_unit_26/Vphi_b" 0.452602
+cap "dac_0/dac_unit_26/Viup" "li_n10380_1490#" 0.717727
+cap "dac_0/dac_unit_26/Viup" "li_n14550_1530#" 1.19893
+cap "dac_0/Vphi7" "li_n14550_1530#" 770
+cap "dac_0/dac_unit_34/a_2870_360#" "li_n10380_1490#" 0.121371
+cap "dac_0/dac_unit_34/a_2870_360#" "li_n14550_1530#" 0.142089
+cap "dac_0/dac_unit_26/Viun" "li_n10380_1490#" 0.460804
+cap "dac_0/dac_unit_26/Viun" "li_n14550_1530#" 0.664809
+cap "li_n10380_1490#" "dac_0/dac_unit_26/Vphi" 0.55412
+cap "dac_0/dac_unit_26/VP" "li_n10380_1490#" 0.905756
+cap "li_n14550_1530#" "dac_0/dac_unit_26/Vphi" 0.675991
+cap "dac_0/dac_unit_26/VP" "li_n14550_1530#" 1.0808
+cap "li_n14550_1530#" "dac_0/dac_unit_26/VP" 1.25696
+cap "li_n14550_1530#" "dac_0/dac_unit_34/Viup" 0.103337
+cap "dac_0/dac_unit_34/a_2870_360#" "li_n10380_1490#" 0.0551688
+cap "li_n14550_1530#" "dac_0/dac_unit_34/Viup" 1.19893
+cap "li_n14550_1530#" "dac_0/dac_unit_34/Vphi_b" 0.992391
+cap "li_n14550_1530#" "dac_0/dac_unit_33/a_2870_360#" 0.0904201
+cap "dac_0/dac_unit_26/VP" "li_n10380_1490#" 1.05557
+cap "dac_0/dac_unit_34/Viup" "li_n10380_1490#" 0.0882702
+cap "li_n14550_1530#" "dac_0/Vphi7" 770
+cap "li_n10380_1490#" "dac_0/dac_unit_34/Viup" 0.717727
+cap "dac_0/dac_unit_34/Vphi_b" "li_n10380_1490#" 0.771945
+cap "li_n14550_1530#" "dac_0/dac_unit_34/a_2870_360#" 0.0645858
+cap "dac_0/dac_unit_33/a_2870_360#" "li_n10380_1490#" 0.0772364
+cap "li_n14550_1530#" "dac_0/dac_unit_33/a_2870_360#" 0.103337
+cap "li_n10380_1490#" "dac_0/dac_unit_34/VP" 0.935719
+cap "li_n10380_1490#" "dac_0/dac_unit_32/Vphi" 0.55412
+cap "li_n14550_1530#" "dac_0/Vphi7" 770
+cap "li_n14550_1530#" "dac_0/dac_unit_34/VP" 1.11604
+cap "li_n14550_1530#" "dac_0/dac_unit_32/Vphi" 0.675991
+cap "li_n10380_1490#" "dac_0/dac_unit_33/Viup" 0.0882702
+cap "li_n14550_1530#" "dac_0/dac_unit_33/Viup" 0.103337
+cap "li_n10380_1490#" "dac_0/dac_unit_34/Viun" 0.460804
+cap "li_n10380_1490#" "dac_0/dac_unit_32/Vphi_b" 0.418917
+cap "dac_0/dac_unit_33/a_2870_360#" "li_n10380_1490#" 0.0110338
+cap "li_n10380_1490#" "dac_0/dac_unit_33/a_2870_360#" 0.0882702
+cap "li_n14550_1530#" "dac_0/dac_unit_34/Viun" 0.664809
+cap "li_n14550_1530#" "dac_0/dac_unit_32/Vphi_b" 0.539789
+cap "li_n14550_1530#" "dac_0/dac_unit_33/a_2870_360#" 0.0129172
+cap "li_n10380_1490#" "dac_0/dac_unit_32/a_2870_360#" 0.0882702
+cap "li_n14550_1530#" "dac_0/dac_unit_32/Viup" 0.103337
+cap "li_n14550_1530#" "dac_0/dac_unit_32/Vphi_b" 0.992391
+cap "dac_0/dac_unit_32/Vphi" "li_n10380_1490#" 0.55412
+cap "li_n14550_1530#" "dac_0/dac_unit_32/Viun" 0.664809
+cap "li_n14550_1530#" "dac_0/dac_unit_32/Viup" 1.19893
+cap "li_n14550_1530#" "dac_0/dac_unit_32/a_2870_360#" 0.103337
+cap "li_n14550_1530#" "dac_0/dac_unit_32/VP" 0.769408
+cap "dac_0/dac_unit_32/Viup" "li_n10380_1490#" 0.0882702
+cap "li_n14550_1530#" "dac_0/Vphi7" 770
+cap "dac_0/dac_unit_32/Viun" "li_n10380_1490#" 0.460804
+cap "li_n10380_1490#" "dac_0/dac_unit_32/Vphi_b" 0.771945
+cap "li_n14550_1530#" "dac_0/dac_unit_32/a_2870_360#" 0.103337
+cap "dac_0/dac_unit_32/Viup" "li_n10380_1490#" 0.717727
+cap "li_n14550_1530#" "dac_0/dac_unit_32/Vphi" 0.675991
+cap "dac_0/dac_unit_32/a_2870_360#" "li_n10380_1490#" 0.0882702
+cap "dac_0/dac_unit_32/VP" "li_n10380_1490#" 0.647641
+cap "li_n14550_1530#" "dac_0/Vphi7" 770
+cap "li_n10380_1490#" "dac_0/dac_unit_32/Viup" 0.717727
+cap "li_n14550_1530#" "dac_0/dac_unit_32/Viup" 1.19893
+cap "li_n10380_1490#" "dac_0/dac_unit_31/Vphi" 0.55412
+cap "li_n14550_1530#" "dac_0/dac_unit_31/Vphi" 0.675991
+cap "li_n10380_1490#" "dac_0/dac_unit_31/a_2870_360#" 0.0882702
+cap "li_n10380_1490#" "dac_0/dac_unit_31/Vphi_b" 0.771945
+cap "li_n14550_1530#" "dac_0/dac_unit_31/a_2870_360#" 0.103337
+cap "li_n14550_1530#" "dac_0/dac_unit_31/Vphi_b" 0.992391
+cap "li_n10380_1490#" "dac_0/dac_unit_32/VP" 0.617678
+cap "li_n14550_1530#" "dac_0/dac_unit_32/VP" 0.734177
+cap "li_n10380_1490#" "dac_0/dac_unit_31/Viup" 0.0882702
+cap "li_n14550_1530#" "dac_0/dac_unit_31/Viup" 0.103337
+cap "li_n10380_1490#" "dac_0/dac_unit_31/a_2870_360#" 0.0882702
+cap "li_n14550_1530#" "dac_0/dac_unit_31/a_2870_360#" 0.103337
+cap "li_n10380_1490#" "dac_0/dac_unit_32/Viun" 0.460804
+cap "li_n14550_1530#" "dac_0/dac_unit_32/Viun" 0.664809
+cap "li_n10380_1490#" "dac_0/dac_unit_32/VP" 0.965683
+cap "li_n14550_1530#" "dac_0/dac_unit_32/VP" 1.15127
+cap "li_n14550_1530#" "dac_0/Vphi7" 770
+cap "li_n10380_1490#" "dac_0/dac_unit_31/Vphi" 0.55412
+cap "li_n10380_1490#" "dac_0/dac_unit_31/Viup" 0.717727
+cap "li_n10380_1490#" "dac_0/dac_unit_31/Viun" 0.460804
+cap "li_n14550_1530#" "dac_0/dac_unit_31/Vphi" 0.675991
+cap "dac_0/dac_unit_31/Viup" "li_n14550_1530#" 1.19893
+cap "li_n14550_1530#" "dac_0/dac_unit_31/Viun" 0.664809
+cap "li_n10380_1490#" "dac_0/dac_unit_31/Vphi_b" 0.353028
+cap "li_n14550_1530#" "dac_0/dac_unit_31/Vphi_b" 0.452602
+cap "li_n10380_1490#" "dac_0/dac_unit_30/a_2870_360#" 0.0882702
+cap "dac_0/dac_unit_30/a_2870_360#" "li_n14550_1530#" 0.103337
+cap "li_n14550_1530#" "dac_0/Vphi7" 770
+cap "li_n10380_1490#" "dac_0/dac_unit_30/Viup" 0.0882702
+cap "li_n14550_1530#" "dac_0/dac_unit_30/Viup" 0.103337
+cap "li_n10380_1490#" "dac_0/dac_unit_30/Viup" 0.717727
+cap "li_n10380_1490#" "dac_0/dac_unit_30/a_2870_360#" 0.0882702
+cap "li_n10380_1490#" "dac_0/dac_unit_31/VP" 1.05557
+cap "dac_0/dac_unit_30/Viup" "li_n14550_1530#" 1.19893
+cap "li_n14550_1530#" "dac_0/dac_unit_30/a_2870_360#" 0.103337
+cap "li_n14550_1530#" "dac_0/dac_unit_31/VP" 1.25696
+cap "li_n10380_1490#" "dac_0/dac_unit_36/Vphi_b" 0.306743
+cap "li_n10380_1490#" "dac_0/dac_unit_30/Vphi_b" 0.418917
+cap "li_n14550_1530#" "dac_0/dac_unit_36/Vphi_b" 0.39281
+cap "li_n14550_1530#" "dac_0/dac_unit_30/Vphi_b" 0.539789
+cap "dac_0/dac_unit_36/Vphi_b" "li_n14550_1530#" 0.599581
+cap "li_n10380_1490#" "dac_0/dac_unit_30/Viun" 0.460804
+cap "dac_0/dac_unit_30/VP" "li_n14550_1530#" 0.834037
+cap "li_n14550_1530#" "dac_0/Vphi7" 770
+cap "dac_0/dac_unit_36/Vphi_b" "li_n10380_1490#" 0.465202
+cap "dac_0/dac_unit_30/VP" "li_n10380_1490#" 0.701287
+cap "dac_0/dac_unit_36/Vphi" "li_n14550_1530#" 0.675991
+cap "li_n14550_1530#" "dac_0/dac_unit_36/a_2870_360#" 0.206674
+cap "li_n14550_1530#" "dac_0/dac_unit_36/Viup" 0.103337
+cap "li_n10380_1490#" "dac_0/dac_unit_36/Vphi" 0.55412
+cap "li_n10380_1490#" "dac_0/dac_unit_36/a_2870_360#" 0.17654
+cap "li_n10380_1490#" "dac_0/dac_unit_36/Viup" 0.0882702
+cap "li_n14550_1530#" "dac_0/dac_unit_30/Viun" 0.664809
+cap "dac_0/dac_unit_36/Viup" "dac_0/dac_unit_37/a_2870_360#" 0.206674
+cap "dac_0/dac_unit_36/Viun" "dac_0/dac_unit_36/VP" 0.882074
+cap "dac_0/dac_unit_36/Viup" "dac_0/dac_unit_37/Vphi_b" 0.992391
+cap "dac_0/dac_unit_36/Viup" "dac_0/dac_unit_37/Vphi" 770.676
+cap "dac_0/dac_unit_37/a_2870_360#" "dac_0/dac_unit_36/Viun" 0.17654
+cap "dac_0/dac_unit_37/Vphi_b" "dac_0/dac_unit_36/Viun" 0.771945
+cap "dac_0/dac_unit_37/Vphi" "dac_0/dac_unit_36/Viun" 0.55412
+cap "dac_0/dac_unit_36/Viup" "dac_0/dac_unit_36/Viun" 1.47081
+cap "dac_0/dac_unit_36/Viup" "dac_0/dac_unit_36/VP" 1.05141
+cap "dac_0/dac_unit_37/Viun" "dac_0/dac_unit_37/Viup" 57.4905
+cap "dac_0/dac_unit_37/Viup" "dac_0/dac_unit_37/Vphi" 333.601
+cap "dac_0/dac_unit_37/Viun" "dac_0/dac_unit_37/Vphi_b" 6.35833
+cap "dac_0/dac_unit_37/Viun" "dac_0/dac_unit_37/Vphi" 2.9226
+cap "dac_0/dac_unit_37/Viup" "dac_0/dac_unit_37/Vphi_b" 3.9051
+cap "filter_0/Vout-" "filter_0/Viout+" 231.318
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff3_0/Q" 0.270136
+cap "register16_0/csrl_dff2_13/VP" "filter_0/a_2570_3400#" 5.77153
+cap "filter_0/a_2570_3400#" "filter_0/Viout+" 7.01551
+cap "register16_0/csrl_dff3_0/a_n950_1180#" "filter_0/a_n750_1380#" 0.0857111
+cap "register16_0/csrl_dff3_0/QB" "filter_0/a_2570_3400#" 1.25499
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff3_0/VN" 14.7816
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff3_0/a_n690_630#" -1.75901e-16
+cap "register16_0/csrl_dff3_0/Q" "filter_0/a_n750_1380#" 0.205299
+cap "register16_0/csrl_dff2_13/VP" "filter_0/a_n750_1380#" 4.74788
+cap "register16_0/csrl_dff3_0/Q" "filter_0/Vout-" 2.86916
+cap "filter_0/Viout+" "filter_0/a_n750_1380#" 16.2403
+cap "register16_0/csrl_dff2_13/VP" "filter_0/Vout-" 0.181759
+cap "register16_0/csrl_dff3_0/CLK" "filter_0/a_n750_1380#" 0.218054
+cap "filter_0/Vout-" "filter_0/Viout+" 4.79242
+cap "filter_0/Vout-" "filter_0/a_n750_1380#" 0.135338
+cap "register16_0/csrl_dff3_0/QB" "filter_0/a_n750_1380#" 1.31416
+cap "register16_0/csrl_dff3_0/VN" "filter_0/a_n750_1380#" 34.4008
+cap "register16_0/csrl_dff3_0/QB" "filter_0/Vout-" 4.07146
+cap "filter_0/a_n750_1380#" "register16_0/csrl_dff3_0/a_n950_630#" 6.35381e-17
+cap "register16_0/csrl_dff3_0/VN" "filter_0/Vout-" 7.16028
+cap "filter_0/Vout-" "register16_0/csrl_dff3_0/a_n690_630#" 0.00168873
+cap "filter_0/Vout-" "register16_0/csrl_dff3_0/Q" 0.118275
+cap "filter_0/a_2570_3400#" "dac_0/dac_unit_26/Vphi" 4.45775
+cap "dac_0/dac_unit_26/VP" "filter_0/a_2570_3400#" 7.62933
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff3_0/Q" 1.9407
+cap "filter_0/a_2570_3400#" "dac_0/inverter_0/A" 3.92337
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff2_13/VP" 6.48079
+cap "filter_0/a_2570_3400#" "dac_0/dac_unit_26/Vphi_b" 1.77701
+cap "filter_0/a_2570_3400#" "li_n14550_1530#" 36.8747
+cap "register16_0/csrl_dff3_0/VN" "filter_0/a_2570_3400#" 87.3014
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff3_0/QB" 1.81637
+cap "register16_0/csrl_dff3_0/VN" "li_n14550_1530#" 63.5875
+cap "dac_0/inverter_0/VN" "dac_0/dac_unit_26/Vphi" 82.2996
+cap "dac_0/inverter_0/VN" "filter_0/a_2570_3400#" 9.50567
+cap "dac_0/dac_unit_26/Vphi" "dac_0/dac_unit_26/VP" 25.9545
+cap "li_n14550_1530#" "dac_0/inverter_0/A" 1.42109e-14
+cap "filter_0/a_2570_3400#" "dac_0/dac_unit_26/VP" 6.71304
+cap "filter_0/a_2570_3400#" "dac_0/dac_unit_26/Vphi" 5.28896
+cap "dac_0/inverter_0/VN" "dac_0/inverter_0/A" 12.7084
+cap "dac_0/dac_unit_26/Vphi_b" "dac_0/inverter_0/A" 63.75
+cap "dac_0/dac_unit_26/a_2270_1770#" "dac_0/dac_unit_26/Vphi" 7.67539
+cap "dac_0/dac_unit_26/VP" "dac_0/inverter_0/A" 1.2466
+cap "dac_0/dac_unit_26/Vphi" "dac_0/inverter_0/A" 6.8884
+cap "filter_0/a_2570_3400#" "dac_0/inverter_0/A" 75.8319
+cap "dac_0/dac_unit_26/Vphi" "dac_0/inverter_5/A" -0.918588
+cap "dac_0/dac_unit_26/Viup" "dac_0/dac_unit_26/Vphi" 1.0751
+cap "li_n14550_1530#" "dac_0/inverter_0/VN" 199.498
+cap "li_n14550_1530#" "dac_0/dac_unit_26/Vphi_b" 4.32447
+cap "dac_0/dac_unit_26/Vphi" "filter_0/Viout-" 0.0605472
+cap "li_n14550_1530#" "dac_0/dac_unit_26/Vphi" 6.48095
+cap "li_n14550_1530#" "filter_0/a_2570_3400#" 103.958
+cap "dac_0/dac_unit_26/VP" "filter_0/a_2570_3400#" 0.0424138
+cap "dac_0/dac_unit_26/Vphi" "dac_0/dac_unit_26/VP" 6.90681
+cap "dac_0/dac_unit_26/VP" "dac_0/inverter_0/VN" 4.44089e-16
+cap "dac_0/dac_unit_26/Vphi" "dac_0/dac_unit_26/a_2270_1770#" 7.44289
+cap "dac_0/dac_unit_26/Viup" "dac_0/dac_unit_26/Vphi" 1.07323
+cap "dac_0/inverter_0/A" "dac_0/dac_unit_26/VP" 0.652396
+cap "li_n14550_1530#" "dac_0/dac_unit_26/VP" 0.102482
+cap "register16_0/csrl_dff2_12/CLK" "register16_0/csrl_dff2_12/VN" 2.29725
+cap "li_n14550_1530#" "register16_0/csrl_dff2_12/CLK" 4.98661
+cap "filter_0/Vout-" "register16_0/csrl_dff2_12/VN" 21.5049
+cap "filter_0/Vout-" "li_n14550_1530#" 255.47
+cap "filter_0/Vout-" "register16_0/csrl_dff2_12/CLK" 6.36693
+cap "li_n14550_1530#" "register16_0/csrl_dff2_12/VN" 2.38408
+cap "filter_0/Vout-" "register16_0/csrl_dff2_13/Q" 5.4969e-18
+cap "filter_0/Vout-" "register16_0/csrl_dff3_0/a_n950_1180#" 0.0167803
+cap "li_n14550_1530#" "filter_0/a_2570_3400#" 18.2416
+cap "li_n14550_1530#" "filter_0/a_n750_1380#" 9.17601
+cap "filter_0/Vout-" "register16_0/csrl_dff2_13/QB" -5.19149e-18
+cap "register16_0/csrl_dff3_0/a_n950_630#" "register16_0/csrl_dff2_12/VN" 0.150958
+cap "register16_0/csrl_dff2_12/VN" "register16_0/csrl_dff2_12/QB" 0.00714918
+cap "filter_0/Vout-" "register16_0/csrl_dff2_12/CLK" 0.241049
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff3_0/Q" 0.354736
+cap "filter_0/a_n750_1380#" "register16_0/csrl_dff3_0/Q" 0.180557
+cap "li_n14550_1530#" "register16_0/csrl_dff3_0/a_n950_1180#" 0.0468483
+cap "register16_0/csrl_dff3_0/QB" "filter_0/a_2570_3400#" 0.669109
+cap "register16_0/csrl_dff2_13/Q" "register16_0/csrl_dff2_12/VN" 0.101421
+cap "filter_0/Vout-" "li_n14550_1530#" 94.7511
+cap "register16_0/csrl_dff2_12/VN" "register16_0/csrl_dff2_12/Q" 0.0438274
+cap "register16_0/csrl_dff2_12/VN" "register16_0/csrl_dff3_0/a_n950_1180#" 0.685584
+cap "li_n14550_1530#" "register16_0/csrl_dff2_12/CLK" 0.0481594
+cap "filter_0/Vout-" "register16_0/csrl_dff3_0/Q" 13.404
+cap "register16_0/csrl_dff2_12/VP" "register16_0/csrl_dff2_12/VN" 9.58404
+cap "filter_0/Vout-" "register16_0/csrl_dff3_0/QB" 6.49263
+cap "filter_0/Vout-" "register16_0/csrl_dff2_12/VN" 79.7654
+cap "register16_0/csrl_dff2_13/QB" "register16_0/csrl_dff2_12/VN" 0.0645248
+cap "register16_0/csrl_dff2_12/VN" "register16_0/csrl_dff2_12/CLK" 2.86034
+cap "li_n14550_1530#" "register16_0/csrl_dff3_0/Q" 1.04021
+cap "li_n14550_1530#" "register16_0/csrl_dff2_12/VN" 0.411978
+cap "li_n14550_1530#" "register16_0/csrl_dff3_0/QB" 1.00852
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff3_0/a_n950_1180#" 0.0309689
+cap "register16_0/csrl_dff2_12/VN" "register16_0/csrl_dff3_0/Q" 53.329
+cap "register16_0/csrl_dff2_12/VN" "register16_0/csrl_dff3_0/QB" 226.051
+cap "register16_0/csrl_dff2_12/VN" "register16_0/csrl_dff2_13/a_n950_630#" 0.0417046
+cap "register16_0/csrl_dff2_13/a_n950_1180#" "register16_0/csrl_dff2_12/VN" 0.078836
+cap "register16_0/csrl_dff3_0/QB" "dac_0/inverter_5/Y" 0.125858
+cap "li_n10150_9000#" "register16_0/csrl_dff3_0/Q" 0.640928
+cap "li_n14550_1530#" "register16_0/csrl_dff3_0/QB" 0.0880577
+cap "li_n10150_9000#" "register16_0/csrl_dff3_0/QB" 0.293966
+cap "dac_0/Vphi6" "register16_0/csrl_dff3_0/a_n950_630#" 0.00411912
+cap "register16_0/csrl_dff3_0/Q" "filter_0/Vout-" 0.118275
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff2_12/VN" 48.8804
+cap "register16_0/csrl_dff3_0/QB" "filter_0/Vout-" 0.00400248
+cap "filter_0/a_2570_3400#" "li_n14550_1530#" 14.4552
+cap "li_n14550_1530#" "register16_0/csrl_dff2_12/VN" 235.919
+cap "register16_0/csrl_dff3_0/a_n690_630#" "register16_0/csrl_dff2_12/VN" 0.156351
+cap "li_n10150_9000#" "register16_0/csrl_dff2_12/VN" 1.12832
+cap "li_n10150_9000#" "register16_0/csrl_dff3_0/a_n950_630#" 0.00463277
+cap "register16_0/csrl_dff3_0/CLK" "dac_0/inverter_5/A" 0.00200806
+cap "dac_0/Vphi6" "register16_0/csrl_dff3_0/CLK" 0.00439328
+cap "register16_0/csrl_dff2_12/VN" "filter_0/Vout-" 2.39344
+cap "register16_0/csrl_dff2_12/Q" "register16_0/csrl_dff3_0/Q" -0.0153967
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff3_0/CLK" 0.0438517
+cap "li_n14550_1530#" "filter_0/Vout-" 0.0977388
+cap "register16_0/csrl_dff2_13/Q" "register16_0/csrl_dff3_0/Q" -0.0453675
+cap "register16_0/csrl_dff2_12/VN" "register16_0/csrl_dff2_12/VP" 13.9389
+cap "register16_0/csrl_dff2_12/VN" "register16_0/csrl_dff3_0/CLK" 0.441108
+cap "dac_0/Vphi6" "register16_0/csrl_dff3_0/Q" -0.0230951
+cap "register16_0/csrl_dff3_0/QB" "dac_0/inverter_5/A" 0.330405
+cap "dac_0/Vphi6" "register16_0/csrl_dff3_0/QB" 0.253167
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff3_0/Q" 1.65949
+cap "li_n10150_9000#" "register16_0/csrl_dff3_0/CLK" 0.00496066
+cap "li_n10150_9000#" "register16_0/csrl_dff2_12/VP" 1.27624
+cap "filter_0/a_2570_3400#" "register16_0/csrl_dff3_0/QB" 0.238502
+cap "register16_0/csrl_dff3_0/Q" "register16_0/csrl_dff2_12/VN" -10.7125
+cap "register16_0/csrl_dff3_0/QB" "register16_0/csrl_dff2_12/VN" 223.692
+cap "register16_0/csrl_dff2_13/Q" "register16_0/csrl_dff2_12/VN" 0.102989
+cap "li_n14550_1530#" "register16_0/csrl_dff3_0/Q" 0.587869
+cap "dac_0/inverter_5/A" "dac_0/dac_unit_26/Vbp" 0.197825
+cap "dac_0/inverter_5/VN" "dac_0/dac_unit_26/VP" 5.68434e-14
+cap "dac_0/dac_unit_26/a_2270_1770#" "dac_0/Vphi6" 5.00389
+cap "dac_0/inverter_5/VN" "li_n14550_1530#" 35.782
+cap "register16_0/csrl_dff3_0/QB" "li_n10150_9000#" 0.0313616
+cap "dac_0/inverter_5/VN" "dac_0/Vphi6" -4.88576
+cap "dac_0/dac_unit_26/VP" "dac_0/inverter_5/A" 3.73721
+cap "dac_0/dac_unit_26/VP" "dac_0/dac_unit_26/Vbp" -1.42109e-14
+cap "dac_0/inverter_5/VN" "li_n10150_9000#" 7.93993
+cap "register16_0/csrl_dff3_0/CLK" "li_n10150_9000#" 0.0440633
+cap "register16_0/a_n130_1180#" "li_n10150_9000#" 0.257226
+cap "dac_0/inverter_5/A" "dac_0/Vphi6" 286.742
+cap "dac_0/dac_unit_26/Vbp" "dac_0/Vphi6" 0.18571
+cap "dac_0/inverter_5/A" "li_n10150_9000#" 0.370194
+cap "dac_0/dac_unit_26/Vbp" "li_n10150_9000#" 0.15259
+cap "dac_0/inverter_5/VN" "dac_0/inverter_5/Y" 46.3466
+cap "dac_0/inverter_5/VN" "dac_0/inverter_6/Y" 0.0592128
+cap "dac_0/dac_unit_26/VP" "dac_0/Vphi6" 3.7484
+cap "dac_0/inverter_5/Y" "dac_0/dac_unit_26/Vbp" -7.10543e-15
+cap "register16_0/csrl_dff2_12/VP" "li_n10150_9000#" 3.10959
+cap "dac_0/inverter_5/VN" "register16_0/a_n130_1180#" 8.12739
+cap "register16_0/csrl_dff3_0/a_n690_630#" "li_n10150_9000#" 0.122028
+cap "filter_0/a_2570_3400#" "li_n14550_1530#" 5.34901
+cap "dac_0/inverter_5/VN" "dac_0/inverter_5/A" 199.354
+cap "dac_0/inverter_5/VN" "dac_0/dac_unit_26/Vbp" 4.44089e-16
+cap "register16_0/csrl_dff3_0/Q" "li_n10150_9000#" 0.899505
+cap "dac_0/Vphi6" "dac_0/dac_unit_26/a_2270_1770#" 4.87932
+cap "dac_0/dac_unit_26/Vbp" "dac_0/Vphi6" 0.0363782
+cap "dac_0/inverter_5/VN" "dac_0/dac_unit_26/a_2270_1770#" 0.118793
+cap "li_n10150_9000#" "dac_0/dac_unit_26/VP" 0.0107465
+cap "dac_0/inverter_5/A" "dac_0/dac_unit_26/VP" 1.67539
+cap "dac_0/dac_unit_26/VP" "dac_0/Vphi6" 0.0126867
+cap "dac_0/dac_unit_26/VP" "dac_0/inverter_5/VN" 0.0602031
+cap "dac_0/dac_unit_26/Vbp" "li_n10150_9000#" 0.0322174
+cap "register16_0/csrl_dff2_12/QB" "li_n10180_9700#" 0.00411912
+cap "register16_0/csrl_dff3_0/CLK" "li_n10150_9000#" 0.00463277
+cap "register16_0/csrl_dff2_12/QB" "li_n10150_9000#" 0.00463277
+cap "register16_0/csrl_dff2_13/QB" "li_n10180_9700#" 0.00411912
+cap "register16_0/csrl_dff2_12/Q" "register16_0/csrl_dff2_11/Q" -1.89591
+cap "register16_0/csrl_dff2_13/QB" "li_n10150_9000#" 0.00463277
+cap "register16_0/csrl_dff2_13/Q" "register16_0/csrl_dff3_0/Q" -0.038707
+cap "register16_0/csrl_dff3_0/QB" "dac_0/inverter_5/A" 0.50755
+cap "li_n10180_9700#" "register16_0/csrl_dff2_12/a_n950_630#" 0.00411912
+cap "li_n10180_9700#" "register16_0/csrl_dff2_12/CLK" 0.00411912
+cap "register16_0/csrl_dff2_12/a_n950_630#" "li_n10150_9000#" 0.00463277
+cap "register16_0/csrl_dff2_12/CLK" "li_n10150_9000#" 0.00463277
+cap "register16_0/csrl_dff2_13/Q" "register16_0/csrl_dff2_12/Q" -1.89591
+cap "register16_0/csrl_dff2_11/Q" "li_n10150_9000#" 0.33377
+cap "register16_0/csrl_dff2_13/Q" "register16_0/csrl_dff2_10/VN" 0.124717
+cap "register16_0/csrl_dff2_13/CLK" "li_n10180_9700#" 0.00439328
+cap "register16_0/csrl_dff2_12/Q" "li_n10150_9000#" 0.33377
+cap "register16_0/csrl_dff2_10/VP" "li_n10150_9000#" 7.12646
+cap "li_n10180_9700#" "register16_0/csrl_dff2_13/a_n950_630#" 0.00411912
+cap "register16_0/csrl_dff2_13/CLK" "li_n10150_9000#" 0.00496066
+cap "register16_0/csrl_dff3_0/QB" "register16_0/csrl_dff2_10/VN" 19.6178
+cap "register16_0/csrl_dff2_13/Q" "li_n10150_9000#" 1.00131
+cap "li_n10180_9700#" "register16_0/csrl_dff2_12/CLK" 0.00439328
+cap "li_n10180_9700#" "register16_0/csrl_dff3_0/QB" 0.601151
+cap "register16_0/csrl_dff2_13/CLK" "li_n10180_9700#" 0.00411912
+cap "li_n10150_9000#" "register16_0/csrl_dff2_13/a_n950_630#" 0.00463277
+cap "register16_0/csrl_dff2_12/CLK" "li_n10150_9000#" 0.00496066
+cap "register16_0/csrl_dff3_0/QB" "li_n10150_9000#" 0.698391
+cap "register16_0/csrl_dff2_13/CLK" "li_n10150_9000#" 0.00463277
+cap "li_n10180_9700#" "register16_0/csrl_dff3_0/CLK" 0.00411912
+cap "dac_0/inverter_5/VN" "register16_0/a_n130_1180#" 19.6178
+cap "li_n10150_9000#" "register16_0/csrl_dff2_13/CLK" 0.0440633
+cap "dac_0/dac_unit_26/Vbp" "li_n10150_9000#" 0.521038
+cap "dac_0/inverter_5/VN" "li_n10180_9700#" 10.8347
+cap "li_n10150_9000#" "register16_0/csrl_dff2_13/Q" 1.03799
+cap "li_n10150_9000#" "register16_0/csrl_dff2_12/QB" 0.0313616
+cap "li_n10150_9000#" "register16_0/csrl_dff2_12/Q" 0.36146
+cap "dac_0/inverter_5/VN" "dac_0/inverter_5/A" 67.1976
+cap "dac_0/inverter_5/A" "dac_0/dac_unit_26/VP" 41.7173
+cap "dac_0/dac_unit_26/Vbp" "li_n10180_9700#" 0.634133
+cap "dac_0/dac_unit_26/Vbp" "dac_0/inverter_5/A" 2.13042
+cap "li_n10150_9000#" "register16_0/csrl_dff2_11/Q" 0.349862
+cap "li_n10150_9000#" "register16_0/csrl_dff3_0/Q" 0.36212
+cap "li_n10150_9000#" "register16_0/csrl_dff2_13/a_n690_630#" 0.122028
+cap "dac_0/inverter_5/A" "dac_0/dac_unit_6/Viup" 1.0316
+cap "li_n10150_9000#" "register16_0/csrl_dff2_12/CLK" 0.0440633
+cap "li_n10150_9000#" "register16_0/a_n130_1180#" 0.407297
+cap "dac_0/inverter_5/A" "dac_0/dac_unit_6/a_2270_1770#" 0.813303
+cap "li_n10150_9000#" "register16_0/csrl_dff2_10/VP" 11.0737
+cap "dac_0/dac_unit_26/Vbp" "dac_0/inverter_5/VN" 1.77636e-15
+cap "dac_0/dac_unit_26/Vbp" "dac_0/dac_unit_26/VP" -1.13687e-13
+cap "li_n10150_9000#" "register16_0/csrl_dff2_13/QB" 0.0313616
+cap "li_n10150_9000#" "register16_0/csrl_dff2_12/a_n690_630#" 0.122028
+cap "li_n10150_9000#" "dac_0/inverter_5/VN" 6.44054
+cap "dac_0/dac_unit_6/Viup" "dac_0/inverter_5/A" 1.02989
+cap "dac_0/inverter_5/A" "dac_0/dac_unit_6/a_2270_1770#" 0.76074
+cap "dac_0/dac_unit_26/VP" "dac_0/inverter_5/A" 16.8207
+cap "register16_0/csrl_dff2_10/CLK" "li_n10180_9700#" 0.0046957
+cap "register16_0/csrl_dff2_10/a_n950_630#" "inverter_0/Y" 0.00524865
+cap "register16_0/csrl_dff2_10/QB" "dac_0/dac_unit_6/Vphi" 0.00241894
+cap "register16_0/csrl_dff2_7/VP" "register16_0/a_n130_1180#" -8.88178e-16
+cap "register16_0/a_n130_1180#" "li_n10180_9700#" 0.715114
+cap "li_n10180_9700#" "register16_0/csrl_dff2_11/CLK" 0.00411912
+cap "register16_0/csrl_dff2_10/CLK" "inverter_0/Y" 0.00524865
+cap "register16_0/csrl_dff2_9/Q" "inverter_0/Y" 0.435458
+cap "inverter_0/Y" "register16_0/a_n130_1180#" 0.83046
+cap "inverter_0/Y" "register16_0/csrl_dff2_11/CLK" 0.00843519
+cap "inverter_0/Y" "register16_0/csrl_dff2_10/Q" 0.435458
+cap "register16_0/csrl_dff2_10/a_n950_630#" "dac_0/dac_unit_6/Vphi" 0.00422562
+cap "register16_0/csrl_dff2_10/CLK" "li_n10180_9700#" 0.0050304
+cap "register16_0/csrl_dff2_9/a_n950_630#" "li_n10180_9700#" 0.00313047
+cap "register16_0/csrl_dff2_9/Q" "register16_0/csrl_dff2_8/Q" -0.947955
+cap "register16_0/csrl_dff2_10/CLK" "dac_0/dac_unit_6/Vphi" 0.00422562
+cap "register16_0/csrl_dff2_10/CLK" "inverter_0/Y" 0.00564525
+cap "register16_0/csrl_dff2_9/a_n950_630#" "inverter_0/Y" 0.0034991
+cap "register16_0/csrl_dff2_9/QB" "li_n10180_9700#" 0.0046957
+cap "register16_0/csrl_dff2_11/a_n950_630#" "li_n10180_9700#" 0.00411912
+cap "register16_0/csrl_dff2_7/VP" "inverter_0/Y" 6.89886
+cap "register16_0/a_n130_1180#" "dac_0/dac_unit_6/Vphi" 0.622061
+cap "register16_0/csrl_dff2_9/CLK" "li_n10180_9700#" 0.0050304
+cap "register16_0/csrl_dff2_9/QB" "inverter_0/Y" 0.00524865
+cap "register16_0/csrl_dff2_10/QB" "li_n10180_9700#" 0.0046957
+cap "inverter_0/Y" "register16_0/csrl_dff2_11/a_n950_630#" 0.00463277
+cap "register16_0/csrl_dff2_11/QB" "li_n10180_9700#" 0.00411912
+cap "inverter_0/VN" "register16_0/a_n130_1180#" 19.6567
+cap "inverter_0/Y" "register16_0/csrl_dff2_9/CLK" 0.00564525
+cap "inverter_0/Y" "register16_0/csrl_dff2_10/QB" 0.00524865
+cap "register16_0/csrl_dff2_10/CLK" "dac_0/dac_unit_6/Vphi" 0.00451065
+cap "register16_0/csrl_dff2_11/QB" "inverter_0/Y" 0.00463277
+cap "register16_0/csrl_dff2_9/a_n950_630#" "dac_0/dac_unit_6/Vphi" 0.00281708
+cap "register16_0/csrl_dff2_9/Q" "register16_0/csrl_dff2_10/Q" -1.89591
+cap "register16_0/csrl_dff2_11/CLK" "li_n10180_9700#" 0.00439328
+cap "register16_0/csrl_dff2_10/a_n950_630#" "li_n10180_9700#" 0.0046957
+cap "register16_0/csrl_dff2_9/QB" "dac_0/dac_unit_6/Vphi" 0.00422562
+cap "dac_0/dac_unit_0/Vphi" "register16_0/a_n130_1180#" 0.404477
+cap "dac_0/dac_unit_0/Vphi_b" "register16_0/a_n130_1180#" 0.133684
+cap "register16_0/csrl_dff2_11/CLK" "inverter_0/Y" 0.00496066
+cap "register16_0/csrl_dff2_11/Q" "register16_0/csrl_dff2_10/Q" -1.89591
+cap "register16_0/csrl_dff2_9/CLK" "dac_0/dac_unit_6/Vphi" 0.00451065
+cap "register16_0/csrl_dff2_9/a_n690_630#" "inverter_0/Y" 0.212507
+cap "inverter_0/VN" "register16_0/a_n130_1180#" 19.6178
+cap "register16_0/csrl_dff2_7/VP" "inverter_0/Y" 11.6884
+cap "register16_0/csrl_dff2_11/Q" "inverter_0/Y" 0.0115979
+cap "dac_0/dac_unit_6/Vphi" "dac_0/dac_unit_0/Vphi" 174.192
+cap "register16_0/csrl_dff2_9/Q" "inverter_0/Y" 0.48031
+cap "dac_0/dac_unit_0/Vphi" "inverter_0/Y" 0.214933
+cap "dac_0/dac_unit_0/Vphi" "dac_0/dac_unit_6/Vbp" 1.77636e-15
+cap "inverter_0/Y" "register16_0/csrl_dff2_10/CLK" 0.0693366
+cap "li_n10180_9700#" "dac_0/dac_unit_6/Vbp" 0.587843
+cap "dac_0/dac_unit_0/Vphi" "register16_0/a_n120_1730#" 0.0167161
+cap "inverter_0/Y" "register16_0/a_n130_1180#" 0.456931
+cap "dac_0/dac_unit_6/Vphi" "inverter_0/VN" 38.4487
+cap "inverter_0/VN" "inverter_0/Y" 5.28684
+cap "register16_0/csrl_dff2_10/a_n690_630#" "inverter_0/Y" 0.212507
+cap "register16_0/csrl_dff2_7/VP" "dac_0/dac_unit_0/Vphi" 0.0468855
+cap "register16_0/csrl_dff2_11/CLK" "inverter_0/Y" 0.0440633
+cap "dac_0/dac_unit_6/Vphi" "dac_0/dac_unit_6/VP" 7.64042
+cap "register16_0/csrl_dff2_9/CLK" "inverter_0/Y" 0.0693366
+cap "register16_0/csrl_dff2_10/Q" "inverter_0/Y" 0.48031
+cap "li_n10180_9700#" "dac_0/dac_unit_0/Vphi" 0.346185
+cap "register16_0/csrl_dff2_11/QB" "inverter_0/Y" 0.0313616
+cap "register16_0/csrl_dff2_9/QB" "inverter_0/Y" 0.0548884
+cap "dac_0/dac_unit_0/Vphi" "register16_0/a_n130_1180#" 0.0183644
+cap "dac_0/dac_unit_6/Vphi" "dac_0/dac_unit_6/Vbp" 1.41093
+cap "dac_0/dac_unit_6/Vbp" "inverter_0/Y" 0.484393
+cap "inverter_0/Y" "register16_0/a_n120_1730#" 0.403442
+cap "dac_0/dac_unit_0/Vphi" "inverter_0/VN" 0.0647222
+cap "li_n10180_9700#" "inverter_0/VN" 8.52596
+cap "register16_0/csrl_dff2_11/a_n690_630#" "inverter_0/Y" 0.122028
+cap "dac_0/dac_unit_6/Vphi" "dac_0/dac_unit_6/a_2270_1770#" 11.0746
+cap "register16_0/csrl_dff2_10/QB" "inverter_0/Y" 0.0548884
+cap "dac_0/dac_unit_6/a_2270_1770#" "dac_0/dac_unit_6/VP" 2.27374e-13
+cap "dac_0/dac_unit_6/a_2270_1770#" "dac_0/dac_unit_6/Vphi" 10.8116
+cap "inverter_0/VP" "register16_0/csrl_dff2_6/Q" 0.0312881
+cap "inverter_0/A" "register16_0/csrl_dff2_6/QB" 0.00707302
+cap "inverter_0/Y" "register16_0/csrl_dff2_6/QB" 0.00135579
+cap "inverter_2/A" "register16_0/csrl_dff2_7/a_n950_1180#" 0.0104453
+cap "register16_0/csrl_dff2_5/CLK" "inverter_2/A" 0.119632
+cap "inverter_2/A" "register16_0/csrl_dff2_6/QB" 0.593001
+cap "inverter_0/VP" "register16_0/csrl_dff2_6/QB" 0.358807
+cap "inverter_0/VN" "register16_0/csrl_dff2_7/a_n950_1180#" 0.0745537
+cap "register16_0/a_n120_1730#" "register16_0/csrl_dff2_7/QB" 2.77556e-17
+cap "inverter_0/A" "register16_0/csrl_dff2_7/a_n950_1180#" 0.00851276
+cap "inverter_2/A" "register16_0/csrl_dff2_6/Q" 0.27371
+cap "register16_0/a_n130_1180#" "inverter_12/Y" 0.532222
+cap "inverter_0/VP" "register16_0/a_n130_1180#" 11.8443
+cap "inverter_0/VP" "inverter_13/Y" -0.0173614
+cap "register16_0/a_n130_1180#" "register16_0/csrl_dff2_7/CLK" 1.38778e-17
+cap "register16_0/csrl_dff2_7/a_n950_630#" "inverter_12/Y" 0.00422562
+cap "register16_0/csrl_dff2_7/CLK" "inverter_13/Y" 0.0046957
+cap "register16_0/csrl_dff2_9/a_n950_630#" "inverter_12/Y" 0.00140854
+cap "register16_0/csrl_dff2_6/QB" "inverter_0/Y" 0.00412519
+cap "register16_0/csrl_dff2_8/CLK" "inverter_13/Y" 0.0046957
+cap "register16_0/csrl_dff2_6/QB" "inverter_2/A" 0.640531
+cap "inverter_0/VP" "inverter_0/VN" -2.59939
+cap "inverter_10/A" "inverter_2/A" 1.24688
+cap "register16_0/csrl_dff2_6/QB" "inverter_13/Y" 0.00156523
+cap "inverter_0/VN" "register16_0/csrl_dff2_7/CLK" 0.288011
+cap "register16_0/csrl_dff2_8/CLK" "inverter_0/Y" 0.00564525
+cap "inverter_0/A" "inverter_0/Y" 5.69864
+cap "register16_0/csrl_dff2_8/a_n950_630#" "inverter_12/Y" 0.00422562
+cap "register16_0/csrl_dff2_8/QB" "inverter_12/Y" 0.00422562
+cap "inverter_0/Y" "register16_0/csrl_dff2_7/QB" 0.00524865
+cap "dac_0/dac_unit_0/Vphi" "inverter_0/VP" -0.0124204
+cap "inverter_0/A" "inverter_2/A" 16.7365
+cap "register16_0/csrl_dff2_8/CLK" "inverter_13/Y" 0.0050304
+cap "inverter_0/VP" "inverter_12/Y" -0.0145829
+cap "inverter_0/A" "register16_0/a_n130_1180#" 1.31067
+cap "register16_0/csrl_dff2_7/CLK" "inverter_12/Y" 0.00422562
+cap "register16_0/csrl_dff2_7/QB" "inverter_13/Y" 0.0046957
+cap "inverter_0/A" "register16_0/csrl_dff2_7/a_n950_630#" 0.0502919
+cap "inverter_0/Y" "register16_0/csrl_dff2_9/CLK" 0.00524865
+cap "dac_0/dac_unit_0/Vphi_b" "register16_0/a_n130_1180#" 0.0731331
+cap "register16_0/csrl_dff2_8/CLK" "inverter_12/Y" 0.00422562
+cap "register16_0/csrl_dff2_8/Q" "inverter_0/Y" 0.435458
+cap "inverter_0/A" "inverter_0/VN" 42.7406
+cap "register16_0/csrl_dff2_6/QB" "inverter_12/Y" 0.00140854
+cap "register16_0/csrl_dff2_6/QB" "inverter_0/VP" 0.316637
+cap "inverter_13/Y" "register16_0/csrl_dff2_9/CLK" 0.0046957
+cap "register16_0/csrl_dff2_5/VP" "inverter_0/Y" 4.94002
+cap "register16_0/csrl_dff2_8/CLK" "dac_0/dac_unit_0/Vphi" 0.00406737
+cap "register16_0/a_n120_1730#" "inverter_2/A" 5.67947
+cap "register16_0/csrl_dff2_5/VP" "inverter_2/A" 44.9621
+cap "register16_0/csrl_dff2_8/CLK" "inverter_12/Y" 0.00451065
+cap "inverter_0/Y" "inverter_2/A" -0.720339
+cap "inverter_0/A" "inverter_0/VP" 8.97003
+cap "inverter_0/Y" "register16_0/a_n130_1180#" 0.85934
+cap "register16_0/csrl_dff2_7/QB" "inverter_12/Y" 0.00422562
+cap "inverter_0/A" "register16_0/csrl_dff2_7/CLK" 0.0266055
+cap "inverter_0/Y" "register16_0/csrl_dff2_7/a_n950_630#" 0.0251864
+cap "register16_0/csrl_dff2_9/a_n950_630#" "inverter_0/Y" 0.00174955
+cap "inverter_13/Y" "inverter_2/A" -4.50143
+cap "register16_0/a_n130_1180#" "inverter_2/A" 35.3477
+cap "register16_0/csrl_dff2_8/Q" "register16_0/csrl_dff2_7/Q" -1.89591
+cap "register16_0/csrl_dff2_6/Q" "inverter_2/A" 2.78452
+cap "register16_0/csrl_dff2_7/a_n950_630#" "inverter_2/A" 0.164821
+cap "inverter_13/Y" "register16_0/a_n130_1180#" 0.60911
+cap "register16_0/csrl_dff2_8/Q" "register16_0/csrl_dff2_9/Q" -0.947955
+cap "inverter_13/Y" "register16_0/csrl_dff2_7/a_n950_630#" 0.0046957
+cap "register16_0/csrl_dff2_9/a_n950_630#" "inverter_13/Y" 0.00156523
+cap "register16_0/csrl_dff2_6/QB" "inverter_0/A" 0.00886851
+cap "register16_0/csrl_dff2_9/CLK" "inverter_12/Y" 0.00422562
+cap "inverter_0/VN" "inverter_2/A" 32.2303
+cap "inverter_0/Y" "register16_0/csrl_dff2_7/Q" 0.435458
+cap "register16_0/csrl_dff2_8/a_n950_630#" "inverter_0/Y" 0.00524865
+cap "inverter_0/VN" "register16_0/a_n130_1180#" 47.168
+cap "register16_0/csrl_dff2_8/QB" "inverter_0/Y" 0.00524865
+cap "inverter_9/A" "inverter_2/A" -0.0918588
+cap "inverter_0/A" "inverter_13/A" 1.8532
+cap "inverter_0/VN" "register16_0/csrl_dff2_7/a_n950_630#" 0.485599
+cap "register16_0/a_n120_1730#" "register16_0/csrl_dff2_7/CLK" -2.77556e-17
+cap "register16_0/csrl_dff2_5/VP" "register16_0/csrl_dff2_7/CLK" -7.10543e-15
+cap "register16_0/csrl_dff2_8/a_n950_630#" "inverter_13/Y" 0.0046957
+cap "register16_0/csrl_dff2_6/Q" "register16_0/csrl_dff2_7/Q" -1.89591
+cap "register16_0/csrl_dff2_8/QB" "inverter_13/Y" 0.0046957
+cap "inverter_0/Y" "register16_0/csrl_dff2_7/CLK" 0.0123756
+cap "dac_0/dac_unit_0/Vphi" "register16_0/a_n130_1180#" 0.596168
+cap "inverter_0/VP" "inverter_2/A" 8.13097
+cap "inverter_2/A" "register16_0/csrl_dff2_7/CLK" 1.22627
+cap "inverter_0/Y" "register16_0/csrl_dff2_8/CLK" 0.00524865
+cap "register16_0/csrl_dff2_7/CLK" "inverter_2/A" 0.0569683
+cap "register16_0/csrl_dff2_8/Q" "inverter_0/Y" 0.48031
+cap "dac_0/dac_unit_6/Vbp" "inverter_0/VN" 1.62173
+cap "inverter_0/A" "inverter_12/Y" 0.659881
+cap "inverter_0/A" "inverter_13/Y" 1.0907
+cap "register16_0/csrl_dff2_7/QB" "inverter_0/Y" 0.0548884
+cap "inverter_0/VP" "dac_0/dac_unit_6/Vbp" 0.287754
+cap "dac_0/dac_unit_6/Vbp" "dac_0/dac_unit_0/Vphi" 1.52109
+cap "dac_0/dac_unit_6/Vbp" "inverter_0/Y" 0.492301
+cap "inverter_13/A" "inverter_0/A" 1.4322
+cap "register16_0/a_n120_1730#" "inverter_0/Y" 0.286194
+cap "register16_0/csrl_dff2_5/VP" "inverter_0/Y" 8.04243
+cap "inverter_12/Y" "dac_0/dac_unit_6/Vbp" 0.606032
+cap "register16_0/csrl_dff2_8/CLK" "inverter_0/Y" 0.0693366
+cap "dac_0/dac_unit_6/Vbp" "inverter_13/Y" 0.510366
+cap "inverter_2/A" "inverter_0/VN" 0.303208
+cap "inverter_0/A" "dac_0/dac_unit_6/Vbp" 2.99327
+cap "inverter_0/VP" "inverter_0/VN" 3.65122
+cap "dac_0/dac_unit_0/Vphi_b" "inverter_0/VN" 0.346418
+cap "dac_0/dac_unit_0/Vphi" "inverter_0/VN" 34.2535
+cap "inverter_0/Y" "inverter_0/VN" 7.06966
+cap "inverter_2/A" "inverter_0/Y" -0.720339
+cap "inverter_12/Y" "inverter_0/VN" 8.3167
+cap "register16_0/csrl_dff2_8/QB" "inverter_0/Y" 0.0548884
+cap "dac_0/dac_unit_0/Vphi" "dac_0/dac_unit_6/VP" 30.8475
+cap "inverter_0/VP" "dac_0/dac_unit_0/Vphi" 0.190002
+cap "register16_0/csrl_dff2_7/a_n690_630#" "inverter_0/Y" 0.212507
+cap "inverter_0/VP" "inverter_0/Y" 0.439513
+cap "inverter_0/VN" "register16_0/a_n130_1180#" 16.8153
+cap "inverter_13/Y" "inverter_0/VN" 7.75761
+cap "inverter_2/A" "inverter_13/Y" -4.50143
+cap "inverter_0/VP" "inverter_12/Y" 0.365682
+cap "register16_0/csrl_dff2_7/Q" "inverter_0/Y" 0.48031
+cap "register16_0/csrl_dff2_8/a_n690_630#" "inverter_0/Y" 0.212507
+cap "inverter_0/A" "inverter_0/VN" 1.93022
+cap "inverter_12/Y" "dac_0/dac_unit_0/Vphi" 47.2222
+cap "inverter_2/A" "inverter_0/A" 6.31134
+cap "inverter_0/VP" "inverter_13/Y" 3.13061
+cap "inverter_0/A" "dac_0/dac_unit_6/VP" 0.603522
+cap "inverter_0/Y" "register16_0/a_n130_1180#" 0.32499
+cap "inverter_13/Y" "inverter_0/Y" 61.1133
+cap "inverter_0/A" "inverter_0/VP" 0.922232
+cap "inverter_0/A" "dac_0/dac_unit_0/Vphi" 0.437563
+cap "inverter_0/A" "inverter_0/Y" 12.2004
+cap "dac_0/dac_unit_0/Vphi" "dac_0/dac_unit_6/VP" 14.3704
+cap "inverter_0/VN" "dac_0/dac_unit_6/VP" 0.472167
+cap "inverter_12/Y" "register16_0/csrl_dff2_4/QB" 0.00271158
+cap "register16_0/csrl_dff2_5/QB" "inverter_13/A" 0.0238417
+cap "inverter_0/VP" "inverter_2/A" 0.031778
+cap "register16_0/csrl_dff2_4/a_n950_1180#" "inverter_12/A" 0.00425638
+cap "register16_0/csrl_dff2_2/CLK" "inverter_10/A" 0.0171779
+cap "inverter_0/VN" "inverter_2/A" 0.123367
+cap "register16_0/csrl_dff2_2/CLK" "inverter_2/A" 0.0057665
+cap "inverter_0/VP" "register16_0/csrl_dff2_5/a_n950_1180#" 0.253763
+cap "register16_0/csrl_dff2_4/QB" "inverter_9/A" 1.89018
+cap "inverter_13/A" "inverter_2/A" 0.0152901
+cap "register16_0/csrl_dff2_5/QB" "inverter_10/A" 1.72699
+cap "inverter_0/VP" "register16_0/csrl_dff2_4/QB" 0.203687
+cap "register16_0/csrl_dff2_6/a_n950_1180#" "inverter_10/A" 0.183835
+cap "register16_0/csrl_dff2_4/QB" "inverter_0/VN" 0.0869968
+cap "register16_0/csrl_dff2_5/QB" "inverter_2/A" 0.0681431
+cap "register16_0/csrl_dff2_2/CLK" "inverter_9/A" 0.0037635
+cap "register16_0/csrl_dff2_6/a_n950_1180#" "inverter_2/A" 0.0912437
+cap "inverter_13/A" "register16_0/csrl_dff2_5/a_n950_1180#" 0.00851276
+cap "inverter_2/A" "register16_0/csrl_dff2_6/QB" 1.56256
+cap "register16_0/csrl_dff2_2/CLK" "inverter_0/VP" 0.134931
+cap "register16_0/csrl_dff2_4/a_n950_1180#" "inverter_9/A" 0.00423338
+cap "inverter_10/A" "inverter_2/A" 0.0142862
+cap "register16_0/csrl_dff2_5/QB" "inverter_13/Y" 0.00677895
+cap "register16_0/csrl_dff2_2/CLK" "inverter_0/VN" 0.0175247
+cap "register16_0/csrl_dff2_4/a_n950_1180#" "inverter_0/VP" 0.130069
+cap "inverter_10/A" "register16_0/csrl_dff2_5/a_n950_1180#" 0.0912437
+cap "register16_0/csrl_dff2_4/QB" "inverter_12/A" 0.0118414
+cap "register16_0/csrl_dff2_5/QB" "inverter_0/VP" 0.226951
+cap "register16_0/csrl_dff2_6/a_n950_1180#" "inverter_0/VP" 0.0184406
+cap "inverter_10/A" "inverter_9/A" 0.325818
+cap "inverter_10/A" "register16_0/csrl_dff2_4/QB" 0.0681431
+cap "register16_0/csrl_dff2_5/QB" "inverter_0/VN" 0.217492
+cap "inverter_0/VP" "inverter_10/A" 0.0267482
+cap "inverter_9/A" "register16_0/csrl_dff2_4/a_n950_630#" 0.812981
+cap "register16_0/a_n130_1180#" "inverter_2/A" 18.1789
+cap "register16_0/csrl_dff2_6/a_n950_630#" "inverter_2/A" 0.127474
+cap "register16_0/a_n120_1730#" "register16_0/csrl_dff2_5/CLK" -2.77556e-17
+cap "inverter_11/Y" "inverter_0/VP" -0.22514
+cap "inverter_9/A" "inverter_12/A" 19.0322
+cap "inverter_0/Y" "register16_0/csrl_dff2_6/CLK" 0.0133956
+cap "inverter_10/A" "inverter_2/A" 10.9832
+cap "register16_0/csrl_dff2_5/a_n950_630#" "inverter_10/A" 0.116496
+cap "register16_0/csrl_dff2_5/a_n950_630#" "inverter_13/A" 0.0530267
+cap "inverter_11/Y" "inverter_9/A" -4.45888
+cap "register16_0/a_n120_1730#" "register16_0/csrl_dff2_6/a_n950_630#" 2.77556e-17
+cap "inverter_0/VN" "inverter_2/A" 0.509637
+cap "register16_0/csrl_dff2_5/CLK" "inverter_12/Y" 0.00150355
+cap "inverter_0/Y" "inverter_2/A" 0.0338466
+cap "register16_0/csrl_dff2_6/QB" "inverter_12/Y" 0.00281708
+cap "inverter_10/A" "register16_0/csrl_dff2_5/CLK" 0.0569683
+cap "register16_0/csrl_dff2_5/QB" "inverter_12/Y" 0.00281708
+cap "register16_0/a_n120_1730#" "inverter_10/A" 5.84396
+cap "register16_0/csrl_dff2_6/CLK" "inverter_2/A" 0.0569683
+cap "inverter_0/VP" "inverter_0/A" 40.6499
+cap "inverter_11/Y" "register16_0/csrl_dff2_6/CLK" 0.00406737
+cap "inverter_9/A" "inverter_0/VP" 78.7471
+cap "inverter_0/VN" "register16_0/csrl_dff2_4/CLK" 0.339634
+cap "register16_0/csrl_dff2_5/CLK" "inverter_13/Y" 0.00216053
+cap "register16_0/csrl_dff2_6/QB" "inverter_13/Y" 0.00313047
+cap "inverter_9/A" "inverter_8/A" 1.4322
+cap "inverter_10/A" "register16_0/csrl_dff2_5/a_n950_1180#" 0.16585
+cap "inverter_13/Y" "register16_0/csrl_dff2_5/QB" 0.00612376
+cap "register16_0/csrl_dff2_6/a_n950_630#" "inverter_12/Y" 0.00281708
+cap "register16_0/csrl_dff2_4/QB" "inverter_12/Y" 0.0123756
+cap "inverter_0/VP" "register16_0/csrl_dff2_6/CLK" 1.08859
+cap "register16_0/csrl_dff2_4/CLK" "inverter_12/A" 0.0299013
+cap "inverter_10/A" "inverter_12/Y" -6.89704
+cap "inverter_13/Y" "register16_0/csrl_dff2_6/a_n950_630#" 0.00313047
+cap "inverter_9/A" "register16_0/csrl_dff2_4/a_n690_630#" 1.81799
+cap "inverter_0/A" "register16_0/csrl_dff2_6/CLK" 0.0299013
+cap "inverter_11/Y" "register16_0/csrl_dff2_4/CLK" 0.00439328
+cap "inverter_13/Y" "inverter_13/A" 5.69864
+cap "inverter_13/Y" "inverter_10/A" -0.67646
+cap "register16_0/csrl_dff2_5/CLK" "register16_0/csrl_dff2_2/VP" -7.10543e-15
+cap "register16_0/csrl_dff2_5/a_n950_630#" "inverter_0/VP" 1.81492
+cap "register16_0/csrl_dff2_2/VP" "register16_0/csrl_dff2_5/QB" 1.42109e-14
+cap "inverter_0/VP" "inverter_2/A" 26.4676
+cap "register16_0/csrl_dff2_6/CLK" "inverter_12/Y" 0.00422562
+cap "register16_0/csrl_dff2_4/a_n950_630#" "inverter_12/Y" 0.00424567
+cap "inverter_12/A" "inverter_12/Y" 5.69864
+cap "register16_0/csrl_dff2_4/CLK" "inverter_0/VP" 0.162745
+cap "inverter_9/A" "inverter_2/A" -0.0918588
+cap "inverter_0/A" "inverter_2/A" 0.77872
+cap "inverter_13/Y" "register16_0/csrl_dff2_6/CLK" 0.010249
+cap "inverter_0/VP" "register16_0/csrl_dff2_5/CLK" 0.0939101
+cap "register16_0/a_n130_1180#" "register16_0/csrl_dff2_2/VP" -8.88178e-16
+cap "inverter_9/A" "register16_0/csrl_dff2_4/CLK" 0.901234
+cap "register16_0/csrl_dff2_2/VP" "inverter_10/A" 51.8158
+cap "register16_0/csrl_dff2_6/CLK" "inverter_2/A" 1.20962
+cap "register16_0/a_n130_1180#" "register16_0/csrl_dff2_5/CLK" 1.38778e-17
+cap "register16_0/a_n130_1180#" "register16_0/csrl_dff2_5/QB" 1.38778e-17
+cap "register16_0/a_n120_1730#" "inverter_9/A" 2.19495
+cap "register16_0/csrl_dff2_5/CLK" "inverter_10/A" 1.31351
+cap "register16_0/csrl_dff2_5/CLK" "inverter_13/A" 0.00474446
+cap "inverter_13/A" "register16_0/csrl_dff2_5/QB" 0.0131019
+cap "inverter_0/VP" "inverter_12/Y" 0.0953457
+cap "inverter_10/A" "register16_0/csrl_dff2_6/a_n950_1180#" 0.349907
+cap "inverter_10/A" "register16_0/csrl_dff2_5/QB" 2.47241
+cap "inverter_0/VN" "register16_0/csrl_dff2_5/QB" 0.098149
+cap "register16_0/csrl_dff2_6/Q" "inverter_2/A" -0.947955
+cap "inverter_0/VP" "inverter_13/Y" 0.22408
+cap "register16_0/csrl_dff2_6/QB" "inverter_0/Y" 0.00825037
+cap "inverter_9/A" "inverter_12/Y" -0.681818
+cap "inverter_10/A" "register16_0/csrl_dff2_6/a_n950_630#" 0.731804
+cap "register16_0/a_n130_1180#" "inverter_10/A" 16.4349
+cap "register16_0/a_n120_1730#" "inverter_2/A" 6.37938
+cap "inverter_0/VN" "register16_0/csrl_dff2_4/QB" 0.294591
+cap "inverter_7/Y" "inverter_0/VP" 0.158442
+cap "inverter_10/A" "inverter_13/A" 20.136
+cap "register16_0/csrl_dff2_6/CLK" "inverter_12/Y" 0.00451065
+cap "inverter_0/VN" "inverter_13/A" 43.893
+cap "inverter_0/VN" "inverter_10/A" 69.7204
+cap "inverter_11/Y" "register16_0/csrl_dff2_5/CLK" 0.00135579
+cap "register16_0/csrl_dff2_2/VP" "inverter_0/VP" 1.26425
+cap "inverter_12/A" "register16_0/csrl_dff2_4/QB" 0.0266055
+cap "inverter_13/Y" "register16_0/csrl_dff2_6/CLK" 0.0050304
+cap "register16_0/csrl_dff2_6/CLK" "inverter_13/A" 0.0219704
+cap "inverter_10/A" "register16_0/csrl_dff2_6/CLK" 0.037631
+cap "inverter_9/A" "inverter_4/A" -0.183718
+cap "register16_0/csrl_dff2_5/a_n950_630#" "inverter_12/Y" 0.00422562
+cap "register16_0/csrl_dff2_6/a_n690_630#" "inverter_2/A" 2.3982
+cap "inverter_12/A" "inverter_13/A" 15.7617
+cap "inverter_0/VN" "register16_0/csrl_dff2_6/CLK" 0.196298
+cap "register16_0/csrl_dff2_5/a_n690_630#" "inverter_10/A" 1.76686
+cap "inverter_11/Y" "register16_0/csrl_dff2_4/QB" 0.00411912
+cap "register16_0/csrl_dff2_5/CLK" "inverter_0/VP" 0.590639
+cap "register16_0/csrl_dff2_6/QB" "inverter_0/VP" 0.633274
+cap "inverter_9/A" "register16_0/csrl_dff2_2/VP" 27.684
+cap "inverter_0/VP" "register16_0/csrl_dff2_5/QB" 0.147218
+cap "inverter_0/VN" "inverter_12/A" 43.5804
+cap "register16_0/csrl_dff2_5/a_n950_630#" "inverter_13/Y" 0.0266508
+cap "inverter_13/Y" "inverter_2/A" -2.43321
+cap "register16_0/csrl_dff2_4/CLK" "inverter_12/Y" 0.0133956
+cap "register16_0/csrl_dff2_5/CLK" "inverter_12/Y" 0.00422562
+cap "register16_0/csrl_dff2_6/QB" "inverter_0/A" 0.017737
+cap "inverter_0/VP" "register16_0/csrl_dff2_4/QB" 0.134739
+cap "register16_0/a_n130_1180#" "inverter_0/VP" 560
+cap "inverter_0/VP" "register16_0/csrl_dff2_6/a_n950_630#" 0.166156
+cap "register16_0/csrl_dff2_4/a_n950_630#" "inverter_12/A" 0.00783366
+cap "inverter_12/A" "inverter_11/A" 1.8532
+cap "inverter_0/VP" "inverter_13/A" 86.8366
+cap "inverter_0/VP" "inverter_10/A" 109.088
+cap "register16_0/a_n130_1180#" "inverter_9/A" 3.77736
+cap "inverter_9/A" "register16_0/csrl_dff2_4/QB" 2.22373
+cap "register16_0/csrl_dff2_2/VP" "inverter_2/A" 49.1665
+cap "inverter_0/VN" "inverter_0/VP" 360.22
+cap "inverter_0/Y" "inverter_0/VP" 0.0587558
+cap "inverter_0/A" "inverter_13/A" 13.9085
+cap "inverter_0/VP" "register16_0/csrl_dff2_6/CLK" 0.0818459
+cap "inverter_9/A" "inverter_10/A" 17.0752
+cap "register16_0/csrl_dff2_6/a_n950_1180#" "inverter_2/A" 0.0807985
+cap "register16_0/csrl_dff2_4/a_n950_630#" "inverter_0/VP" 0.80554
+cap "inverter_0/VN" "inverter_0/A" 0.312631
+cap "register16_0/csrl_dff2_6/QB" "inverter_2/A" 2.0205
+cap "inverter_0/VN" "inverter_9/A" 60.434
+cap "inverter_0/VP" "inverter_12/A" 46.1867
+cap "dac_0/dac_unit_0/Viup" "inverter_11/Y" 0.991492
+cap "inverter_13/Y" "inverter_12/Y" 71.1839
+cap "inverter_13/A" "inverter_0/VN" 3.4474
+cap "inverter_12/A" "inverter_9/A" 6.31134
+cap "inverter_9/A" "inverter_11/Y" -4.45888
+cap "dac_0/dac_unit_0/a_2270_1770#" "inverter_11/Y" 11.1486
+cap "inverter_0/VP" "inverter_12/Y" 28.1929
+cap "inverter_7/Y" "dac_0/dac_unit_6/Vbp" 1.77636e-15
+cap "inverter_12/A" "dac_0/dac_unit_0/VP" 0.662646
+cap "dac_0/dac_unit_0/VP" "inverter_11/Y" 16.9537
+cap "inverter_13/A" "inverter_12/Y" 0.995214
+cap "inverter_0/Y" "dac_0/dac_unit_6/Vbp" 0.0816539
+cap "inverter_12/A" "inverter_11/Y" 0.629347
+cap "inverter_7/Y" "inverter_9/A" 0.00446172
+cap "inverter_2/A" "inverter_13/Y" -2.38396
+cap "inverter_0/VN" "dac_0/dac_unit_21/Vphi_b" 2.72815
+cap "inverter_13/Y" "inverter_0/VP" 32.1347
+cap "inverter_0/A" "inverter_0/VN" 0.708117
+cap "dac_0/dac_unit_6/Vbp" "inverter_0/VN" 3.23543
+cap "inverter_13/A" "inverter_13/Y" 10.534
+cap "inverter_7/Y" "inverter_12/A" 2.16904
+cap "inverter_0/A" "inverter_12/Y" 0.0899838
+cap "inverter_7/Y" "inverter_11/Y" 81.8785
+cap "inverter_0/VN" "inverter_9/A" 0.293723
+cap "inverter_13/A" "inverter_0/VP" 39.7925
+cap "dac_0/dac_unit_6/Vbp" "inverter_12/Y" 0.66099
+cap "inverter_0/VN" "dac_0/dac_unit_0/VP" 5.68434e-14
+cap "inverter_13/Y" "inverter_0/A" 0.535278
+cap "inverter_12/A" "inverter_0/VN" 2.46068
+cap "inverter_12/Y" "inverter_9/A" -0.681818
+cap "inverter_0/VN" "inverter_11/Y" 23.6892
+cap "inverter_2/A" "inverter_0/A" 0.631579
+cap "dac_0/dac_unit_21/Vphi_b" "inverter_0/VP" 0.0133961
+cap "inverter_13/Y" "dac_0/dac_unit_6/Vbp" 0.399661
+cap "inverter_11/A" "inverter_12/A" 1.4322
+cap "inverter_0/A" "inverter_0/VP" 0.691674
+cap "dac_0/dac_unit_6/Vbp" "inverter_0/VP" 3.24423
+cap "inverter_12/A" "inverter_12/Y" 10.4262
+cap "inverter_7/Y" "register16_0/a_n120_1730#" 0.00417903
+cap "inverter_7/Y" "inverter_0/VN" 100.378
+cap "inverter_10/A" "inverter_0/VN" 0.301225
+cap "inverter_13/A" "inverter_0/A" 15.7909
+cap "inverter_12/Y" "inverter_11/Y" 37.6439
+cap "inverter_0/Y" "inverter_0/VN" 0.411806
+cap "inverter_13/A" "dac_0/dac_unit_6/Vbp" 3.43779
+cap "inverter_7/Y" "inverter_12/Y" 0.153548
+cap "inverter_13/Y" "inverter_11/Y" -0.0918588
+cap "inverter_10/A" "inverter_12/Y" -6.85785
+cap "inverter_12/A" "inverter_0/VP" 39.1008
+cap "inverter_0/VP" "inverter_11/Y" 4.98394
+cap "dac_0/dac_unit_6/Vbp" "inverter_0/A" 0.444522
+cap "inverter_13/A" "dac_0/dac_unit_0/VP" 0.685821
+cap "inverter_13/A" "inverter_12/A" 17.2231
+cap "inverter_13/Y" "inverter_10/A" -0.710306
+cap "inverter_0/VN" "inverter_12/Y" 16.0957
+cap "inverter_13/A" "inverter_11/Y" 0.49723
+cap "inverter_7/Y" "inverter_0/VP" 1.6184
+cap "inverter_13/Y" "inverter_0/Y" 39.3255
+cap "inverter_0/A" "dac_0/dac_unit_0/VP" 0.0822985
+cap "inverter_13/A" "inverter_10/A" 6.94292
+cap "inverter_13/Y" "inverter_0/VN" 10.1855
+cap "inverter_7/Y" "register16_0/a_n130_1180#" 0.0045911
+cap "inverter_2/A" "inverter_0/VN" 0.034884
+cap "inverter_0/VN" "inverter_0/VP" 142.691
+cap "inverter_0/A" "inverter_11/Y" 0.0596676
+cap "inverter_12/A" "dac_0/dac_unit_6/Vbp" 2.52239
+cap "inverter_7/Y" "register16_0/csrl_dff2_2/VP" 0.0117214
+cap "dac_0/dac_unit_6/Vbp" "inverter_11/Y" 1.63286
+cap "inverter_11/Y" "dac_0/dac_unit_0/Viup" 0.989907
+cap "inverter_0/VN" "dac_0/dac_unit_0/a_2270_1770#" 0.850636
+cap "inverter_11/Y" "dac_0/dac_unit_0/VP" 3.20107
+cap "inverter_11/Y" "dac_0/dac_unit_0/a_2270_1770#" 10.8667
+cap "inverter_0/VP" "register16_0/csrl_dff2_2/QB" 2.41743
+cap "register16_0/csrl_dff2_2/a_n950_1180#" "inverter_4/A" 0.00971537
+cap "register16_0/csrl_dff1_0/CLK" "inverter_0/VP" 0.0317332
+cap "inverter_0/VP" "inverter_9/A" 0.267443
+cap "inverter_9/A" "register16_0/csrl_dff2_3/QB" 0.115848
+cap "register16_0/csrl_dff2_4/a_n950_1180#" "inverter_9/A" 0.00423338
+cap "inverter_11/A" "register16_0/csrl_dff2_3/a_n950_1180#" 0.00631749
+cap "inverter_8/A" "register16_0/csrl_dff2_2/QB" 0.0835994
+cap "register16_0/csrl_dff1_0/VP" "register16_0/csrl_dff2_2/QB" -5.68434e-14
+cap "register16_0/csrl_dff1_0/CLK" "inverter_8/A" 0.00559549
+cap "inverter_11/Y" "register16_0/csrl_dff2_2/QB" 0.00876913
+cap "inverter_4/A" "inverter_7/A" 0.00185414
+cap "inverter_0/VN" "register16_0/csrl_dff2_3/a_n950_1180#" 0.0372769
+cap "inverter_11/A" "inverter_8/A" 0.0152901
+cap "register16_0/csrl_dff2_3/a_n690_630#" "register16_0/csrl_dff2_3/QB" -7.10543e-15
+cap "inverter_12/A" "inverter_9/A" 0.00382251
+cap "inverter_0/VP" "register16_0/csrl_dff2_1/QB" 0.965276
+cap "register16_0/csrl_dff2_2/a_n950_1180#" "inverter_7/A" 0.00851276
+cap "inverter_0/VP" "register16_0/csrl_dff2_3/QB" 0.313537
+cap "register16_0/csrl_dff2_4/a_n950_1180#" "inverter_0/VP" 0.128125
+cap "inverter_4/A" "register16_0/csrl_dff2_1/QB" 0.46599
+cap "inverter_0/VP" "register16_0/csrl_dff2_3/a_n950_1180#" 0.0226968
+cap "inverter_0/VN" "register16_0/csrl_dff2_2/a_n950_1180#" 0.0745537
+cap "inverter_0/VP" "inverter_8/A" 0.424982
+cap "inverter_8/A" "register16_0/csrl_dff2_3/QB" 1.32903
+cap "inverter_8/A" "register16_0/csrl_dff2_3/a_n950_1180#" 0.0897372
+cap "inverter_0/VP" "inverter_4/A" 0.038162
+cap "inverter_11/A" "register16_0/csrl_dff2_2/QB" 0.0427577
+cap "inverter_12/A" "register16_0/csrl_dff2_4/a_n950_1180#" 0.00425638
+cap "register16_0/csrl_dff1_0/CLK" "inverter_0/VN" 0.0175247
+cap "register16_0/csrl_dff1_0/VP" "inverter_4/A" -5.68434e-14
+cap "inverter_0/VP" "register16_0/csrl_dff2_2/a_n950_1180#" 0.024142
+cap "inverter_7/A" "register16_0/csrl_dff2_1/QB" 0.529608
+cap "register16_0/csrl_dff2_4/CLK" "inverter_11/Y" 0.00411912
+cap "inverter_8/A" "register16_0/csrl_dff2_3/a_n950_630#" 0.117968
+cap "inverter_8/A" "register16_0/csrl_dff2_3/a_n950_1180#" 0.207211
+cap "inverter_0/VP" "register16_0/csrl_dff2_3/QB" 0.159282
+cap "inverter_9/A" "inverter_10/A" -4.02881
+cap "register16_0/csrl_dff2_4/CLK" "inverter_12/A" 0.0266055
+cap "inverter_0/VP" "inverter_11/Y" 0.280662
+cap "register16_0/csrl_dff2_2/QB" "inverter_11/Y" 0.0123756
+cap "inverter_7/A" "inverter_11/A" 15.7617
+cap "inverter_8/A" "inverter_7/Y" -1.89983
+cap "inverter_0/VP" "inverter_12/A" 40.6499
+cap "register16_0/csrl_dff1_0/VP" "inverter_0/VP" 7.13576
+cap "inverter_4/A" "inverter_9/A" -0.183718
+cap "inverter_8/A" "register16_0/a_n130_1180#" 15.028
+cap "inverter_11/A" "inverter_11/Y" 5.69864
+cap "inverter_0/VP" "register16_0/a_n120_1730#" 0.282595
+cap "inverter_4/A" "inverter_0/VN" 34.0788
+cap "inverter_0/VP" "register16_0/csrl_dff2_3/CLK" 0.188242
+cap "inverter_11/A" "inverter_12/A" 13.9085
+cap "inverter_9/A" "register16_0/csrl_dff2_3/QB" 0.00510337
+cap "inverter_7/A" "inverter_0/VN" 43.5804
+cap "register16_0/csrl_dff2_3/CLK" "inverter_11/Y" 0.00662574
+cap "register16_0/csrl_dff2_2/a_n950_630#" "inverter_7/Y" 0.00710072
+cap "inverter_9/A" "inverter_11/Y" -1.92817
+cap "inverter_7/Y" "register16_0/csrl_dff2_2/CLK" 0.0123756
+cap "inverter_8/A" "inverter_0/VP" 87.3501
+cap "register16_0/csrl_dff1_0/VP" "register16_0/csrl_dff2_3/CLK" -7.10543e-15
+cap "inverter_0/VP" "register16_0/csrl_dff2_3/a_n950_630#" 0.173301
+cap "inverter_9/A" "inverter_12/A" 0.840246
+cap "inverter_9/A" "register16_0/csrl_dff1_0/VP" 14.5256
+cap "inverter_7/A" "inverter_6/A" 1.8532
+cap "register16_0/a_n120_1730#" "register16_0/csrl_dff2_3/CLK" -2.77556e-17
+cap "inverter_9/A" "register16_0/a_n120_1730#" 1.15899
+cap "inverter_0/VN" "inverter_12/A" 0.312631
+cap "inverter_0/VP" "inverter_7/Y" 0.502036
+cap "inverter_8/A" "inverter_11/A" 17.7977
+cap "register16_0/csrl_dff2_3/a_n950_630#" "inverter_11/A" 0.0530267
+cap "inverter_7/A" "register16_0/csrl_dff2_1/a_n690_630#" 0.0498106
+cap "inverter_7/A" "inverter_4/A" 14.464
+cap "register16_0/csrl_dff2_1/QB" "inverter_0/VP" 0.688967
+cap "register16_0/csrl_dff2_2/a_n950_630#" "inverter_0/VP" 0.160749
+cap "inverter_8/A" "register16_0/csrl_dff2_3/a_n690_630#" 2.05519
+cap "inverter_0/VP" "register16_0/a_n130_1180#" 560.423
+cap "inverter_0/VP" "register16_0/csrl_dff2_2/CLK" 0.100764
+cap "inverter_0/VP" "dac_0/dac_unit_21/Vphi_b" 0.0910515
+cap "inverter_8/A" "register16_0/csrl_dff2_3/CLK" 1.3452
+cap "inverter_8/A" "inverter_9/A" 7.7333
+cap "register16_0/csrl_dff2_4/CLK" "inverter_0/VP" 0.967781
+cap "inverter_4/A" "register16_0/csrl_dff1_0/VP" 34.3417
+cap "inverter_8/A" "inverter_0/VN" 32.5584
+cap "register16_0/csrl_dff2_2/QB" "inverter_0/VP" 2.37309
+cap "register16_0/csrl_dff2_3/a_n950_630#" "inverter_0/VN" 0.547235
+cap "inverter_12/Y" "register16_0/csrl_dff2_4/CLK" 0.0123756
+cap "inverter_7/A" "register16_0/csrl_dff1_0/VP" 0.883757
+cap "inverter_11/Y" "register16_0/csrl_dff2_3/QB" 0.00137304
+cap "inverter_4/A" "register16_0/a_n120_1730#" 3.23977
+cap "register16_0/a_n130_1180#" "register16_0/csrl_dff2_3/CLK" 1.38778e-17
+cap "inverter_9/A" "register16_0/a_n130_1180#" 6.61069
+cap "register16_0/csrl_dff1_0/VP" "register16_0/csrl_dff2_3/QB" 1.42109e-14
+cap "inverter_12/Y" "inverter_0/VP" 0.0587558
+cap "inverter_7/A" "register16_0/a_n120_1730#" 0.0478583
+cap "register16_0/csrl_dff2_2/QB" "inverter_11/A" 0.0266055
+cap "inverter_0/VP" "inverter_11/A" 87.3406
+cap "register16_0/csrl_dff2_4/CLK" "inverter_9/A" 0.0390876
+cap "register16_0/csrl_dff2_2/a_n950_630#" "inverter_0/VN" 0.0987944
+cap "register16_0/csrl_dff2_2/CLK" "inverter_7/Y" 0.00200806
+cap "inverter_0/VN" "register16_0/csrl_dff2_2/CLK" 0.300249
+cap "inverter_4/A" "inverter_8/A" 9.1655
+cap "inverter_0/VP" "register16_0/csrl_dff2_3/CLK" 0.118622
+cap "inverter_9/A" "inverter_0/VP" 46.505
+cap "inverter_4/A" "inverter_7/Y" -0.700549
+cap "inverter_8/A" "register16_0/csrl_dff2_3/QB" 2.03791
+cap "inverter_0/VP" "inverter_0/VN" 367.175
+cap "inverter_12/Y" "inverter_9/A" 0.0419114
+cap "inverter_8/A" "inverter_11/Y" -0.672823
+cap "register16_0/csrl_dff2_3/a_n950_630#" "inverter_11/Y" 0.0266508
+cap "register16_0/csrl_dff2_3/CLK" "inverter_11/A" 0.0147116
+cap "inverter_7/A" "inverter_7/Y" 5.69864
+cap "register16_0/csrl_dff2_1/QB" "inverter_4/A" 0.834018
+cap "inverter_4/A" "register16_0/csrl_dff2_2/a_n950_630#" 1.14943
+cap "inverter_4/A" "register16_0/a_n130_1180#" 10.8909
+cap "inverter_4/A" "register16_0/csrl_dff2_2/CLK" 0.0498661
+cap "register16_0/csrl_dff2_2/CLK" "inverter_0/VP" 0.395235
+cap "inverter_7/A" "register16_0/csrl_dff2_1/QB" 0.681601
+cap "inverter_7/A" "register16_0/csrl_dff2_2/a_n950_630#" 0.0131179
+cap "inverter_8/A" "register16_0/csrl_dff1_0/VP" 49.0135
+cap "inverter_7/A" "register16_0/a_n130_1180#" 0.0602819
+cap "inverter_7/A" "register16_0/csrl_dff2_2/CLK" 0.0266055
+cap "inverter_4/A" "inverter_1/A" -0.73487
+cap "inverter_0/VN" "inverter_11/A" 43.893
+cap "inverter_8/A" "register16_0/a_n120_1730#" 5.21429
+cap "register16_0/a_n130_1180#" "register16_0/csrl_dff2_3/QB" 1.38778e-17
+cap "inverter_8/A" "register16_0/csrl_dff2_3/CLK" 0.355879
+cap "inverter_0/VP" "register16_0/csrl_dff2_1/a_n690_630#" 0.183192
+cap "inverter_4/A" "inverter_0/VP" 63.7912
+cap "register16_0/csrl_dff2_2/a_n690_630#" "inverter_0/VP" 0.435608
+cap "inverter_4/A" "inverter_3/A" -1.67001
+cap "register16_0/csrl_dff2_3/CLK" "inverter_0/VN" 0.115221
+cap "inverter_9/A" "inverter_0/VN" 0.464085
+cap "inverter_7/A" "inverter_0/VP" 46.7648
+cap "inverter_7/A" "dac_0/dac_unit_0/Vbp" 2.99327
+cap "inverter_0/VN" "inverter_6/Y" -0.090918
+cap "inverter_11/Y" "inverter_12/A" 0.30288
+cap "inverter_7/A" "inverter_0/VP" 39.1008
+cap "inverter_11/Y" "inverter_13/Y" -0.0918588
+cap "inverter_0/VN" "inverter_7/A" 2.73928
+cap "inverter_5/Y" "inverter_7/Y" -0.0918588
+cap "inverter_11/Y" "inverter_12/Y" 28.9739
+cap "register16_0/a_n130_1180#" "inverter_7/Y" 0.0198997
+cap "inverter_11/Y" "inverter_0/VP" 22.1004
+cap "inverter_11/Y" "dac_0/dac_unit_0/Vbp" 0.467741
+cap "inverter_11/Y" "inverter_0/VN" 14.5127
+cap "dac_0/dac_unit_0/VP" "inverter_11/A" 0.391727
+cap "inverter_7/A" "inverter_6/A" 1.4322
+cap "inverter_11/Y" "inverter_8/A" -0.672823
+cap "dac_0/dac_unit_0/VP" "inverter_7/Y" 16.156
+cap "dac_0/dac_unit_21/Vphi_b" "inverter_12/A" 0.0314272
+cap "inverter_7/A" "inverter_11/A" 17.2231
+cap "inverter_4/A" "inverter_7/A" 6.31134
+cap "inverter_11/Y" "inverter_9/A" -1.88902
+cap "register16_0/a_n120_1730#" "inverter_7/Y" 0.0179532
+cap "inverter_7/Y" "register16_0/csrl_dff1_0/VP" 0.266795
+cap "dac_0/dac_unit_0/Vbp" "inverter_12/A" 0.444522
+cap "dac_0/dac_unit_21/Vphi_b" "inverter_0/VP" 0.647322
+cap "inverter_6/Y" "inverter_7/Y" 0.37064
+cap "inverter_11/Y" "inverter_11/A" 9.58432
+cap "inverter_0/VP" "inverter_12/A" 0.691674
+cap "dac_0/dac_unit_21/Vphi_b" "inverter_0/VN" 49.5144
+cap "inverter_0/VN" "inverter_12/A" 0.708117
+cap "inverter_7/A" "inverter_7/Y" 9.16173
+cap "inverter_12/Y" "dac_0/dac_unit_0/Vbp" 0.0816539
+cap "dac_0/dac_unit_0/Vbp" "inverter_0/VP" 3.39549
+cap "inverter_0/VN" "inverter_0/VP" 142.691
+cap "inverter_0/VN" "dac_0/dac_unit_0/Vbp" 3.47096
+cap "inverter_12/Y" "inverter_0/VN" 0.411806
+cap "inverter_11/Y" "inverter_7/Y" 147.818
+cap "inverter_11/Y" "register16_0/a_n130_1180#" 0.00500839
+cap "register16_0/csrl_dff2_2/CLK" "inverter_7/Y" 0.00414152
+cap "inverter_9/A" "inverter_12/A" 0.631579
+cap "inverter_11/A" "inverter_12/A" 15.7909
+cap "dac_0/dac_unit_21/Vphi_b" "inverter_11/A" 0.115233
+cap "inverter_0/VN" "inverter_8/A" 0.381051
+cap "dac_0/dac_unit_0/Vbp" "inverter_11/A" 3.43779
+cap "inverter_7/A" "dac_0/dac_unit_0/VP" 0.603522
+cap "inverter_0/VN" "inverter_9/A" 0.0477599
+cap "inverter_11/A" "inverter_0/VP" 39.7925
+cap "inverter_0/VN" "inverter_4/A" 0.346167
+cap "inverter_0/VN" "inverter_11/A" 3.1742
+cap "inverter_11/Y" "register16_0/a_n120_1730#" 0.00448964
+cap "inverter_7/Y" "inverter_12/A" 0.0498661
+cap "inverter_11/Y" "register16_0/csrl_dff1_0/VP" 0.0870432
+cap "dac_0/dac_unit_0/Vbp" "inverter_7/Y" 0.920012
+cap "inverter_7/Y" "inverter_0/VP" 20.7513
+cap "inverter_0/VN" "inverter_7/Y" 125.955
+cap "inverter_8/A" "inverter_11/A" 6.94292
+cap "inverter_11/Y" "register16_0/csrl_dff2_3/QB" 0.00351776
+cap "dac_0/dac_unit_0/VP" "inverter_12/A" 0.0618856
+cap "inverter_8/A" "inverter_7/Y" -1.86943
+cap "dac_0/dac_unit_0/VP" "dac_0/dac_unit_0/Vbp" 1.13687e-13
+cap "inverter_4/A" "inverter_7/Y" -0.700549
+cap "inverter_0/VN" "dac_0/dac_unit_0/VP" 5.68434e-14
+cap "inverter_7/Y" "inverter_11/A" 1.41966
+cap "dac_0/dac_unit_0/VP" "inverter_7/VP" 0.0898056
+cap "dac_0/dac_unit_0/VP" "inverter_7/Y" 8.13778
+cap "dac_0/dac_unit_0/VP" "inverter_0/VN" 0.933131
+cap "dac_0/dac_unit_0/VP" "dac_0/dac_unit_0/Vbp" 5.68434e-14
+cap "dac_0/dac_unit_21/Viup" "inverter_0/VN" 0.0362582
+cap "v_gen_0/Vb" "register16_0/csrl_dff1_0/VN" 1.1821
+cap "register16_0/csrl_dff1_0/a_n950_630#" "inverter_12/VP" 1.06168
+cap "register16_0/csrl_dff1_0/DB" "register16_0/csrl_dff1_0/a_n950_630#" -0.0488292
+cap "register16_0/csrl_dff2_1/QB" "inverter_12/VP" 0.759041
+cap "register16_0/csrl_dff1_0/a_n950_630#" "v_gen_0/a_1230_90#" 0.0935558
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "inverter_1/A" 0.135593
+cap "register16_0/csrl_dff1_0/QB" "inverter_1/A" 0.589203
+cap "v_gen_0/Vb" "register16_0/csrl_dff1_0/a_n950_1180#" 1.51675
+cap "register16_0/csrl_dff2_1/a_n950_1180#" "inverter_12/VP" 0.0369875
+cap "inverter_11/VN" "register16_0/csrl_dff1_0/a_n950_1180#" 6.39076
+cap "register16_0/csrl_dff1_0/QB" "inverter_11/VN" 1.10929
+cap "inverter_11/VN" "register16_0/csrl_dff2_0/QB" 1.27306
+cap "inverter_6/Y" "register16_0/csrl_dff2_0/QB" 0.00677895
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "v_gen_0/a_1430_90#" 0.060951
+cap "inverter_11/VN" "inverter_3/A" 0.123367
+cap "register16_0/csrl_dff2_0/a_n950_1180#" "inverter_12/VP" 0.269464
+cap "register16_0/csrl_dff1_0/CLK" "v_gen_0/Vb" 0.193088
+cap "inverter_11/VN" "register16_0/csrl_dff1_0/CLK" 1.63712
+cap "register16_0/csrl_dff1_0/CLK" "v_gen_0/a_1430_90#" 0.0188497
+cap "register16_0/csrl_dff2_1/a_n950_1180#" "inverter_3/A" 0.0707965
+cap "inverter_6/A" "register16_0/csrl_dff2_0/a_n950_1180#" 0.00851276
+cap "inverter_11/VN" "v_gen_0/Vb" 0.587945
+cap "register16_0/csrl_dff1_0/a_n950_630#" "v_gen_0/Vb" 3.62585
+cap "register16_0/csrl_dff1_0/a_n950_630#" "inverter_11/VN" 9.14512
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "inverter_12/VP" 2.28574
+cap "register16_0/csrl_dff1_0/QB" "inverter_5/A" 0.42789
+cap "register16_0/csrl_dff1_0/DB" "register16_0/csrl_dff1_0/a_n950_1180#" -0.113038
+cap "register16_0/csrl_dff1_0/QB" "inverter_12/VP" 0.199769
+cap "register16_0/csrl_dff2_0/QB" "inverter_12/VP" 0.199769
+cap "inverter_3/A" "inverter_12/VP" 0.0602332
+cap "register16_0/csrl_dff1_0/CLK" "inverter_12/VP" 0.145141
+cap "inverter_6/A" "register16_0/csrl_dff2_0/QB" 0.236894
+cap "inverter_1/A" "inverter_12/VP" 0.0602332
+cap "inverter_6/A" "inverter_3/A" 0.0152901
+cap "inverter_3/A" "register16_0/csrl_dff2_0/QB" 0.137408
+cap "inverter_7/A" "inverter_12/VP" 40.7108
+cap "inverter_4/A" "register16_0/csrl_dff1_0/D" 0.0404188
+cap "inverter_5/A" "inverter_6/A" 15.7617
+cap "register16_0/csrl_dff2_1/a_n950_630#" "inverter_3/A" 0.0365987
+cap "inverter_5/Y" "inverter_12/VP" 0.31056
+cap "v_gen_0/a_2640_90#" "register16_0/csrl_dff1_0/CLK" 0.015206
+cap "register16_0/csrl_dff2_0/CLK" "inverter_6/Y" 0.00135579
+cap "inverter_1/A" "inverter_3/A" 11.0187
+cap "inverter_1/A" "inverter_12/VN" 1.33878
+cap "inverter_5/Y" "inverter_5/A" 5.69864
+cap "inverter_12/VP" "register16_0/csrl_dff1_0/DB" 561.524
+cap "inverter_1/A" "register16_0/csrl_dff1_0/QB" 0.639227
+cap "register16_0/csrl_dff2_0/CLK" "inverter_3/A" 0.648649
+cap "register16_0/csrl_dff2_1/a_n950_630#" "register16_0/csrl_dff1_0/D" 2.77556e-17
+cap "register16_0/csrl_dff2_1/a_n950_630#" "inverter_4/A" 0.152381
+cap "inverter_12/VP" "register16_0/csrl_dff2_0/CLK" 0.517139
+cap "inverter_6/A" "register16_0/csrl_dff2_0/QB" 0.230932
+cap "inverter_12/VP" "inverter_5/A" 53.806
+cap "register16_0/csrl_dff1_0/a_n950_630#" "inverter_12/VP" 0.325389
+cap "register16_0/csrl_dff1_0/DB" "register16_0/csrl_dff2_0/CLK" 1.38778e-17
+cap "register16_0/csrl_dff2_1/QB" "inverter_12/VP" 0.610598
+cap "inverter_12/VN" "register16_0/csrl_dff2_0/a_n690_630#" 0.274788
+cap "inverter_5/A" "register16_0/csrl_dff1_0/DB" 0.204958
+cap "inverter_1/A" "register16_0/csrl_dff1_0/D" 0.312104
+cap "inverter_4/A" "inverter_1/A" -0.73487
+cap "inverter_6/Y" "register16_0/csrl_dff2_0/QB" 0.0164429
+cap "inverter_12/VN" "register16_0/csrl_dff1_0/a_n690_630#" 1.32325
+cap "register16_0/csrl_dff2_0/a_n950_630#" "inverter_6/A" 0.0530267
+cap "inverter_3/A" "inverter_6/A" 10.9561
+cap "register16_0/csrl_dff2_1/a_n950_1180#" "inverter_3/A" 0.22749
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "inverter_1/A" 0.227948
+cap "register16_0/csrl_dff2_1/CLK" "inverter_7/Y" 0.0133956
+cap "inverter_12/VN" "inverter_6/A" 43.893
+cap "inverter_12/VP" "register16_0/csrl_dff2_1/CLK" 0.159282
+cap "inverter_6/Y" "inverter_3/A" -2.46596
+cap "register16_0/csrl_dff2_0/a_n950_630#" "inverter_6/Y" 0.0307182
+cap "register16_0/csrl_dff1_0/DB" "register16_0/csrl_dff2_1/CLK" 1.38778e-17
+cap "inverter_7/A" "inverter_12/VN" 0.312631
+cap "inverter_6/Y" "register16_0/csrl_dff1_0/QB" 0.00135579
+cap "inverter_12/VP" "register16_0/csrl_dff2_0/QB" 0.159282
+cap "register16_0/csrl_dff1_0/D" "inverter_6/A" 0.124432
+cap "register16_0/csrl_dff1_0/CLK" "v_gen_0/Vb" 0.0054814
+cap "inverter_5/Y" "register16_0/csrl_dff1_0/QB" 0.00350213
+cap "inverter_7/A" "register16_0/csrl_dff2_1/CLK" 0.0299013
+cap "inverter_12/VP" "inverter_3/A" 90.8272
+cap "inverter_12/VP" "register16_0/csrl_dff2_0/a_n950_630#" 1.92787
+cap "register16_0/csrl_dff1_0/DB" "inverter_3/A" 6.30663
+cap "inverter_4/A" "inverter_7/A" 0.631579
+cap "inverter_12/VP" "inverter_12/VN" 380.596
+cap "inverter_12/VN" "register16_0/csrl_dff1_0/DB" 1.05802
+cap "register16_0/csrl_dff1_0/CLK" "inverter_6/Y" 0.0043363
+cap "inverter_12/VP" "register16_0/csrl_dff1_0/QB" 0.159282
+cap "register16_0/csrl_dff2_0/CLK" "inverter_3/A" 0.405063
+cap "register16_0/csrl_dff1_0/DB" "register16_0/csrl_dff1_0/QB" 1.38778e-17
+cap "inverter_5/A" "inverter_12/VN" 43.5804
+cap "register16_0/csrl_dff2_1/CLK" "inverter_12/VP" 1.7771
+cap "inverter_5/Y" "register16_0/csrl_dff1_0/CLK" 0.0182211
+cap "inverter_12/VP" "register16_0/csrl_dff1_0/D" 1.01734
+cap "v_gen_0/Vb" "inverter_1/A" 4.13513
+cap "inverter_5/A" "register16_0/csrl_dff1_0/QB" 0.583671
+cap "inverter_4/A" "inverter_12/VP" 2.76454
+cap "inverter_4/A" "register16_0/csrl_dff1_0/DB" 0.0508277
+cap "register16_0/csrl_dff2_1/CLK" "inverter_3/A" 0.747059
+cap "register16_0/csrl_dff1_0/CLK" "inverter_12/VP" 0.219056
+cap "register16_0/csrl_dff2_1/a_n690_630#" "inverter_12/VP" 1.04846
+cap "inverter_5/A" "register16_0/csrl_dff1_0/D" 0.162718
+cap "register16_0/csrl_dff2_0/CLK" "inverter_6/A" 0.30954
+cap "inverter_3/A" "register16_0/csrl_dff2_0/QB" 0.0212955
+cap "register16_0/csrl_dff2_0/a_n690_630#" "inverter_6/A" 0.586419
+cap "register16_0/csrl_dff1_0/CLK" "inverter_5/A" 0.0299013
+cap "inverter_5/Y" "inverter_1/A" -0.700549
+cap "inverter_12/VN" "register16_0/csrl_dff2_0/QB" 1.5221
+cap "register16_0/csrl_dff2_1/a_n950_630#" "inverter_12/VP" 0.96131
+cap "register16_0/csrl_dff2_0/a_n950_630#" "inverter_3/A" 0.028866
+cap "inverter_12/VN" "inverter_3/A" 54.8793
+cap "inverter_12/VP" "inverter_1/A" 67.8282
+cap "inverter_1/A" "register16_0/csrl_dff1_0/DB" 4.94944
+cap "inverter_6/Y" "inverter_6/A" 5.69864
+cap "inverter_7/A" "inverter_6/A" 13.9085
+cap "inverter_12/VN" "register16_0/csrl_dff1_0/QB" 1.0017
+cap "register16_0/csrl_dff1_0/a_n950_630#" "inverter_1/A" 1.07413
+cap "inverter_1/A" "inverter_5/A" 7.33653
+cap "inverter_12/VP" "inverter_7/Y" 0.0772758
+cap "inverter_12/VP" "register16_0/csrl_dff2_0/CLK" 0.191978
+cap "register16_0/csrl_dff1_0/D" "inverter_3/A" 1.13925
+cap "inverter_4/A" "inverter_3/A" 12.6887
+cap "inverter_12/VN" "register16_0/csrl_dff1_0/D" 0.706487
+cap "inverter_4/A" "inverter_12/VN" 0.464085
+cap "inverter_12/VP" "v_gen_0/Vb" 1.0982
+cap "inverter_12/VP" "inverter_6/A" 90.9521
+cap "register16_0/csrl_dff1_0/DB" "inverter_6/A" 0.156733
+cap "register16_0/csrl_dff1_0/CLK" "inverter_12/VN" 0.943832
+cap "inverter_12/VP" "inverter_6/Y" 0.955513
+cap "v_gen_0/Vb" "inverter_5/A" 0.839921
+cap "dac_0/dac_unit_0/Vbp" "inverter_12/VN" 3.55959
+cap "inverter_5/A" "dac_0/dac_unit_21/VP" 0.603522
+cap "inverter_5/Y" "inverter_7/Y" -0.0918588
+cap "inverter_12/VN" "inverter_6/A" 3.58561
+cap "dac_0/dac_unit_21/Viup" "inverter_6/Y" 0.954383
+cap "inverter_5/A" "inverter_6/Y" 3.40967
+cap "inverter_12/VN" "inverter_7/Y" 1.12549
+cap "inverter_12/VN" "inverter_7/A" 0.708117
+cap "dac_0/dac_unit_21/VP" "inverter_6/A" 1.29967
+cap "inverter_12/VN" "inverter_5/Y" 10.0811
+cap "inverter_12/VP" "inverter_6/Y" 23.7046
+cap "dac_0/dac_unit_0/Vbp" "inverter_6/Y" 1.6421
+cap "inverter_1/A" "inverter_5/Y" -0.700549
+cap "dac_0/dac_unit_21/VP" "inverter_7/Y" 2.72173
+cap "dac_0/dac_unit_21/VP" "inverter_7/A" 0.0822985
+cap "inverter_3/A" "inverter_6/A" 6.94292
+cap "inverter_6/A" "inverter_6/Y" 7.21444
+cap "dac_0/dac_unit_0/Vbp" "inverter_5/A" 2.99327
+cap "inverter_5/A" "inverter_12/VP" 40.1107
+cap "inverter_1/A" "inverter_12/VN" 0.346167
+cap "inverter_7/Y" "inverter_6/Y" 12.426
+cap "inverter_5/Y" "inverter_6/Y" 12.7966
+cap "dac_0/dac_unit_21/VP" "inverter_12/VN" 5.68434e-14
+cap "register16_0/a_n130_1180#" "inverter_6/Y" 0.0221802
+cap "dac_0/dac_unit_0/Vbp" "inverter_12/VP" 3.39549
+cap "inverter_5/A" "inverter_6/A" 17.2231
+cap "inverter_4/A" "inverter_7/A" 0.631579
+cap "inverter_12/VN" "dac_0/dac_unit_13/Vphi_b" 0.694268
+cap "register16_0/csrl_dff1_0/D" "inverter_6/Y" 0.0198997
+cap "dac_0/dac_unit_0/Vbp" "inverter_6/A" 3.45193
+cap "inverter_12/VP" "inverter_6/A" 39.7925
+cap "inverter_12/VN" "inverter_3/A" 0.273156
+cap "dac_0/dac_unit_21/a_2270_1770#" "inverter_6/Y" 8.91815
+cap "inverter_12/VN" "inverter_6/Y" 33.8228
+cap "inverter_12/VN" "inverter_11/Y" -0.00310144
+cap "inverter_1/A" "inverter_6/Y" 0.000988911
+cap "inverter_5/A" "inverter_5/Y" 6.90797
+cap "dac_0/dac_unit_0/Vbp" "inverter_7/Y" 0.147553
+cap "dac_0/dac_unit_0/Vbp" "inverter_7/A" 0.444522
+cap "inverter_12/VP" "inverter_7/A" 0.691674
+cap "inverter_12/VN" "inverter_4/A" 0.034884
+cap "inverter_12/VP" "inverter_5/Y" 13.3605
+cap "dac_0/dac_unit_21/VP" "inverter_6/Y" 17.015
+cap "dac_0/dac_unit_0/Vbp" "inverter_5/Y" 0.36767
+cap "inverter_7/A" "inverter_6/A" 15.7909
+cap "inverter_5/A" "inverter_12/VN" 2.73928
+cap "inverter_3/A" "inverter_6/Y" -2.42976
+cap "inverter_12/VP" "inverter_12/VN" 140.364
+cap "inverter_1/A" "inverter_5/A" 6.31134
+cap "dac_0/dac_unit_21/VP" "inverter_7/A" 0.0107471
+cap "dac_0/dac_unit_21/VP" "inverter_6/Y" 4.40448
+cap "inverter_6/Y" "dac_0/dac_unit_21/Viup" 0.952915
+cap "inverter_6/Y" "dac_0/dac_unit_21/a_2270_1770#" 8.69936
+cap "dac_0/dac_unit_21/VP" "dac_0/dac_unit_0/Vbp" 2.27374e-13
+cap "dac_0/dac_unit_21/VP" "inverter_7/Y" 1.58617
+cap "dac_0/dac_unit_21/VP" "inverter_7/VP" 0.498211
+cap "dac_0/dac_unit_21/VP" "inverter_6/A" 0.362216
+cap "inverter_12/VN" "dac_0/dac_unit_21/VP" 0.498876
+cap "inverter_12/VN" "dac_0/dac_unit_21/Viup" 0.0346311
+cap "inverter_12/VN" "dac_0/dac_unit_21/a_2270_1770#" 0.715205
+cap "register16_0/csrl_dff1_0/CLK" "v_gen_0/VN" 15.3498
+cap "register16_0/csrl_dff1_0/VP" "register16_0/csrl_dff1_0/CLK" -0.376068
+cap "v_gen_0/Vb" "v_gen_0/VN" 53.66
+cap "v_gen_0/VN" "v_gen_0/a_740_1480#" 4.15229
+cap "v_gen_0/VP" "v_gen_0/Vb" -0.0519961
+cap "register16_0/csrl_dff1_0/CLK" "v_gen_0/Vb" 4.85886
+cap "register16_0/csrl_dff1_0/CLK" "v_gen_0/a_740_1480#" 0.14079
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "register16_0/csrl_dff1_0/DB" -0.357805
+cap "inverter_7/VN" "v_gen_0/a_1630_90#" 5.53639
+cap "v_gen_0/a_1830_90#" "register16_0/csrl_dff1_0/DB" 0.0720992
+cap "register16_0/csrl_dff1_0/D" "inverter_7/VP" 18.2847
+cap "v_gen_0/a_2240_90#" "register16_0/csrl_dff1_0/CLK" 0.14079
+cap "inverter_1/A" "inverter_7/VN" 0.0393486
+cap "v_gen_0/Vb" "register16_0/csrl_dff1_0/a_n950_n280#" 0.229
+cap "inverter_7/VN" "register16_0/csrl_dff1_0/DB" 58.196
+cap "v_gen_0/Vb" "register16_0/csrl_dff1_0/CLK" 3.31718
+cap "register16_0/csrl_dff1_0/CLK" "inverter_7/VP" 7.383
+cap "inverter_7/VN" "v_gen_0/a_1040_1370#" 1.42109e-14
+cap "register16_0/csrl_dff1_0/D" "register16_0/csrl_dff1_0/DB" -4.57861
+cap "v_gen_0/Vb" "inverter_7/VP" 16.4128
+cap "inverter_7/VN" "register16_0/csrl_dff1_0/a_n950_630#" 11.9476
+cap "register16_0/csrl_dff1_0/DB" "register16_0/csrl_dff1_0/CLK" -0.0167849
+cap "register16_0/csrl_dff1_0/CLK" "v_gen_0/a_1040_1370#" 0.0703948
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "inverter_7/VN" 0.065951
+cap "register16_0/csrl_dff1_0/DB" "inverter_7/VP" 143.043
+cap "v_gen_0/Vb" "register16_0/csrl_dff1_0/DB" 6.84785
+cap "inverter_1/A" "v_gen_0/Vb" 0.04501
+cap "v_gen_0/a_1230_90#" "inverter_7/VN" 5.53639
+cap "v_gen_0/Vb" "register16_0/csrl_dff1_0/a_n950_630#" 8.55616
+cap "register16_0/csrl_dff1_0/a_n950_630#" "inverter_7/VP" 1.0394
+cap "inverter_7/VN" "v_gen_0/a_1430_90#" 5.53639
+cap "inverter_7/VN" "register16_0/csrl_dff1_0/QB" 0.02825
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "register16_0/csrl_dff1_0/CLK" -7.10543e-15
+cap "v_gen_0/a_1830_90#" "register16_0/csrl_dff1_0/CLK" 0.0879935
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "inverter_7/VP" 15.086
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "v_gen_0/Vb" 2.47482
+cap "inverter_7/VN" "register16_0/csrl_dff1_0/CLK" 0.717284
+cap "v_gen_0/Vb" "register16_0/csrl_dff1_0/QB" 0.0587527
+cap "inverter_7/VN" "inverter_7/VP" -1.24493
+cap "inverter_7/VN" "v_gen_0/Vb" 367.054
+cap "register16_0/csrl_dff1_0/CLK" "inverter_7/VN" 0.0264646
+cap "inverter_5/A" "register16_0/csrl_dff1_0/D" 0.0332412
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "v_gen_0/Vb" 1.87093
+cap "v_gen_0/Vb" "inverter_7/VP" 76.229
+cap "inverter_7/VN" "register16_0/csrl_dff1_0/D" 0.106589
+cap "inverter_5/A" "v_gen_0/Vb" 3.29732
+cap "v_gen_0/Vb" "inverter_7/VN" 0.396283
+cap "inverter_5/Y" "register16_0/csrl_dff1_0/CLK" 0.0168862
+cap "inverter_5/Y" "register16_0/csrl_dff1_0/D" 0.0117868
+cap "inverter_1/A" "register16_0/csrl_dff1_0/DB" 0.0551081
+cap "inverter_7/VP" "register16_0/csrl_dff1_0/DB" 191.1
+cap "register16_0/csrl_dff1_0/CLK" "inverter_6/Y" 0.00406737
+cap "v_gen_0/a_2440_90#" "register16_0/csrl_dff1_0/D" 0.281033
+cap "inverter_7/VP" "inverter_1/A" 7.8869
+cap "register16_0/csrl_dff1_0/a_n950_1180#" "inverter_7/VP" 0.101466
+cap "inverter_5/A" "inverter_1/A" 0.631579
+cap "inverter_5/A" "inverter_7/VP" 53.6008
+cap "register16_0/csrl_dff1_0/CLK" "v_gen_0/Vb" 1.08616
+cap "inverter_7/VP" "inverter_7/VN" 156.625
+cap "v_gen_0/Vb" "register16_0/csrl_dff1_0/D" 5.67966
+cap "inverter_5/Y" "inverter_7/VP" -0.139709
+cap "register16_0/csrl_dff1_0/CLK" "v_gen_0/a_2640_90#" 0.0351974
+cap "register16_0/csrl_dff1_0/D" "register16_0/csrl_dff1_0/DB" -4.65613
+cap "inverter_7/VP" "inverter_6/Y" -0.114343
+cap "v_gen_0/Vb" "register16_0/csrl_dff1_0/DB" 1.06947
+cap "v_gen_0/Vb" "register16_0/csrl_dff1_0/a_n950_630#" 0.0139136
+cap "register16_0/csrl_dff1_0/D" "inverter_1/A" 0.0721438
+cap "register16_0/csrl_dff1_0/CLK" "inverter_7/VP" 1.16859
+cap "inverter_5/A" "register16_0/csrl_dff1_0/CLK" 0.0266055
+cap "inverter_7/VP" "register16_0/csrl_dff1_0/D" 25.838
+cap "v_gen_0/Vb" "inverter_1/A" 4.51455
+cap "dac_0/dac_unit_21/VP" "inverter_7/VN" 0.340955
+cap "v_gen_0/Vbp" "inverter_7/VN" 0.0468734
+cap "inverter_5/A" "inverter_7/VN" 0.132266
+cap "inverter_5/Y" "inverter_6/Y" 180.076
+cap "dac_0/dac_unit_21/Vbp" "inverter_6/Y" 0.171053
+cap "inverter_7/VP" "v_gen_0/Vbp" 2.86132
+cap "inverter_1/A" "inverter_5/A" 0.631579
+cap "inverter_7/VP" "inverter_5/A" 5.84991
+cap "inverter_6/Y" "v_gen_0/Vcp" 5.35941
+cap "dac_0/dac_unit_21/VP" "inverter_5/Y" 10.2201
+cap "inverter_5/A" "inverter_5/Y" 0.44356
+cap "register16_0/csrl_dff1_0/D" "inverter_5/Y" 0.125036
+cap "inverter_5/A" "dac_0/dac_unit_21/Vbp" 0.444522
+cap "inverter_5/A" "v_gen_0/Vb" 0.00445138
+cap "v_gen_0/Vbp" "dac_0/dac_unit_21/Vbp" 0.0691893
+cap "dac_0/dac_unit_21/VP" "inverter_6/Y" 0.767964
+cap "inverter_5/A" "inverter_6/Y" 0.23418
+cap "dac_0/dac_unit_13/Vphi_b" "inverter_7/VN" 0.187252
+cap "inverter_7/VP" "dac_0/dac_unit_13/Vphi_b" 22.6462
+cap "dac_0/dac_unit_21/VP" "inverter_5/A" 0.216531
+cap "v_gen_0/Vbp" "inverter_5/A" 0.173921
+cap "inverter_7/VP" "inverter_7/VN" 354.048
+cap "inverter_5/Y" "inverter_7/VN" 81.7013
+cap "dac_0/dac_unit_21/Vbp" "inverter_7/VN" 2.49346
+cap "inverter_7/VN" "v_gen_0/Vb" 0.024768
+cap "register16_0/a_n130_1180#" "inverter_5/Y" 0.133563
+cap "inverter_1/A" "inverter_5/Y" 0.0450687
+cap "inverter_7/VP" "inverter_5/Y" 12.1025
+cap "inverter_7/VP" "dac_0/dac_unit_21/Vbp" 4.76866
+cap "dac_0/dac_unit_21/a_2270_1770#" "inverter_6/Y" 1.66703
+cap "inverter_7/VP" "v_gen_0/Vb" 5.35585
+cap "inverter_6/Y" "inverter_7/VN" -0.117571
+cap "inverter_5/Y" "dac_0/dac_unit_21/Vbp" 1.12942
+cap "inverter_5/Y" "v_gen_0/Vcp" -0.0112219
+cap "register16_0/a_n130_1180#" "inverter_6/Y" 0.0310611
+cap "inverter_7/VP" "inverter_6/Y" 110.797
+cap "dac_0/dac_unit_13/Viup" "inverter_5/VP" 0.013479
+cap "inverter_5/Y" "dac_0/dac_unit_21/VP" 4.39539
+cap "inverter_6/Y" "dac_0/dac_unit_21/a_2270_1770#" 1.63113
+cap "inverter_5/VP" "dac_0/dac_unit_21/VP" 0.0301596
+cap "v_gen_0/Vbp" "v_gen_0/VP" 0.103547
+cap "v_gen_0/VN" "v_gen_0/a_940_1480#" 0.00288753
+cap "v_gen_0/VN" "v_gen_0/VP" -15.84
+cap "v_gen_0/VN" "v_gen_0/a_740_1480#" 0.104271
+cap "v_gen_0/a_940_1480#" "v_gen_0/VN" 0.01233
+cap "v_gen_0/VN" "v_gen_0/a_1040_1370#" 0.642668
+cap "v_gen_0/VN" "v_gen_0/a_1230_90#" 2.27374e-13
+cap "v_gen_0/Vb" "v_gen_0/VN" -2.27374e-13
+cap "dac_0/inverter_1/A" "v_gen_0/Vcp" 0.0147058
+cap "v_gen_0/VP" "v_gen_0/Vcp" 0.0269481
+cap "v_gen_0/Vbp" "dac_0/inverter_1/A" 11.6701
+cap "v_gen_0/Vcp" "dac_0/dac_unit_13/Vphi_b" 0.0272899
+cap "v_gen_0/Vcp" "v_gen_0/VP" 226.042
+cap "v_gen_0/VP" "v_gen_0/Vb" 0.58005
+cap "inverter_5/VN" "dac_0/inverter_1/A" 211.672
+cap "v_gen_0/a_1040_1370#" "v_gen_0/VP" 0.331438
+cap "dac_0/inverter_1/A" "dac_0/dac_unit_13/Viup" 1.0751
+cap "v_gen_0/Vcp" "dac_0/inverter_1/A" 3.06227
+cap "dac_0/inverter_1/A" "v_gen_0/VP" 66.1483
+cap "v_gen_0/Vcp" "dac_0/dac_unit_13/Vphi" 5.43467
+cap "v_gen_0/Vbp" "inverter_5/VN" 5.07219
+cap "dac_0/dac_unit_13/Vphi" "v_gen_0/VP" 0.00402576
+cap "v_gen_0/Vbp" "v_gen_0/Vcp" 36.0126
+cap "v_gen_0/Vcp" "dac_0/dac_unit_13/a_2270_1770#" 41.6131
+cap "v_gen_0/Vbp" "v_gen_0/VP" -5.88593
+cap "v_gen_0/Vcp" "inverter_5/VN" 119.212
+cap "v_gen_0/Vcp" "dac_0/inverter_1/Y" 1.63324
+cap "inverter_5/VN" "v_gen_0/VP" 723.876
+cap "v_gen_0/Vbp" "v_gen_0/Vcp" 0.0326344
+cap "dac_0/inverter_1/Y" "v_gen_0/VP" -0.083314
+cap "dac_0/dac_unit_13/a_2870_360#" "dac_0/inverter_1/Y" -0.0036195
+cap "dac_0/dac_unit_13/a_2270_1770#" "v_gen_0/VP" -21.3872
+cap "dac_0/inverter_1/A" "v_gen_0/VP" 14.3854
+cap "dac_0/inverter_1/A" "dac_0/dac_unit_13/a_2870_360#" -0.00275694
+cap "v_gen_0/Vcp" "v_gen_0/VP" 2.35398
+cap "v_gen_0/Vcp" "dac_0/dac_unit_13/a_2270_1770#" 39.2308
+cap "dac_0/dac_unit_13/a_2870_360#" "v_gen_0/Vcp" 0.0880525
+cap "v_gen_0/Vbp" "dac_0/inverter_1/Y" -0.0446985
+cap "v_gen_0/Vbp" "v_gen_0/VP" -0.323303
+cap "dac_0/inverter_1/A" "dac_0/dac_unit_13/Viup" 1.07323
+cap "v_gen_0/Vbp" "dac_0/dac_unit_13/a_2270_1770#" -8.14291
+cap "v_gen_0/Vbp" "dac_0/dac_unit_13/a_2870_360#" -0.00211032
+cap "inverter_5/VN" "v_gen_0/VP" -0.146884
+cap "inverter_5/VN" "dac_0/dac_unit_13/a_2270_1770#" -1.28668
+cap "v_gen_0/VP" "v_gen_0/VN" 5.55112e-17
+cap "v_gen_0/VN" "v_gen_0/Vbp" 5.55112e-17
+cap "v_gen_0/Vbp" "v_gen_0/VN" 3.46945e-18
+cap "dac_0/inverter_1/A" "v_gen_0/Vbp" 0.0443785
+cap "v_gen_0/Vcp" "v_gen_0/Vbp" 0.000453372
+cap "v_gen_0/a_2330_1480#" "v_gen_0/Vbp" 7.10543e-15
+cap "dac_0/inverter_1/Y" "v_gen_0/Vbp" 0.0612437
+cap "v_gen_0/VP" "dac_0/inverter_1/VN" 359.145
+cap "dac_0/inverter_1/A" "dac_0/inverter_1/Y" -5.43583
+cap "v_gen_0/Vbp" "dac_0/inverter_1/A" 95.0606
+cap "v_gen_0/VP" "dac_0/dac_unit_13/a_3270_1770#" 0.224118
+cap "v_gen_0/VP" "dac_0/inverter_1/A" 408.418
+cap "v_gen_0/Vbp" "dac_0/inverter_1/Y" 8.18127
+cap "v_gen_0/VP" "dac_0/inverter_1/Y" 206.8
+cap "v_gen_0/Vbp" "v_gen_0/VP" -12.985
+cap "v_gen_0/a_2330_1480#" "dac_0/inverter_1/A" 0.0416606
+cap "dac_0/dac_unit_13/a_2270_1770#" "v_gen_0/Vcp" 173.701
+cap "v_gen_0/a_2330_1480#" "dac_0/inverter_1/Y" 0.0228822
+cap "dac_0/dac_unit_13/a_2270_1770#" "dac_0/inverter_1/A" -1.77472
+cap "dac_0/dac_unit_13/a_2270_1770#" "dac_0/inverter_1/Y" -7.97824
+cap "dac_0/dac_unit_13/a_2270_1770#" "v_gen_0/VP" -5.61239
+cap "v_gen_0/Vcp" "dac_0/inverter_1/VN" 8.36231
+cap "dac_0/inverter_1/A" "v_gen_0/a_1040_1370#" 0.0268446
+cap "dac_0/inverter_1/A" "v_gen_0/Vcp" 39.9466
+cap "dac_0/inverter_1/A" "dac_0/inverter_1/VN" 16.24
+cap "v_gen_0/Vcp" "dac_0/inverter_1/Y" 40.4292
+cap "v_gen_0/Vbp" "v_gen_0/Vcp" 96.0702
+cap "dac_0/inverter_1/VN" "dac_0/inverter_1/Y" -7.42155
+cap "v_gen_0/VP" "v_gen_0/Vcp" 380.801
+cap "v_gen_0/Vbp" "dac_0/inverter_1/VN" 4.47073
+cap "v_gen_0/Vcp" "v_gen_0/VP" 4.82614
+cap "dac_0/dac_unit_13/a_2270_1770#" "dac_0/inverter_1/Y" -47.757
+cap "dac_0/dac_unit_13/a_2270_1770#" "dac_0/inverter_1/A" -30.7545
+cap "v_gen_0/Vcp" "dac_0/inverter_1/Y" 78.9584
+cap "v_gen_0/Vcp" "dac_0/inverter_1/A" 82.7169
+cap "v_gen_0/VP" "dac_0/inverter_1/Y" -1.52912
+cap "dac_0/dac_unit_13/a_2270_1770#" "v_gen_0/Vbp" -51.8878
+cap "v_gen_0/VP" "dac_0/inverter_1/A" -0.518868
+cap "dac_0/dac_unit_13/a_2870_360#" "v_gen_0/Vcp" 0.0880525
+cap "v_gen_0/Vcp" "v_gen_0/Vbp" 80.1554
+cap "dac_0/inverter_1/Y" "dac_0/inverter_1/A" -6.78487
+cap "v_gen_0/Vcp" "dac_0/dac_unit_13/a_2270_1770#" 424.231
+cap "dac_0/inverter_1/Y" "v_gen_0/Vbp" -25.2495
+cap "dac_0/dac_unit_13/a_2270_1770#" "dac_0/inverter_1/VN" -3.9868
+cap "v_gen_0/VP" "dac_0/dac_unit_13/a_2270_1770#" -109.077
+cap "v_gen_0/Vcp" "dac_0/dac_unit_13/Viup" 0.00196651
+merge "register16_0/csrl_dff2_6/Q" "Vff8" -33.031 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1600 -160 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_3/Y" "inverter_6/A" -235.098 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -100 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/inverter_2/VN" "v_gen_0/VN" -7736.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -460800 -18740 0 0 0 0 0 0 0 0 0 0
+merge "v_gen_0/VN" "VN"
+merge "VN" "register16_0/csrl_dff1_0/VN"
+merge "register16_0/csrl_dff1_0/VN" "m1_n13290_13690#"
+merge "m1_n13290_13690#" "inverter_1/VN"
+merge "inverter_1/VN" "m1_n10130_13280#"
+merge "m1_n10130_13280#" "m1_n10140_12580#"
+merge "m1_n10140_12580#" "inverter_3/VN"
+merge "inverter_3/VN" "inverter_5/VN"
+merge "inverter_5/VN" "inverter_6/VN"
+merge "inverter_6/VN" "dac_0/inverter_3/VN"
+merge "dac_0/inverter_3/VN" "inverter_4/VN"
+merge "inverter_4/VN" "m1_n10130_11880#"
+merge "m1_n10130_11880#" "m1_n10130_11180#"
+merge "m1_n10130_11180#" "inverter_7/VN"
+merge "inverter_7/VN" "inverter_8/VN"
+merge "inverter_8/VN" "inverter_11/VN"
+merge "inverter_11/VN" "inverter_9/VN"
+merge "inverter_9/VN" "m1_n10130_10480#"
+merge "m1_n10130_10480#" "m1_n10130_9780#"
+merge "m1_n10130_9780#" "inverter_10/VN"
+merge "inverter_10/VN" "inverter_12/VN"
+merge "inverter_12/VN" "inverter_13/VN"
+merge "inverter_13/VN" "dac_0/inverter_4/VN"
+merge "dac_0/inverter_4/VN" "inverter_2/VN"
+merge "inverter_2/VN" "m1_n10130_9080#"
+merge "m1_n10130_9080#" "inverter_0/VN"
+merge "inverter_0/VN" "register16_0/csrl_dff2_10/VN"
+merge "register16_0/csrl_dff2_10/VN" "dac_0/inverter_5/VN"
+merge "dac_0/inverter_5/VN" "register16_0/csrl_dff2_12/VN"
+merge "register16_0/csrl_dff2_12/VN" "dac_0/inverter_0/VN"
+merge "dac_0/inverter_0/VN" "register16_0/VSUBS"
+merge "register16_0/VSUBS" "register16_0/csrl_dff3_0/VN"
+merge "register16_0/csrl_dff3_0/VN" "dac_0/VSUBS"
+merge "dac_0/VSUBS" "filter_0/VN"
+merge "filter_0/VN" "li_n11530_3870#"
+merge "li_n11530_3870#" "VSUBS"
+merge "dac_0/dac_unit_13/VP" "dac_0/dac_unit_21/VP" -7714.61 0 0 0 0 -19600 -4060 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -446900 -15420 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/dac_unit_21/VP" "v_gen_0/VP"
+merge "v_gen_0/VP" "VP"
+merge "VP" "inverter_1/VP"
+merge "inverter_1/VP" "inverter_3/VP"
+merge "inverter_3/VP" "inverter_6/VP"
+merge "inverter_6/VP" "inverter_5/VP"
+merge "inverter_5/VP" "register16_0/csrl_dff1_0/VP"
+merge "register16_0/csrl_dff1_0/VP" "inverter_4/VP"
+merge "inverter_4/VP" "inverter_7/VP"
+merge "inverter_7/VP" "inverter_8/VP"
+merge "inverter_8/VP" "inverter_11/VP"
+merge "inverter_11/VP" "inverter_9/VP"
+merge "inverter_9/VP" "inverter_12/VP"
+merge "inverter_12/VP" "inverter_10/VP"
+merge "inverter_10/VP" "inverter_13/VP"
+merge "inverter_13/VP" "inverter_2/VP"
+merge "inverter_2/VP" "li_n11980_13790#"
+merge "li_n11980_13790#" "inverter_0/VP"
+merge "inverter_10/Y" "inverter_13/A" -244.768 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -100 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_9/Y" "inverter_12/A" -245.624 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -100 0 0 0 0 0 0 0 0 0 0 0 0
+merge "register16_0/csrl_dff1_0/CLK" "CLK" -105.475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7200 -340 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/dac_unit_21/Vphi" "inverter_7/Y" -327.264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5200 -420 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_7/Y" "li_n10150_11800#"
+merge "register16_0/csrl_dff2_1/Q" "inverter_4/A" -289.796 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10000 -660 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_4/A" "Vphi3"
+merge "register16_0/csrl_dff2_12/Q" "Vff14" -29.9118 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1600 -160 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_12/Y" "dac_0/dac_unit_6/Vphi" -685.746 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7200 -460 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/dac_unit_6/Vphi" "dac_0/inverter_5/A"
+merge "dac_0/inverter_5/A" "li_n10140_10400#"
+merge "register16_0/csrl_dff2_4/Q" "inverter_10/A" -340.795 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9200 -620 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_10/A" "Vphi6"
+merge "dac_0/dac_unit_37/Viun" "dac_0/dac_unit_36/Viun" -3320.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7700 -430 -1014200 -22720 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/dac_unit_36/Viun" "filter_0/Viout-"
+merge "filter_0/Viout-" "li_n10380_1490#"
+merge "dac_0/dac_unit_13/Vcp" "v_gen_0/Vcp" -805.035 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3300 -280 0 0 -8000 -360 0 0 0 0 0 0 0 0 0 0 0 0
+merge "v_gen_0/Vcp" "a_n10020_16120#"
+merge "v_gen_0/Vb" "Vb" -125.411 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4000 -280 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/dac_unit_13/Vbp" "dac_0/dac_unit_21/Vbp" -143.808 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3000 -320 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/dac_unit_21/Vbp" "dac_0/Vbp"
+merge "dac_0/Vbp" "v_gen_0/Vbp"
+merge "v_gen_0/Vbp" "a_n9960_17590#"
+merge "inverter_11/Y" "dac_0/dac_unit_0/Vphi" -584.013 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -380 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/dac_unit_0/Vphi" "dac_0/inverter_4/A"
+merge "dac_0/inverter_4/A" "li_n10150_11100#"
+merge "dac_0/dac_unit_37/Viup" "dac_0/dac_unit_36/Viup" -6849.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10100 -520 -1733900 -42620 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/dac_unit_36/Viup" "filter_0/Viout+"
+merge "filter_0/Viout+" "li_n14550_1530#"
+merge "register16_0/csrl_dff2_2/Q" "inverter_8/A" -310.648 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8800 -600 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_8/A" "Vphi4"
+merge "register16_0/csrl_dff2_5/Q" "inverter_2/A" -340.453 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10800 -700 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_2/A" "Vphi7"
+merge "inverter_13/Y" "dac_0/Vphi6" -818.357 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -126400 -6400 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/Vphi6" "dac_0/dac_unit_26/Vphi"
+merge "dac_0/dac_unit_26/Vphi" "li_n10180_9700#"
+merge "register16_0/csrl_dff2_10/Q" "Vff12" -30.1931 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1600 -160 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/inverter_1/A" "inverter_5/Y" -923.394 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -340 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_5/Y" "li_n10150_13200#"
+merge "dac_0/dac_unit_13/Vphi" "dac_0/inverter_2/A" -456.021 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3200 -360 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/inverter_2/A" "inverter_6/Y"
+merge "inverter_6/Y" "li_n10140_12500#"
+merge "register16_0/csrl_dff2_0/Q" "inverter_3/A" -219.915 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6800 -500 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_3/A" "Vphi2"
+merge "inverter_0/Y" "dac_0/inverter_0/A" -1638.72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -127200 -6400 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/inverter_0/A" "li_n10150_9000#"
+merge "inverter_2/Y" "inverter_0/A" -164.285 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -100 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/li_n690_2810#" "dac_0/inverter_1/Y" -245.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -104080 -2842 0 0 0 0 0 0 0 0 0 0
+merge "dac_0/inverter_1/Y" "m1_n9090_17470#"
+merge "filter_0/Vout+" "Voutp" -85.2022 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8400 -380 0 0 0 0 0 0 0 0 0 0 0 0
+merge "register16_0/csrl_dff2_9/Q" "Vff11" -30.1931 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1600 -160 0 0 0 0 0 0 0 0 0 0 0 0
+merge "register16_0/csrl_dff2_3/Q" "register16_0/Vphi5" -339.744 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9600 -640 0 0 0 0 0 0 0 0 0 0 0 0
+merge "register16_0/Vphi5" "inverter_9/A"
+merge "inverter_9/A" "Vphi5"
+merge "inverter_1/Y" "inverter_5/A" -217.83 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -100 0 0 0 0 0 0 0 0 0 0 0 0
+merge "filter_0/Vout-" "Voutn" -346.786 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4800 -280 0 0 0 0 0 0 0 0 0 0 0 0
+merge "register16_0/csrl_dff2_7/Q" "Vff9" -30.1931 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1600 -160 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_4/Y" "inverter_7/A" -240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -100 0 0 0 0 0 0 0 0 0 0 0 0
+merge "register16_0/csrl_dff1_0/Q" "inverter_1/A" -230.204 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10000 -660 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_1/A" "Vphi1"
+merge "register16_0/csrl_dff2_13/Q" "Vff15" -34.5712 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1600 -160 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_8/Y" "inverter_11/A" -241.604 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -100 0 0 0 0 0 0 0 0 0 0 0 0
+merge "register16_0/csrl_dff2_11/Q" "Vff13" -29.9118 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1600 -160 0 0 0 0 0 0 0 0 0 0 0 0
+merge "register16_0/csrl_dff2_8/Q" "Vff10" -30.1931 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1600 -160 0 0 0 0 0 0 0 0 0 0 0 0
+merge "register16_0/csrl_dff3_0/Q" "Vff16" -77.4625 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6000 -320 0 0 0 0 0 0 0 0 0 0
