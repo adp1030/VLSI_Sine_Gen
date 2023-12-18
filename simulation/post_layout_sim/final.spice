@@ -1,4 +1,4 @@
-* NGSPICE file created from final.ext - technology: sky130A
+* SPICE3 file created from final.ext - technology: sky130A
 
 .subckt v_gen VP VN Vb Vbp Vcp
 X0 Vbp VP VP VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=6.5 as=3 ps=13 w=6 l=0.5
@@ -65,12 +65,12 @@ Xdac_unit_4 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
 Xdac_unit_5 Vbp Vcp Vphi1 inverter_1/Y Viout+ Viout- VP dac_unit
 Xdac_unit_6 Vbp Vcp Vphi5 inverter_5/Y Viout+ Viout- VP dac_unit
 Xinverter_0 Vphi7 inverter_0/Y VP VN inverter
-Xinverter_1 Vphi1 inverter_1/Y VP VN inverter
 Xdac_unit_7 Vbp Vcp Vphi4 inverter_4/Y Viout+ Viout- VP dac_unit
-Xinverter_2 Vphi2 inverter_2/Y VP VN inverter
+Xinverter_1 Vphi1 inverter_1/Y VP VN inverter
 Xdac_unit_8 Vbp Vcp Vphi4 inverter_4/Y Viout+ Viout- VP dac_unit
-Xinverter_3 Vphi3 inverter_3/Y VP VN inverter
+Xinverter_2 Vphi2 inverter_2/Y VP VN inverter
 Xdac_unit_9 Vbp Vcp Vphi4 inverter_4/Y Viout+ Viout- VP dac_unit
+Xinverter_3 Vphi3 inverter_3/Y VP VN inverter
 Xinverter_4 Vphi4 inverter_4/Y VP VN inverter
 Xinverter_5 Vphi5 inverter_5/Y VP VN inverter
 Xinverter_6 Vphi6 inverter_6/Y VP VN inverter
@@ -78,36 +78,36 @@ Xdac_unit_40 Vbp Vcp Vphi1 inverter_1/Y Viout+ Viout- VP dac_unit
 Xdac_unit_30 Vbp Vcp Vphi6 inverter_6/Y Viout+ Viout- VP dac_unit
 Xdac_unit_20 Vbp Vcp Vphi5 inverter_5/Y Viout+ Viout- VP dac_unit
 Xdac_unit_31 Vbp Vcp Vphi6 inverter_6/Y Viout+ Viout- VP dac_unit
-Xdac_unit_21 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
 Xdac_unit_10 Vbp Vcp Vphi4 inverter_4/Y Viout+ Viout- VP dac_unit
+Xdac_unit_21 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
 Xdac_unit_32 Vbp Vcp Vphi6 inverter_6/Y Viout+ Viout- VP dac_unit
-Xdac_unit_22 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
 Xdac_unit_11 Vbp Vcp Vphi4 inverter_4/Y Viout+ Viout- VP dac_unit
+Xdac_unit_22 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
 Xdac_unit_33 Vbp Vcp Vphi6 inverter_6/Y Viout+ Viout- VP dac_unit
-Xdac_unit_23 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
 Xdac_unit_12 Vbp Vcp Vphi4 inverter_4/Y Viout+ Viout- VP dac_unit
+Xdac_unit_23 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
 Xdac_unit_34 Vbp Vcp Vphi6 inverter_6/Y Viout+ Viout- VP dac_unit
-Xdac_unit_35 Vbp Vcp Vphi1 inverter_1/Y Viout+ Viout- VP dac_unit
 Xdac_unit_13 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
-Xdac_unit_25 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
-Xdac_unit_24 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
 Xdac_unit_14 Vbp Vcp Vphi4 inverter_4/Y Viout+ Viout- VP dac_unit
+Xdac_unit_24 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
+Xdac_unit_25 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
+Xdac_unit_35 Vbp Vcp Vphi1 inverter_1/Y Viout+ Viout- VP dac_unit
 Xdac_unit_36 Vbp Vcp Vphi7 inverter_0/Y Viout+ Viout- VP dac_unit
 Xdac_unit_15 Vbp Vcp Vphi5 inverter_5/Y Viout+ Viout- VP dac_unit
-Xdac_unit_37 Vbp Vcp Vphi7 inverter_0/Y Viout+ Viout- VP dac_unit
 Xdac_unit_26 Vbp Vcp Vphi6 inverter_6/Y Viout+ Viout- VP dac_unit
+Xdac_unit_37 Vbp Vcp Vphi7 inverter_0/Y Viout+ Viout- VP dac_unit
+Xdac_unit_16 Vbp Vcp Vphi5 inverter_5/Y Viout+ Viout- VP dac_unit
 Xdac_unit_27 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
 Xdac_unit_38 Vbp Vcp Vphi7 inverter_0/Y Viout+ Viout- VP dac_unit
-Xdac_unit_16 Vbp Vcp Vphi5 inverter_5/Y Viout+ Viout- VP dac_unit
-Xdac_unit_28 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
 Xdac_unit_17 Vbp Vcp Vphi5 inverter_5/Y Viout+ Viout- VP dac_unit
-Xdac_unit_29 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
+Xdac_unit_28 Vbp Vcp Vphi3 inverter_3/Y Viout+ Viout- VP dac_unit
 Xdac_unit_18 Vbp Vcp Vphi5 inverter_5/Y Viout+ Viout- VP dac_unit
+Xdac_unit_29 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
 Xdac_unit_19 Vbp Vcp Vphi5 inverter_5/Y Viout+ Viout- VP dac_unit
 Xdac_unit_0 Vbp Vcp Vphi4 inverter_4/Y Viout+ Viout- VP dac_unit
 Xdac_unit_1 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
-Xdac_unit_3 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
 Xdac_unit_2 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
+Xdac_unit_3 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
 .ends
 
 .subckt filter VN Vout- Vout+ a_1090_2450#

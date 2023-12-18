@@ -59,8 +59,8 @@ X0 Y A VN VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
 X1 Y A VP VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
 .ends
 
-.subckt dac Vcp VP Vphi1 VN Vphi7 Vphi5 Vphi2 Viout+ Vbp Viout- Vphi3 Vphi4 inverter_1/Y
-+ Vphi6
+.subckt dac Vcp VP Vphi1 Vphi6 Vphi7 Vphi5 VN Vphi2 Viout+ Vbp Vphi4 Viout- Vphi3
++ inverter_1/Y
 Xdac_unit_4 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
 Xdac_unit_5 Vbp Vcp Vphi1 inverter_1/Y Viout+ Viout- VP dac_unit
 Xdac_unit_6 Vbp Vcp Vphi5 inverter_5/Y Viout+ Viout- VP dac_unit
@@ -110,17 +110,17 @@ Xdac_unit_3 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
 Xdac_unit_2 Vbp Vcp Vphi2 inverter_2/Y Viout+ Viout- VP dac_unit
 .ends
 
-.subckt filter VN Vout- Vout+ a_1090_2450#
-X0 Viout+ a_2360_6260# VN sky130_fd_pr__res_xhigh_po_0p35 l=3.5
-X1 VN a_2360_6260# VN sky130_fd_pr__res_xhigh_po_0p35 l=3.5
-X2 VN a_2360_1100# VN sky130_fd_pr__res_xhigh_po_0p35 l=3.5
-X3 a_1460_5820# a_1090_2450# sky130_fd_pr__cap_mim_m3_1 l=10 w=8
-X4 Viout- a_2360_1100# VN sky130_fd_pr__res_xhigh_po_0p35 l=3.5
-X5 a_1460_5820# Vout+ VN sky130_fd_pr__res_xhigh_po_0p35 l=3.5
-X6 a_1090_2450# Viout- VN sky130_fd_pr__res_xhigh_po_0p35 l=3.5
-X7 a_1090_2450# Vout- VN sky130_fd_pr__res_xhigh_po_0p35 l=3.5
-X8 a_1460_5820# Viout+ VN sky130_fd_pr__res_xhigh_po_0p35 l=3.5
-X9 Vout+ Vout- sky130_fd_pr__cap_mim_m3_1 l=10 w=8
+.subckt filter VN Vout- Vout+ Viout- Viout+
+X0 a_n750_1380# Vout+ VN sky130_fd_pr__res_xhigh_po l=3.5
+X1 a_n270_1030# VN VN sky130_fd_pr__res_xhigh_po l=3.5
+X2 a_1640_1100# VN VN sky130_fd_pr__res_xhigh_po l=3.5
+X3 a_2570_3400# Viout- VN sky130_fd_pr__res_xhigh_po l=3.5
+X4 a_n270_1030# Viout+ VN sky130_fd_pr__res_xhigh_po l=3.5
+X5 a_1640_1100# Viout- VN sky130_fd_pr__res_xhigh_po l=3.5
+X6 Vout+ Vout- sky130_fd_pr__cap_mim_m3_1 l=10 w=8
+X7 Vout- a_2570_3400# VN sky130_fd_pr__res_xhigh_po l=3.5
+X8 a_n750_1380# Viout+ VN sky130_fd_pr__res_xhigh_po l=3.5
+X9 a_n750_1380# a_2570_3400# sky130_fd_pr__cap_mim_m3_1 l=10 w=8
 .ends
 
 .subckt csrl_dff2 D DB Q QB CLK VP VN
@@ -174,8 +174,8 @@ X12 QB Q a_n690_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1
 X13 a_n950_1180# CLK D VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.55 ps=3.1 w=1 l=0.15
 .ends
 
-.subckt register16 Vphi3 csrl_dff3_0/VP Vphi7 Vphi1 Vphi5 Vphi2 Vphi4 Vphi6 csrl_dff3_0/CLK
-+ csrl_dff3_0/Q VSUBS
+.subckt register16 Vphi3 csrl_dff3_0/VP Vphi1 Vphi7 Vphi5 Vphi2 Vphi4 Vphi6 csrl_dff3_0/CLK
++ VSUBS
 Xcsrl_dff2_10 csrl_dff2_9/Q csrl_dff2_9/QB csrl_dff2_11/D csrl_dff2_11/DB csrl_dff3_0/CLK
 + csrl_dff3_0/VP VSUBS csrl_dff2
 Xcsrl_dff2_11 csrl_dff2_11/D csrl_dff2_11/DB csrl_dff2_12/D csrl_dff2_12/DB csrl_dff3_0/CLK
@@ -210,12 +210,28 @@ Xcsrl_dff1_0 csrl_dff3_0/Q csrl_dff3_0/QB Vphi1 csrl_dff2_0/DB csrl_dff3_0/CLK c
 + VSUBS csrl_dff1
 .ends
 
-.subckt final Vb CLK VP VN Vout+ Vout- Vff16
+
+* Top level circuit final
+
 Xv_gen_0 VP VN Vb dac_0/Vbp dac_0/Vcp v_gen
-Xdac_0 dac_0/Vcp VP dac_0/Vphi1 VN dac_0/Vphi7 dac_0/Vphi5 dac_0/Vphi2 VN dac_0/Vbp
-+ dac_0/Viout- dac_0/Vphi3 dac_0/Vphi4 dac_0/inverter_1/Y dac_0/Vphi6 dac
-Xfilter_0 VN VN VN Vout- filter
-Xregister16_0 dac_0/Vphi3 VP dac_0/Vphi7 dac_0/Vphi1 dac_0/Vphi5 dac_0/Vphi2 dac_0/Vphi4
-+ dac_0/Vphi6 CLK Vff16 VN register16
-.ends
+Xdac_0 dac_0/Vcp VP dac_0/Vphi1 dac_0/Vphi6 dac_0/Vphi7 dac_0/Vphi5 VN dac_0/Vphi2
++ dac_0/Viout+ dac_0/Vbp dac_0/Vphi4 dac_0/Viout- dac_0/Vphi3 dac_0/inverter_1/Y dac
+Xinverter_0 inverter_2/Y dac_0/Vphi7 VP VN inverter
+Xinverter_1 inverter_1/A inverter_5/A VP VN inverter
+Xinverter_2 inverter_2/A inverter_2/Y VP VN inverter
+Xinverter_3 inverter_3/A inverter_6/A VP VN inverter
+Xinverter_4 inverter_4/A inverter_7/A VP VN inverter
+Xinverter_5 inverter_5/A dac_0/Vphi1 VP VN inverter
+Xinverter_6 inverter_6/A dac_0/Vphi2 VP VN inverter
+Xinverter_7 inverter_7/A dac_0/Vphi3 VP VN inverter
+Xinverter_8 inverter_8/A inverter_8/Y VP VN inverter
+Xinverter_9 inverter_9/A inverter_9/Y VP VN inverter
+Xfilter_0 VN Vout- Vout+ dac_0/Viout- dac_0/Viout+ filter
+Xinverter_10 inverter_10/A inverter_13/A VP VN inverter
+Xinverter_11 inverter_8/Y dac_0/Vphi4 VP VN inverter
+Xregister16_0 inverter_4/A VP inverter_1/A inverter_2/A inverter_9/A inverter_3/A
++ inverter_8/A inverter_10/A CLK VN register16
+Xinverter_12 inverter_9/Y dac_0/Vphi5 VP VN inverter
+Xinverter_13 inverter_13/A dac_0/Vphi6 VP VN inverter
+.end
 

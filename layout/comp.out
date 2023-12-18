@@ -7,14 +7,6 @@ Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v
 Equate elements:  no current cell.
 Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
 
-Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
-Equate elements:  no current cell.
-Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
-
-Circuit 1 cell sky130_fd_pr__res_xhigh_po and Circuit 2 cell sky130_fd_pr__res_xhigh_po are black boxes.
-Equate elements:  no current cell.
-Device classes sky130_fd_pr__res_xhigh_po and sky130_fd_pr__res_xhigh_po are equivalent.
-
 Subcircuit summary:
 Circuit 1: inverter                        |Circuit 2: inverter                        
 -------------------------------------------|-------------------------------------------
@@ -35,6 +27,14 @@ VDD                                        |VP **Mismatch**
 ---------------------------------------------------------------------------------------
 Cell pin lists for inverter and inverter altered to match.
 Device classes inverter and inverter are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po and Circuit 2 cell sky130_fd_pr__res_xhigh_po are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__res_xhigh_po and sky130_fd_pr__res_xhigh_po are equivalent.
 Flattening unmatched subcell dac_unit_lds2 in circuit dac (0)(40 instances)
 Flattening unmatched subcell dac_unit in circuit dac (1)(40 instances)
 
@@ -92,26 +92,26 @@ Circuit 1: final_lds.spice                 |Circuit 2: final.spice
 -------------------------------------------|-------------------------------------------
 sky130_fd_pr__pfet_01v8 (610->443)         |sky130_fd_pr__pfet_01v8 (610->443)         
 sky130_fd_pr__nfet_01v8 (130->127)         |sky130_fd_pr__nfet_01v8 (130->127)         
+inverter (21)                              |inverter (21)                              
 sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (2)             
 sky130_fd_pr__res_xhigh_po (6)             |sky130_fd_pr__res_xhigh_po (8->6)          
-inverter (7)                               |inverter (7)                               
-Number of devices: 585                     |Number of devices: 585                     
-Number of nets: 247                        |Number of nets: 247                        
+Number of devices: 599                     |Number of devices: 599                     
+Number of nets: 261                        |Number of nets: 261                        
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
 Resolving symmetries by pin name.
 Netlists match with 58 symmetries with property errors.
-filter_lvs:3/sky130_fd_pr__res_xhigh_po:R12 vs. filter_0/sky130_fd_pr__res_xhigh_po:0:
+filter_lvs:3/sky130_fd_pr__res_xhigh_po:R12 vs. filter_0/sky130_fd_pr__res_xhigh_po:1:
 Property W in circuit1 has no matching property in circuit2
 filter_lvs:3/sky130_fd_pr__res_xhigh_po:R11 vs. filter_0/sky130_fd_pr__res_xhigh_po:2:
 Property W in circuit1 has no matching property in circuit2
-filter_lvs:3/sky130_fd_pr__res_xhigh_po:R8 vs. filter_0/sky130_fd_pr__res_xhigh_po:6:
+filter_lvs:3/sky130_fd_pr__res_xhigh_po:R8 vs. filter_0/sky130_fd_pr__res_xhigh_po:3:
  L circuit1: 10   circuit2: 3.5   (delta=96.3%, cutoff=1%)
-filter_lvs:3/sky130_fd_pr__res_xhigh_po:R8 vs. filter_0/sky130_fd_pr__res_xhigh_po:6:
+filter_lvs:3/sky130_fd_pr__res_xhigh_po:R8 vs. filter_0/sky130_fd_pr__res_xhigh_po:3:
 Property W in circuit1 has no matching property in circuit2
-filter_lvs:3/sky130_fd_pr__res_xhigh_po:R9 vs. filter_0/sky130_fd_pr__res_xhigh_po:5:
+filter_lvs:3/sky130_fd_pr__res_xhigh_po:R9 vs. filter_0/sky130_fd_pr__res_xhigh_po:0:
  L circuit1: 10   circuit2: 3.5   (delta=96.3%, cutoff=1%)
-filter_lvs:3/sky130_fd_pr__res_xhigh_po:R9 vs. filter_0/sky130_fd_pr__res_xhigh_po:5:
+filter_lvs:3/sky130_fd_pr__res_xhigh_po:R9 vs. filter_0/sky130_fd_pr__res_xhigh_po:0:
 Property W in circuit1 has no matching property in circuit2
 filter_lvs:3/sky130_fd_pr__res_xhigh_po:R7 vs. filter_0/sky130_fd_pr__res_xhigh_po:7:
  L circuit1: 10   circuit2: 3.5   (delta=96.3%, cutoff=1%)
