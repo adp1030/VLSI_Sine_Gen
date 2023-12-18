@@ -5,40 +5,24 @@ K {}
 V {}
 S {}
 E {}
-N 300 40 300 60 {
+N 1080 270 1080 290 {
 lab=Vbp}
-N 300 40 560 40 {
+N 1210 500 1210 520 {
 lab=Vbp}
-N 560 40 560 60 {
+N 1210 270 1210 290 {
 lab=Vbp}
-N 430 40 430 60 {
+N 1030 270 1080 270 {
 lab=Vbp}
-N 250 40 300 40 {
-lab=Vbp}
-N 250 20 590 20 {
+N 1240 480 1240 520 {
 lab=Vcp}
-N 590 20 590 60 {
+N 1240 250 1240 290 {
 lab=Vcp}
-N 460 20 460 60 {
+N 1110 250 1110 290 {
 lab=Vcp}
-N 330 20 330 60 {
-lab=Vcp}
-N 250 110 260 110 {
+N 1040 340 1170 340 {
 lab=Vphi1}
-N 250 130 260 130 {
-lab=Vphi1b}
-N 260 110 390 110 {
-lab=Vphi1}
-N 390 110 520 110 {
-lab=Vphi1}
-N 260 130 390 130 {
-lab=Vphi1b}
-N 390 130 520 130 {
-lab=Vphi1b}
-N 100 20 250 20 {
-lab=Vcp}
-N 100 40 250 40 {
-lab=Vbp}
+N 1040 360 1170 360 {
+lab=#net1}
 N 300 270 300 290 {
 lab=Vbp}
 N 300 270 560 270 {
@@ -59,10 +43,6 @@ N 330 250 330 290 {
 lab=Vcp}
 N 150 250 250 250 {
 lab=Vcp}
-N 150 20 150 250 {
-lab=Vcp}
-N 120 40 120 270 {
-lab=Vbp}
 N 120 270 250 270 {
 lab=Vbp}
 N 690 270 690 290 {
@@ -87,8 +67,6 @@ N 590 250 640 250 {
 lab=Vcp}
 N 560 270 640 270 {
 lab=Vbp}
-N 250 340 260 340 {
-lab=Vphi2}
 N 260 340 390 340 {
 lab=Vphi2}
 N 390 340 520 340 {
@@ -97,56 +75,54 @@ N 520 340 650 340 {
 lab=Vphi2}
 N 650 340 780 340 {
 lab=Vphi2}
-N 250 360 260 360 {
-lab=Vphi2b}
 N 260 360 390 360 {
-lab=Vphi2b}
+lab=#net2}
 N 390 360 520 360 {
-lab=Vphi2b}
+lab=#net2}
 N 520 360 650 360 {
-lab=Vphi2b}
+lab=#net2}
 N 650 360 780 360 {
-lab=Vphi2b}
+lab=#net2}
 N 780 360 910 360 {
-lab=Vphi2b}
+lab=#net2}
 N 780 340 910 340 {
 lab=Vphi2}
-N 300 180 300 220 {
-lab=#net1}
-N 430 180 430 220 {
-lab=#net1}
-N 560 180 560 220 {
-lab=#net1}
-N 330 180 330 200 {
-lab=#net2}
-N 460 180 460 200 {
-lab=#net2}
-N 590 180 590 200 {
-lab=#net2}
+N 1080 410 1080 450 {
+lab=Viout+}
+N 1210 410 1210 450 {
+lab=Viout+}
+N 1210 640 1210 680 {
+lab=Viout+}
+N 1110 410 1110 430 {
+lab=Viout-}
+N 1240 410 1240 430 {
+lab=Viout-}
+N 1240 640 1240 660 {
+lab=Viout-}
 N 300 410 300 450 {
-lab=#net1}
+lab=Viout+}
 N 430 410 430 450 {
-lab=#net1}
+lab=Viout+}
 N 560 410 560 450 {
-lab=#net1}
+lab=Viout+}
 N 330 410 330 430 {
-lab=#net2}
+lab=Viout-}
 N 460 410 460 430 {
-lab=#net2}
+lab=Viout-}
 N 590 410 590 430 {
-lab=#net2}
+lab=Viout-}
 N 690 410 690 450 {
-lab=#net1}
+lab=Viout+}
 N 720 410 720 430 {
-lab=#net2}
+lab=Viout-}
 N 820 410 820 450 {
-lab=#net1}
+lab=Viout+}
 N 850 410 850 430 {
-lab=#net2}
+lab=Viout-}
 N 950 410 950 450 {
-lab=#net1}
+lab=Viout+}
 N 980 410 980 430 {
-lab=#net2}
+lab=Viout-}
 N 300 500 300 520 {
 lab=Vbp}
 N 300 500 560 500 {
@@ -187,8 +163,6 @@ N 590 480 640 480 {
 lab=Vcp}
 N 560 500 640 500 {
 lab=Vbp}
-N 250 570 260 570 {
-lab=Vphi3}
 N 260 570 390 570 {
 lab=Vphi3}
 N 390 570 520 570 {
@@ -197,48 +171,46 @@ N 520 570 650 570 {
 lab=Vphi3}
 N 650 570 780 570 {
 lab=Vphi3}
-N 250 590 260 590 {
-lab=Vphi3b}
 N 260 590 390 590 {
-lab=Vphi3b}
+lab=#net3}
 N 390 590 520 590 {
-lab=Vphi3b}
+lab=#net3}
 N 520 590 650 590 {
-lab=Vphi3b}
+lab=#net3}
 N 650 590 780 590 {
-lab=Vphi3b}
+lab=#net3}
 N 780 590 910 590 {
-lab=Vphi3b}
+lab=#net3}
 N 780 570 910 570 {
 lab=Vphi3}
 N 300 640 300 680 {
-lab=#net1}
+lab=Viout+}
 N 430 640 430 680 {
-lab=#net1}
+lab=Viout+}
 N 560 640 560 680 {
-lab=#net1}
+lab=Viout+}
 N 330 640 330 660 {
-lab=#net2}
+lab=Viout-}
 N 460 640 460 660 {
-lab=#net2}
+lab=Viout-}
 N 590 640 590 660 {
-lab=#net2}
+lab=Viout-}
 N 690 640 690 680 {
-lab=#net1}
+lab=Viout+}
 N 720 640 720 660 {
-lab=#net2}
+lab=Viout-}
 N 820 640 820 680 {
-lab=#net1}
+lab=Viout+}
 N 850 640 850 660 {
-lab=#net2}
+lab=Viout-}
 N 950 640 950 680 {
-lab=#net1}
+lab=Viout+}
 N 980 640 980 660 {
-lab=#net2}
+lab=Viout-}
 N 910 570 1040 570 {
 lab=Vphi3}
 N 910 590 1040 590 {
-lab=Vphi3b}
+lab=#net3}
 N 980 480 1110 480 {
 lab=Vcp}
 N 1110 480 1110 520 {
@@ -248,9 +220,9 @@ lab=Vbp}
 N 1080 500 1080 520 {
 lab=Vbp}
 N 1080 640 1080 680 {
-lab=#net1}
+lab=Viout+}
 N 1110 640 1110 660 {
-lab=#net2}
+lab=Viout-}
 N 300 720 300 740 {
 lab=Vbp}
 N 300 720 560 720 {
@@ -291,8 +263,6 @@ N 590 700 640 700 {
 lab=Vcp}
 N 560 720 640 720 {
 lab=Vbp}
-N 250 790 260 790 {
-lab=Vphi4}
 N 260 790 390 790 {
 lab=Vphi4}
 N 390 790 520 790 {
@@ -301,48 +271,46 @@ N 520 790 650 790 {
 lab=Vphi4}
 N 650 790 780 790 {
 lab=Vphi4}
-N 250 810 260 810 {
-lab=Vphi4b}
 N 260 810 390 810 {
-lab=Vphi4b}
+lab=#net4}
 N 390 810 520 810 {
-lab=Vphi4b}
+lab=#net4}
 N 520 810 650 810 {
-lab=Vphi4b}
+lab=#net4}
 N 650 810 780 810 {
-lab=Vphi4b}
+lab=#net4}
 N 780 810 910 810 {
-lab=Vphi4b}
+lab=#net4}
 N 780 790 910 790 {
 lab=Vphi4}
 N 300 860 300 900 {
-lab=#net1}
+lab=Viout+}
 N 430 860 430 900 {
-lab=#net1}
+lab=Viout+}
 N 560 860 560 900 {
-lab=#net1}
+lab=Viout+}
 N 330 860 330 880 {
-lab=#net2}
+lab=Viout-}
 N 460 860 460 880 {
-lab=#net2}
+lab=Viout-}
 N 590 860 590 880 {
-lab=#net2}
+lab=Viout-}
 N 690 860 690 900 {
-lab=#net1}
+lab=Viout+}
 N 720 860 720 880 {
-lab=#net2}
+lab=Viout-}
 N 820 860 820 900 {
-lab=#net1}
+lab=Viout+}
 N 850 860 850 880 {
-lab=#net2}
+lab=Viout-}
 N 950 860 950 900 {
-lab=#net1}
+lab=Viout+}
 N 980 860 980 880 {
-lab=#net2}
+lab=Viout-}
 N 910 790 1040 790 {
 lab=Vphi4}
 N 910 810 1040 810 {
-lab=Vphi4b}
+lab=#net4}
 N 980 700 1110 700 {
 lab=Vcp}
 N 1110 700 1110 740 {
@@ -352,9 +320,9 @@ lab=Vbp}
 N 1080 720 1080 740 {
 lab=Vbp}
 N 1080 860 1080 900 {
-lab=#net1}
+lab=Viout+}
 N 1110 860 1110 880 {
-lab=#net2}
+lab=Viout-}
 N 150 250 150 480 {
 lab=Vcp}
 N 150 480 250 480 {
@@ -411,8 +379,6 @@ N 590 930 640 930 {
 lab=Vcp}
 N 560 950 640 950 {
 lab=Vbp}
-N 250 1020 260 1020 {
-lab=Vphi5}
 N 260 1020 390 1020 {
 lab=Vphi5}
 N 390 1020 520 1020 {
@@ -421,48 +387,46 @@ N 520 1020 650 1020 {
 lab=Vphi5}
 N 650 1020 780 1020 {
 lab=Vphi5}
-N 250 1040 260 1040 {
-lab=Vphi5b}
 N 260 1040 390 1040 {
-lab=Vphi5b}
+lab=#net5}
 N 390 1040 520 1040 {
-lab=Vphi5b}
+lab=#net5}
 N 520 1040 650 1040 {
-lab=Vphi5b}
+lab=#net5}
 N 650 1040 780 1040 {
-lab=Vphi5b}
+lab=#net5}
 N 780 1040 910 1040 {
-lab=Vphi5b}
+lab=#net5}
 N 780 1020 910 1020 {
 lab=Vphi5}
 N 300 1090 300 1130 {
-lab=#net1}
+lab=Viout+}
 N 430 1090 430 1130 {
-lab=#net1}
+lab=Viout+}
 N 560 1090 560 1130 {
-lab=#net1}
+lab=Viout+}
 N 330 1090 330 1110 {
-lab=#net2}
+lab=Viout-}
 N 460 1090 460 1110 {
-lab=#net2}
+lab=Viout-}
 N 590 1090 590 1110 {
-lab=#net2}
+lab=Viout-}
 N 690 1090 690 1130 {
-lab=#net1}
+lab=Viout+}
 N 720 1090 720 1110 {
-lab=#net2}
+lab=Viout-}
 N 820 1090 820 1130 {
-lab=#net1}
+lab=Viout+}
 N 850 1090 850 1110 {
-lab=#net2}
+lab=Viout-}
 N 950 1090 950 1130 {
-lab=#net1}
+lab=Viout+}
 N 980 1090 980 1110 {
-lab=#net2}
+lab=Viout-}
 N 910 1020 1040 1020 {
 lab=Vphi5}
 N 910 1040 1040 1040 {
-lab=Vphi5b}
+lab=#net5}
 N 980 930 1110 930 {
 lab=Vcp}
 N 1110 930 1110 970 {
@@ -472,9 +436,9 @@ lab=Vbp}
 N 1080 950 1080 970 {
 lab=Vbp}
 N 1080 1090 1080 1130 {
-lab=#net1}
+lab=Viout+}
 N 1110 1090 1110 1110 {
-lab=#net2}
+lab=Viout-}
 N 300 1180 300 1200 {
 lab=Vbp}
 N 300 1180 560 1180 {
@@ -515,8 +479,6 @@ N 590 1160 640 1160 {
 lab=Vcp}
 N 560 1180 640 1180 {
 lab=Vbp}
-N 250 1250 260 1250 {
-lab=Vphi6}
 N 260 1250 390 1250 {
 lab=Vphi6}
 N 390 1250 520 1250 {
@@ -525,56 +487,54 @@ N 520 1250 650 1250 {
 lab=Vphi6}
 N 650 1250 780 1250 {
 lab=Vphi6}
-N 250 1270 260 1270 {
-lab=Vphi6b}
 N 260 1270 390 1270 {
-lab=Vphi6b}
+lab=#net6}
 N 390 1270 520 1270 {
-lab=Vphi6b}
+lab=#net6}
 N 520 1270 650 1270 {
-lab=Vphi6b}
+lab=#net6}
 N 650 1270 780 1270 {
-lab=Vphi6b}
+lab=#net6}
 N 780 1270 910 1270 {
-lab=Vphi6b}
+lab=#net6}
 N 780 1250 910 1250 {
 lab=Vphi6}
 N 300 1320 300 1360 {
-lab=#net1}
+lab=Viout+}
 N 430 1320 430 1360 {
-lab=#net1}
+lab=Viout+}
 N 560 1320 560 1360 {
-lab=#net1}
+lab=Viout+}
 N 330 1320 330 1340 {
-lab=#net2}
+lab=Viout-}
 N 460 1320 460 1340 {
-lab=#net2}
+lab=Viout-}
 N 590 1320 590 1340 {
-lab=#net2}
+lab=Viout-}
 N 690 1320 690 1360 {
-lab=#net1}
+lab=Viout+}
 N 720 1320 720 1340 {
-lab=#net2}
+lab=Viout-}
 N 820 1320 820 1360 {
-lab=#net1}
+lab=Viout+}
 N 850 1320 850 1340 {
-lab=#net2}
+lab=Viout-}
 N 950 1320 950 1360 {
-lab=#net1}
+lab=Viout+}
 N 980 1320 980 1340 {
-lab=#net2}
+lab=Viout-}
 N 1210 860 1210 900 {
-lab=#net1}
+lab=Viout+}
 N 1240 860 1240 880 {
-lab=#net2}
+lab=Viout-}
 N 330 880 1380 880 {
-lab=#net2}
+lab=Viout-}
 N 300 900 1420 900 {
-lab=#net1}
+lab=Viout+}
 N 1040 790 1170 790 {
 lab=Vphi4}
 N 1040 810 1170 810 {
-lab=Vphi4b}
+lab=#net4}
 N 1110 700 1240 700 {
 lab=Vcp}
 N 1240 700 1240 740 {
@@ -584,71 +544,47 @@ lab=Vbp}
 N 1080 720 1210 720 {
 lab=Vbp}
 N 330 660 1380 660 {
-lab=#net2}
+lab=Viout-}
 N 300 680 1420 680 {
-lab=#net1}
+lab=Viout+}
 N 330 1110 1380 1110 {
-lab=#net2}
+lab=Viout-}
 N 300 1130 1420 1130 {
-lab=#net1}
+lab=Viout+}
 N 330 1340 1380 1340 {
-lab=#net2}
+lab=Viout-}
 N 300 1360 1420 1360 {
-lab=#net1}
-N 300 1410 300 1430 {
+lab=Viout+}
+N 1080 1180 1080 1200 {
 lab=Vbp}
-N 300 1410 560 1410 {
+N 1210 950 1210 970 {
 lab=Vbp}
-N 560 1410 560 1430 {
+N 1210 1180 1210 1200 {
 lab=Vbp}
-N 430 1410 430 1430 {
+N 1030 1180 1080 1180 {
 lab=Vbp}
-N 250 1410 300 1410 {
-lab=Vbp}
-N 250 1390 590 1390 {
+N 1240 930 1240 970 {
 lab=Vcp}
-N 590 1390 590 1430 {
+N 1240 1160 1240 1200 {
 lab=Vcp}
-N 460 1390 460 1430 {
+N 1110 1160 1110 1200 {
 lab=Vcp}
-N 330 1390 330 1430 {
-lab=Vcp}
-N 250 1480 260 1480 {
+N 1040 1250 1170 1250 {
 lab=Vphi7}
-N 250 1500 260 1500 {
-lab=Vphi7b}
-N 260 1480 390 1480 {
-lab=Vphi7}
-N 390 1480 520 1480 {
-lab=Vphi7}
-N 260 1500 390 1500 {
-lab=Vphi7b}
-N 390 1500 520 1500 {
-lab=Vphi7b}
-N 300 1550 300 1590 {
-lab=#net1}
-N 430 1550 430 1590 {
-lab=#net1}
-N 560 1550 560 1590 {
-lab=#net1}
-N 330 1550 330 1570 {
-lab=#net2}
-N 460 1550 460 1570 {
-lab=#net2}
-N 590 1550 590 1570 {
-lab=#net2}
-N 330 1570 1380 1570 {
-lab=#net2}
-N 300 1590 1420 1590 {
-lab=#net1}
-N 120 720 120 1410 {
-lab=Vbp}
-N 120 1410 250 1410 {
-lab=Vbp}
-N 150 700 150 1390 {
-lab=Vcp}
-N 150 1390 250 1390 {
-lab=Vcp}
+N 1040 1270 1170 1270 {
+lab=#net7}
+N 1080 1320 1080 1360 {
+lab=Viout+}
+N 1210 1320 1210 1360 {
+lab=Viout+}
+N 1210 1090 1210 1130 {
+lab=Viout+}
+N 1110 1320 1110 1340 {
+lab=Viout-}
+N 1240 1320 1240 1340 {
+lab=Viout-}
+N 1240 1090 1240 1110 {
+lab=Viout-}
 N 150 930 250 930 {
 lab=Vcp}
 N 120 950 250 950 {
@@ -657,187 +593,151 @@ N 150 1160 250 1160 {
 lab=Vcp}
 N 120 1180 250 1180 {
 lab=Vbp}
-N 300 220 1420 220 {
-lab=#net1}
-N 330 200 1380 200 {
-lab=#net2}
-N 1380 200 1380 430 {
-lab=#net2}
-N 1420 220 1420 450 {
-lab=#net1}
 N 1420 450 1420 680 {
-lab=#net1}
+lab=Viout+}
 N 330 430 1380 430 {
-lab=#net2}
+lab=Viout-}
 N 300 450 1420 450 {
-lab=#net1}
+lab=Viout+}
 N 1380 430 1380 880 {
-lab=#net2}
-N 1420 680 1420 1590 {
+lab=Viout-}
+N 1420 1360 1450 1360 {
+lab=Viout+}
+N 970 340 970 360 {
+lab=Vphi1}
+N 970 340 1040 340 {
+lab=Vphi1}
+N 190 340 190 360 {
+lab=Vphi2}
+N 190 340 260 340 {
+lab=Vphi2}
+N 190 570 190 590 {
+lab=Vphi3}
+N 190 570 260 570 {
+lab=Vphi3}
+N 190 790 190 810 {
+lab=Vphi4}
+N 190 790 260 790 {
+lab=Vphi4}
+N 190 1020 190 1040 {
+lab=Vphi5}
+N 190 1020 260 1020 {
+lab=Vphi5}
+N 190 1250 190 1270 {
+lab=Vphi6}
+N 190 1250 260 1250 {
+lab=Vphi6}
+N 970 1250 970 1270 {
+lab=Vphi7}
+N 970 1250 1040 1250 {
+lab=Vphi7}
+N 1380 1340 1450 1340 {
+lab=Viout-}
+N 950 270 1030 270 {
+lab=Vbp}
+N 980 250 1030 250 {
+lab=Vcp}
+N 100 250 150 250 {
+lab=Vcp}
+N 100 270 120 270 {
+lab=Vbp}
+N 1030 250 1240 250 {
+lab=Vcp}
+N 1080 270 1210 270 {
+lab=Vbp}
+N 1110 480 1240 480 {
+lab=Vcp}
+N 1080 500 1210 500 {
+lab=Vbp}
+N 1160 340 1160 570 {
+lab=Vphi1}
+N 1160 570 1170 570 {
+lab=Vphi1}
+N 1150 590 1170 590 {
 lab=#net1}
-N 1380 880 1380 1570 {
-lab=#net2}
-N 1700 1660 1710 1660 {
-lab=#net3}
-N 1540 1660 1560 1660 {
-lab=Vout+}
-N 1620 1660 1640 1660 {
-lab=Vout-}
-N 1450 1660 1480 1660 {
-lab=#net4}
-N 1710 1720 1710 1730 {
-lab=GND}
-N 1450 1720 1450 1730 {
-lab=GND}
-N 1550 1660 1550 1710 {
-lab=Vout+}
-N 1630 1660 1630 1710 {
-lab=Vout-}
-N 1380 1570 1710 1570 {
-lab=#net2}
-N 1420 1590 1450 1590 {
+N 1150 360 1150 590 {
 lab=#net1}
-N 1450 1650 1450 1660 {
-lab=#net4}
-N 1710 1630 1710 1660 {
-lab=#net3}
-C {./dac_unit.sym} 80 0 0 0 {name=x1}
-C {./dac_unit.sym} 210 0 0 0 {name=x2}
-C {./dac_unit.sym} 340 0 0 0 {name=x3}
-C {./dac_unit.sym} 80 230 0 0 {name=x4}
-C {./dac_unit.sym} 210 230 0 0 {name=x5}
-C {./dac_unit.sym} 340 230 0 0 {name=x6}
-C {./dac_unit.sym} 470 230 0 0 {name=x7}
-C {./dac_unit.sym} 600 230 0 0 {name=x8}
-C {./dac_unit.sym} 730 230 0 0 {name=x9}
-C {./dac_unit.sym} 80 460 0 0 {name=x10}
-C {./dac_unit.sym} 210 460 0 0 {name=x11}
-C {./dac_unit.sym} 340 460 0 0 {name=x12}
-C {./dac_unit.sym} 470 460 0 0 {name=x13}
-C {./dac_unit.sym} 600 460 0 0 {name=x14}
-C {./dac_unit.sym} 730 460 0 0 {name=x15}
-C {./dac_unit.sym} 860 460 0 0 {name=x16}
-C {./dac_unit.sym} 80 680 0 0 {name=x17}
-C {./dac_unit.sym} 210 680 0 0 {name=x18}
-C {./dac_unit.sym} 340 680 0 0 {name=x19}
-C {./dac_unit.sym} 470 680 0 0 {name=x20}
-C {./dac_unit.sym} 600 680 0 0 {name=x21}
-C {./dac_unit.sym} 730 680 0 0 {name=x22}
-C {./dac_unit.sym} 860 680 0 0 {name=x23}
-C {./dac_unit.sym} 80 910 0 0 {name=x24}
-C {./dac_unit.sym} 210 910 0 0 {name=x25}
-C {./dac_unit.sym} 340 910 0 0 {name=x26}
-C {./dac_unit.sym} 470 910 0 0 {name=x27}
-C {./dac_unit.sym} 600 910 0 0 {name=x28}
-C {./dac_unit.sym} 730 910 0 0 {name=x29}
-C {./dac_unit.sym} 860 910 0 0 {name=x30}
-C {./dac_unit.sym} 80 1140 0 0 {name=x31}
-C {./dac_unit.sym} 210 1140 0 0 {name=x32}
-C {./dac_unit.sym} 340 1140 0 0 {name=x33}
-C {./dac_unit.sym} 470 1140 0 0 {name=x34}
-C {./dac_unit.sym} 600 1140 0 0 {name=x35}
-C {./dac_unit.sym} 730 1140 0 0 {name=x36}
-C {./dac_unit.sym} 990 680 0 0 {name=x38}
-C {./dac_unit.sym} 80 1370 0 0 {name=x37}
-C {./dac_unit.sym} 210 1370 0 0 {name=x39}
-C {./dac_unit.sym} 340 1370 0 0 {name=x40}
-C {devices/lab_pin.sym} 250 110 0 0 {name=p5 sig_type=std_logic lab=Vphi1}
-C {devices/lab_pin.sym} 250 130 0 0 {name=p6 sig_type=std_logic lab=Vphi1b}
-C {devices/lab_pin.sym} 250 340 0 0 {name=p7 sig_type=std_logic lab=Vphi2}
-C {devices/lab_pin.sym} 250 360 0 0 {name=p8 sig_type=std_logic lab=Vphi2b}
-C {devices/lab_pin.sym} 250 570 0 0 {name=p9 sig_type=std_logic lab=Vphi3}
-C {./v_gen_lds.sym} 10 -60 0 0 {name=X41}
-C {madvlsi/vsource.sym} 1730 300 0 0 {name=Vdd
-value=1.8}
-C {madvlsi/vdd.sym} 1730 270 0 0 {name=l1 lab=VDD}
-C {madvlsi/gnd.sym} 1730 330 0 0 {name=l2 lab=GND}
-C {madvlsi/vsource.sym} 1570 450 0 0 {name=Vphi_1
-value="pulse(0 1.8 1n 1n 1n 7n 16n)"}
-C {madvlsi/gnd.sym} 1570 480 0 0 {name=Vphi3 lab=GND}
-C {devices/lab_pin.sym} 1570 420 0 1 {name=p3 sig_type=std_logic lab=Vphi1}
-C {madvlsi/vsource.sym} 1570 570 0 0 {name=Vphi_2
-value="pulse(0 1.8 2n 1n 1n 7n 16n)"}
-C {madvlsi/gnd.sym} 1570 600 0 0 {name=Vphi4 lab=GND}
-C {devices/lab_pin.sym} 1570 540 0 1 {name=p4 sig_type=std_logic lab=Vphi2}
-C {madvlsi/vsource.sym} 1570 690 0 0 {name=Vphi_3
-value="pulse(0 1.8 3n 1n 1n 7n 16n)"}
-C {madvlsi/gnd.sym} 1570 720 0 0 {name=Vphi6 lab=GND}
-C {devices/lab_pin.sym} 1570 660 0 1 {name=p19 sig_type=std_logic lab=Vphi3}
-C {madvlsi/vsource.sym} 1570 810 0 0 {name=Vphi_4
-value="pulse(0 1.8 4n 1n 1n 7n 16n)"}
-C {madvlsi/gnd.sym} 1570 840 0 0 {name=Vphi8 lab=GND}
-C {devices/lab_pin.sym} 1570 780 0 1 {name=p20 sig_type=std_logic lab=Vphi4}
-C {madvlsi/vsource.sym} 1570 930 0 0 {name=Vphi_5
-value="pulse(0 1.8 5n 1n 1n 7n 16n)"}
-C {madvlsi/gnd.sym} 1570 960 0 0 {name=Vphi7 lab=GND}
-C {devices/lab_pin.sym} 1570 900 0 1 {name=p21 sig_type=std_logic lab=Vphi5}
-C {madvlsi/vsource.sym} 1570 1050 0 0 {name=Vphi_6
-value="pulse(0 1.8 6n 1n 1n 7n 16n)"}
-C {madvlsi/gnd.sym} 1570 1080 0 0 {name=Vphi9 lab=GND}
-C {madvlsi/vsource.sym} 1570 1170 0 0 {name=Vphi_7
-value="pulse(0 1.8 7n 1n 1n 7n 16n)"}
-C {madvlsi/gnd.sym} 1570 1200 0 0 {name=Vphi10 lab=GND}
-C {devices/lab_pin.sym} 1570 1140 0 1 {name=p23 sig_type=std_logic lab=Vphi7}
-C {devices/lab_pin.sym} 1570 1020 0 1 {name=p22 sig_type=std_logic lab=Vphi6}
-C {./inverter.sym} 1880 420 0 0 {name=X42}
-C {devices/lab_pin.sym} 1800 420 0 0 {name=p24 sig_type=std_logic lab=Vphi1}
-C {./inverter.sym} 1880 540 0 0 {name=X43}
-C {./inverter.sym} 1880 660 0 0 {name=X44}
-C {devices/lab_pin.sym} 1800 540 0 0 {name=p25 sig_type=std_logic lab=Vphi2}
-C {devices/lab_pin.sym} 1800 660 0 0 {name=p26 sig_type=std_logic lab=Vphi3}
-C {./inverter.sym} 1880 780 0 0 {name=X45}
-C {devices/lab_pin.sym} 1800 780 0 0 {name=p27 sig_type=std_logic lab=Vphi4}
-C {./inverter.sym} 1880 900 0 0 {name=X46}
-C {./inverter.sym} 1880 1020 0 0 {name=X47}
-C {./inverter.sym} 1880 1140 0 0 {name=X48}
-C {devices/lab_pin.sym} 1800 900 0 0 {name=p28 sig_type=std_logic lab=Vphi5}
-C {devices/lab_pin.sym} 1800 1020 0 0 {name=p29 sig_type=std_logic lab=Vphi6}
-C {devices/lab_pin.sym} 1800 1140 0 0 {name=p30 sig_type=std_logic lab=Vphi7}
-C {devices/lab_pin.sym} 1870 420 0 1 {name=p31 sig_type=std_logic lab=Vphi1b}
-C {devices/lab_pin.sym} 1870 540 0 1 {name=p32 sig_type=std_logic lab=Vphi2b}
-C {devices/lab_pin.sym} 1870 660 0 1 {name=p33 sig_type=std_logic lab=Vphi3b}
-C {devices/lab_pin.sym} 1870 780 0 1 {name=p34 sig_type=std_logic lab=Vphi4b}
-C {devices/lab_pin.sym} 1870 900 0 1 {name=p35 sig_type=std_logic lab=Vphi5b}
-C {devices/lab_pin.sym} 1870 1140 0 1 {name=p36 sig_type=std_logic lab=Vphi7b}
-C {devices/lab_pin.sym} 1870 1020 0 1 {name=p37 sig_type=std_logic lab=Vphi6b}
-C {devices/code_shown.sym} 1560 180 0 0 {name=s1 only_toplevel=false value=".tran 0.01n 1u
-.save all"}
-C {devices/lab_pin.sym} 250 1480 0 0 {name=p11 sig_type=std_logic lab=Vphi7}
-C {devices/lab_pin.sym} 250 1500 0 0 {name=p12 sig_type=std_logic lab=Vphi7b}
-C {devices/lab_pin.sym} 250 1250 0 0 {name=p13 sig_type=std_logic lab=Vphi6}
-C {devices/lab_pin.sym} 250 790 0 0 {name=p14 sig_type=std_logic lab=Vphi4}
-C {devices/lab_pin.sym} 250 810 0 0 {name=p15 sig_type=std_logic lab=Vphi4b}
-C {devices/lab_pin.sym} 250 1020 0 0 {name=p16 sig_type=std_logic lab=Vphi5}
-C {devices/lab_pin.sym} 250 1040 0 0 {name=p17 sig_type=std_logic lab=Vphi5b}
-C {devices/lab_pin.sym} 250 1270 0 0 {name=p18 sig_type=std_logic lab=Vphi6b}
-C {devices/lab_pin.sym} 250 590 0 0 {name=p10 sig_type=std_logic lab=Vphi3b}
-C {madvlsi/tt_models.sym} 1550 270 0 0 {
-name=TT_MODELS
-only_toplevel=false
-value=".option wnflag=1
-.param MC_SWITCH=0.0
-.lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
-}
-C {devices/lab_pin.sym} 150 20 1 0 {name=p38 sig_type=std_logic lab=Vcp}
-C {devices/lab_pin.sym} 120 40 1 0 {name=p39 sig_type=std_logic lab=Vbp}
-C {madvlsi/resistor.sym} 1450 1690 0 0 {name=R1
-value=1k
-m=1}
-C {madvlsi/resistor.sym} 1710 1690 0 0 {name=R2
-value=1k
-m=1}
-C {madvlsi/resistor.sym} 1510 1660 1 0 {name=R3
-value=1k
-m=1}
-C {madvlsi/resistor.sym} 1670 1660 1 0 {name=R4
-value=1k
-m=1}
-C {madvlsi/capacitor.sym} 1590 1660 1 0 {name=C1
-value=1p
-m=1}
-C {madvlsi/gnd.sym} 1450 1730 0 0 {name=l3 lab=GND}
-C {madvlsi/gnd.sym} 1710 1730 0 0 {name=l4 lab=GND}
-C {devices/lab_pin.sym} 1550 1710 0 1 {name=p1 sig_type=std_logic lab=Vout+}
-C {devices/lab_pin.sym} 1630 1710 0 1 {name=p2 sig_type=std_logic lab=Vout-}
-C {devices/ammeter.sym} 1450 1620 0 0 {name=Viout+}
-C {devices/ammeter.sym} 1710 1600 0 0 {name=Viout-}
+N 950 1180 1030 1180 {
+lab=Vbp}
+N 980 1160 1110 1160 {
+lab=Vcp}
+N 1110 1160 1240 1160 {
+lab=Vcp}
+N 1080 1180 1210 1180 {
+lab=Vbp}
+N 1160 1040 1170 1040 {
+lab=#net7}
+N 1160 1040 1160 1270 {
+lab=#net7}
+N 1150 1020 1170 1020 {
+lab=Vphi7}
+N 1150 1020 1150 1250 {
+lab=Vphi7}
+N 1110 930 1240 930 {
+lab=Vcp}
+N 1080 950 1210 950 {
+lab=Vbp}
+N 150 700 150 1160 {
+lab=Vcp}
+N 120 720 120 1180 {
+lab=Vbp}
+N 1380 880 1380 1340 {}
+N 1420 680 1420 1360 {}
+C {./dac_unit_lds2.sym} 860 230 0 0 {name=x1}
+C {./dac_unit_lds2.sym} 990 230 0 0 {name=x2}
+C {./dac_unit_lds2.sym} 990 460 0 0 {name=x3}
+C {./dac_unit_lds2.sym} 80 230 0 0 {name=x4}
+C {./dac_unit_lds2.sym} 210 230 0 0 {name=x5}
+C {./dac_unit_lds2.sym} 340 230 0 0 {name=x6}
+C {./dac_unit_lds2.sym} 470 230 0 0 {name=x7}
+C {./dac_unit_lds2.sym} 600 230 0 0 {name=x8}
+C {./dac_unit_lds2.sym} 730 230 0 0 {name=x9}
+C {./dac_unit_lds2.sym} 80 460 0 0 {name=x10}
+C {./dac_unit_lds2.sym} 210 460 0 0 {name=x11}
+C {./dac_unit_lds2.sym} 340 460 0 0 {name=x12}
+C {./dac_unit_lds2.sym} 470 460 0 0 {name=x13}
+C {./dac_unit_lds2.sym} 600 460 0 0 {name=x14}
+C {./dac_unit_lds2.sym} 730 460 0 0 {name=x15}
+C {./dac_unit_lds2.sym} 860 460 0 0 {name=x16}
+C {./dac_unit_lds2.sym} 80 680 0 0 {name=x17}
+C {./dac_unit_lds2.sym} 210 680 0 0 {name=x18}
+C {./dac_unit_lds2.sym} 340 680 0 0 {name=x19}
+C {./dac_unit_lds2.sym} 470 680 0 0 {name=x20}
+C {./dac_unit_lds2.sym} 600 680 0 0 {name=x21}
+C {./dac_unit_lds2.sym} 730 680 0 0 {name=x22}
+C {./dac_unit_lds2.sym} 860 680 0 0 {name=x23}
+C {./dac_unit_lds2.sym} 80 910 0 0 {name=x24}
+C {./dac_unit_lds2.sym} 210 910 0 0 {name=x25}
+C {./dac_unit_lds2.sym} 340 910 0 0 {name=x26}
+C {./dac_unit_lds2.sym} 470 910 0 0 {name=x27}
+C {./dac_unit_lds2.sym} 600 910 0 0 {name=x28}
+C {./dac_unit_lds2.sym} 730 910 0 0 {name=x29}
+C {./dac_unit_lds2.sym} 860 910 0 0 {name=x30}
+C {./dac_unit_lds2.sym} 80 1140 0 0 {name=x31}
+C {./dac_unit_lds2.sym} 210 1140 0 0 {name=x32}
+C {./dac_unit_lds2.sym} 340 1140 0 0 {name=x33}
+C {./dac_unit_lds2.sym} 470 1140 0 0 {name=x34}
+C {./dac_unit_lds2.sym} 600 1140 0 0 {name=x35}
+C {./dac_unit_lds2.sym} 730 1140 0 0 {name=x36}
+C {./dac_unit_lds2.sym} 990 680 0 0 {name=x38}
+C {./dac_unit_lds2.sym} 860 1140 0 0 {name=x37}
+C {./dac_unit_lds2.sym} 990 1140 0 0 {name=x39}
+C {./dac_unit_lds2.sym} 990 910 0 0 {name=x40}
+C {devices/ipin.sym} 1040 340 1 0 {name=p3 lab=Vphi1}
+C {devices/ipin.sym} 190 360 0 0 {name=p4 lab=Vphi2}
+C {devices/ipin.sym} 190 590 0 0 {name=p5 lab=Vphi3}
+C {devices/ipin.sym} 190 810 0 0 {name=p6 lab=Vphi4}
+C {devices/ipin.sym} 190 1040 0 0 {name=p7 lab=Vphi5}
+C {devices/ipin.sym} 190 1270 0 0 {name=p8 lab=Vphi6}
+C {devices/ipin.sym} 1040 1250 1 0 {name=p9 lab=Vphi7}
+C {devices/opin.sym} 1450 1360 0 0 {name=p1 lab=Viout+}
+C {devices/opin.sym} 1450 1340 0 0 {name=p2 lab=Viout-}
+C {devices/ipin.sym} 100 250 0 0 {name=p10 lab=Vcp}
+C {devices/ipin.sym} 100 270 0 0 {name=p11 lab=Vbp}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 1050 1270 0 0 {name=X41}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 270 1270 0 0 {name=X42}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 270 1040 0 0 {name=X43}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 270 810 0 0 {name=X44}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 270 590 0 0 {name=X45}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 270 360 0 0 {name=X46}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 1050 360 0 0 {name=X47}

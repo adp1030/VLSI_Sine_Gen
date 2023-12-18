@@ -701,49 +701,49 @@ N 1450 1650 1450 1660 {
 lab=#net4}
 N 1710 1630 1710 1660 {
 lab=#net3}
-C {./dac/dac_unit.sym} 80 0 0 0 {name=x1}
-C {./dac/dac_unit.sym} 210 0 0 0 {name=x2}
-C {./dac/dac_unit.sym} 340 0 0 0 {name=x3}
-C {./dac/dac_unit.sym} 80 230 0 0 {name=x4}
-C {./dac/dac_unit.sym} 210 230 0 0 {name=x5}
-C {./dac/dac_unit.sym} 340 230 0 0 {name=x6}
-C {./dac/dac_unit.sym} 470 230 0 0 {name=x7}
-C {./dac/dac_unit.sym} 600 230 0 0 {name=x8}
-C {./dac/dac_unit.sym} 730 230 0 0 {name=x9}
-C {./dac/dac_unit.sym} 80 460 0 0 {name=x10}
-C {./dac/dac_unit.sym} 210 460 0 0 {name=x11}
-C {./dac/dac_unit.sym} 340 460 0 0 {name=x12}
-C {./dac/dac_unit.sym} 470 460 0 0 {name=x13}
-C {./dac/dac_unit.sym} 600 460 0 0 {name=x14}
-C {./dac/dac_unit.sym} 730 460 0 0 {name=x15}
-C {./dac/dac_unit.sym} 860 460 0 0 {name=x16}
-C {./dac/dac_unit.sym} 80 680 0 0 {name=x17}
-C {./dac/dac_unit.sym} 210 680 0 0 {name=x18}
-C {./dac/dac_unit.sym} 340 680 0 0 {name=x19}
-C {./dac/dac_unit.sym} 470 680 0 0 {name=x20}
-C {./dac/dac_unit.sym} 600 680 0 0 {name=x21}
-C {./dac/dac_unit.sym} 730 680 0 0 {name=x22}
-C {./dac/dac_unit.sym} 860 680 0 0 {name=x23}
-C {./dac/dac_unit.sym} 80 910 0 0 {name=x24}
-C {./dac/dac_unit.sym} 210 910 0 0 {name=x25}
-C {./dac/dac_unit.sym} 340 910 0 0 {name=x26}
-C {./dac/dac_unit.sym} 470 910 0 0 {name=x27}
-C {./dac/dac_unit.sym} 600 910 0 0 {name=x28}
-C {./dac/dac_unit.sym} 730 910 0 0 {name=x29}
-C {./dac/dac_unit.sym} 860 910 0 0 {name=x30}
-C {./dac/dac_unit.sym} 80 1140 0 0 {name=x31}
-C {./dac/dac_unit.sym} 210 1140 0 0 {name=x32}
-C {./dac/dac_unit.sym} 340 1140 0 0 {name=x33}
-C {./dac/dac_unit.sym} 470 1140 0 0 {name=x34}
-C {./dac/dac_unit.sym} 600 1140 0 0 {name=x35}
-C {./dac/dac_unit.sym} 730 1140 0 0 {name=x36}
-C {./dac/dac_unit.sym} 990 680 0 0 {name=x38}
-C {./dac/dac_unit.sym} 80 1370 0 0 {name=x37}
-C {./dac/dac_unit.sym} 210 1370 0 0 {name=x39}
-C {./dac/dac_unit.sym} 340 1370 0 0 {name=x40}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 80 0 0 0 {name=x1}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 210 0 0 0 {name=x2}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 340 0 0 0 {name=x3}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 80 230 0 0 {name=x4}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 210 230 0 0 {name=x5}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 340 230 0 0 {name=x6}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 470 230 0 0 {name=x7}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 600 230 0 0 {name=x8}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 730 230 0 0 {name=x9}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 80 460 0 0 {name=x10}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 210 460 0 0 {name=x11}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 340 460 0 0 {name=x12}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 470 460 0 0 {name=x13}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 600 460 0 0 {name=x14}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 730 460 0 0 {name=x15}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 860 460 0 0 {name=x16}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 80 680 0 0 {name=x17}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 210 680 0 0 {name=x18}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 340 680 0 0 {name=x19}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 470 680 0 0 {name=x20}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 600 680 0 0 {name=x21}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 730 680 0 0 {name=x22}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 860 680 0 0 {name=x23}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 80 910 0 0 {name=x24}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 210 910 0 0 {name=x25}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 340 910 0 0 {name=x26}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 470 910 0 0 {name=x27}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 600 910 0 0 {name=x28}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 730 910 0 0 {name=x29}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 860 910 0 0 {name=x30}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 80 1140 0 0 {name=x31}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 210 1140 0 0 {name=x32}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 340 1140 0 0 {name=x33}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 470 1140 0 0 {name=x34}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 600 1140 0 0 {name=x35}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 730 1140 0 0 {name=x36}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 990 680 0 0 {name=x38}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 80 1370 0 0 {name=x37}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 210 1370 0 0 {name=x39}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac_unit.sym} 340 1370 0 0 {name=x40}
 C {devices/lab_pin.sym} 250 110 0 0 {name=p5 sig_type=std_logic lab=phi_1}
 C {devices/lab_pin.sym} 250 130 0 0 {name=p6 sig_type=std_logic lab=phi_1B}
-C {./dac/v_gen_lds.sym} 10 -60 0 0 {name=X41}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 10 -60 0 0 {name=X41}
 C {madvlsi/vsource.sym} 1730 300 0 0 {name=Vdd
 value=1.8}
 C {madvlsi/vdd.sym} 1730 270 0 0 {name=l1 lab=VDD}
@@ -776,17 +776,17 @@ value="pulse(0 1.8 7n 1n 1n 7n 16n)"}
 C {madvlsi/gnd.sym} 1570 1200 0 0 {name=Vphi10 lab=GND}
 C {devices/lab_pin.sym} 1570 1140 0 1 {name=p23 sig_type=std_logic lab=phi_7}
 C {devices/lab_pin.sym} 1570 1020 0 1 {name=p22 sig_type=std_logic lab=phi_6}
-C {./dac/inverter.sym} 1880 420 0 0 {name=X42}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 1880 420 0 0 {name=X42}
 C {devices/lab_pin.sym} 1800 420 0 0 {name=p24 sig_type=std_logic lab=phi_1}
-C {./dac/inverter.sym} 1880 540 0 0 {name=X43}
-C {./dac/inverter.sym} 1880 660 0 0 {name=X44}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 1880 540 0 0 {name=X43}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 1880 660 0 0 {name=X44}
 C {devices/lab_pin.sym} 1800 540 0 0 {name=p25 sig_type=std_logic lab=phi_2}
 C {devices/lab_pin.sym} 1800 660 0 0 {name=p26 sig_type=std_logic lab=phi_3}
-C {./dac/inverter.sym} 1880 780 0 0 {name=X45}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 1880 780 0 0 {name=X45}
 C {devices/lab_pin.sym} 1800 780 0 0 {name=p27 sig_type=std_logic lab=phi_4}
-C {./dac/inverter.sym} 1880 900 0 0 {name=X46}
-C {./dac/inverter.sym} 1880 1020 0 0 {name=X47}
-C {./dac/inverter.sym} 1880 1140 0 0 {name=X48}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 1880 900 0 0 {name=X46}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 1880 1020 0 0 {name=X47}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 1880 1140 0 0 {name=X48}
 C {devices/lab_pin.sym} 1800 900 0 0 {name=p28 sig_type=std_logic lab=phi_5}
 C {devices/lab_pin.sym} 1800 1020 0 0 {name=p29 sig_type=std_logic lab=phi_6}
 C {devices/lab_pin.sym} 1800 1140 0 0 {name=p30 sig_type=std_logic lab=phi_7}

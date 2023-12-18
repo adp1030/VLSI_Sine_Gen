@@ -27,7 +27,8 @@ value=".option wnflag=1
 .param MC_SWITCH=0.0
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
-C {devices/code_shown.sym} 320 660 0 0 {name=SPICE only_toplevel=false value=".ic v(phi1)=0 v(phi2)=0 v(phi3)=0 v(phi4)=0 v(phi5)=0 v(phi6)=0 v(phi7)=0 v(Vff8)=0 v(Vff9)=1.8 v(Vff10)=1.8 v(Vff11)=1.8 v(Vff12)=1.8 v(Vff13)=1.8 v(Vff14)=1.8 v(Vff15)=1.8 v(Vff16)=1.8
+C {devices/code_shown.sym} -20 660 0 0 {name=SPICE only_toplevel=false value=".include ~/VLSI_Sine_Gen/layout/final.spice
+.ic v(phi1)=0 v(phi2)=0 v(phi3)=0 v(phi4)=0 v(phi5)=0 v(phi6)=0 v(phi7)=0 v(Vff8)=0 v(Vff9)=1.8 v(Vff10)=1.8 v(Vff11)=1.8 v(Vff12)=1.8 v(Vff13)=1.8 v(Vff14)=1.8 v(Vff15)=1.8 v(Vff16)=1.8
 .tran 0.1n 1u
 .save v(phi1f), v(phi2f), v(phi3f), v(phi4f), v(phi5f), v(phi6f), v(phi7f)"}
 C {madvlsi/vsource.sym} 1030 550 0 0 {name=V_CLK
@@ -38,8 +39,8 @@ C {madvlsi/vsource.sym} 950 550 0 0 {name=Vdd
 value=1.8}
 C {madvlsi/gnd.sym} 950 580 0 0 {name=l2 lab=GND}
 C {madvlsi/vdd.sym} 950 520 0 0 {name=l3 lab=VDD}
-C {./dac.sym} 420 200 0 0 {name=x1}
-C {./register_lauren.sym} 590 580 0 0 {name=x2}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/dac.sym} 420 200 0 0 {name=x1}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/register_lauren.sym} 590 580 0 0 {name=x2}
 C {devices/lab_pin.sym} 400 590 2 1 {name=p2 sig_type=std_logic lab=V_CLK}
 C {devices/lab_pin.sym} 470 390 2 0 {name=p3 sig_type=std_logic lab=phi1}
 C {devices/lab_pin.sym} 470 410 2 0 {name=p4 sig_type=std_logic lab=phi2}
@@ -59,31 +60,17 @@ C {devices/lab_pin.sym} 330 450 2 1 {name=p17 sig_type=std_logic lab=Vff12}
 C {devices/lab_pin.sym} 330 470 2 1 {name=p18 sig_type=std_logic lab=Vff13}
 C {devices/lab_pin.sym} 330 490 2 1 {name=p19 sig_type=std_logic lab=Vff14}
 C {devices/lab_pin.sym} 330 510 2 1 {name=p20 sig_type=std_logic lab=Vff15}
-C {./dac/inverter.sym} 550 390 0 0 {name=X3}
-C {./dac/inverter.sym} 550 410 0 0 {name=X4}
-C {./dac/inverter.sym} 550 430 0 0 {name=X5}
-C {./dac/inverter.sym} 550 450 0 0 {name=X6}
-C {./dac/inverter.sym} 550 470 0 0 {name=X7}
-C {./dac/inverter.sym} 550 490 0 0 {name=X8}
-C {./dac/inverter.sym} 550 510 0 0 {name=X9}
-C {./dac/inverter.sym} 620 390 0 0 {name=X10}
-C {./dac/inverter.sym} 620 410 0 0 {name=X11}
-C {./dac/inverter.sym} 620 430 0 0 {name=X12}
-C {./dac/inverter.sym} 620 450 0 0 {name=X13}
-C {./dac/inverter.sym} 620 470 0 0 {name=X14}
-C {./dac/inverter.sym} 620 490 0 0 {name=X15}
-C {./dac/inverter.sym} 620 510 0 0 {name=X16}
-C {devices/lab_pin.sym} 610 390 2 0 {name=p21 sig_type=std_logic lab=phi1f}
-C {devices/lab_pin.sym} 610 410 2 0 {name=p22 sig_type=std_logic lab=phi2f}
-C {devices/lab_pin.sym} 610 430 2 0 {name=p23 sig_type=std_logic lab=phi3f}
-C {devices/lab_pin.sym} 610 450 2 0 {name=p24 sig_type=std_logic lab=phi4f}
-C {devices/lab_pin.sym} 610 470 2 0 {name=p25 sig_type=std_logic lab=phi5f}
-C {devices/lab_pin.sym} 610 490 2 0 {name=p26 sig_type=std_logic lab=phi6f}
-C {devices/lab_pin.sym} 610 510 2 0 {name=p27 sig_type=std_logic lab=phi7f}
-C {madvlsi/isource.sym} 1250 560 2 0 {name=Ib
+C {madvlsi/isource.sym} 880 550 2 0 {name=Ib
 value=2u}
-C {madvlsi/gnd.sym} 1250 590 0 0 {name=l4 lab=GND}
-C {devices/lab_pin.sym} 1250 530 2 0 {name=p28 sig_type=std_logic lab=VB}
-C {devices/lab_pin.sym} 560 310 0 0 {name=p29 sig_type=std_logic lab=VB}
+C {madvlsi/gnd.sym} 880 580 0 0 {name=l4 lab=GND}
+C {devices/lab_pin.sym} 880 520 2 0 {name=p28 sig_type=std_logic lab=Vb}
+C {devices/lab_pin.sym} 560 310 0 0 {name=p29 sig_type=std_logic lab=Vb}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 540 220 0 0 {name=X18}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/filter/filter_lvs.sym} 570 200 0 0 {name=x17}
+C {devices/lab_pin.sym} 610 390 2 1 {name=p21 sig_type=std_logic lab=phi1}
+C {devices/lab_pin.sym} 610 410 2 1 {name=p22 sig_type=std_logic lab=phi2}
+C {devices/lab_pin.sym} 610 430 2 1 {name=p23 sig_type=std_logic lab=phi3}
+C {devices/lab_pin.sym} 610 450 2 1 {name=p24 sig_type=std_logic lab=phi4}
+C {devices/lab_pin.sym} 610 470 2 1 {name=p25 sig_type=std_logic lab=phi5}
+C {devices/lab_pin.sym} 610 490 2 1 {name=p26 sig_type=std_logic lab=phi6}
+C {devices/lab_pin.sym} 610 510 2 1 {name=p27 sig_type=std_logic lab=phi7}

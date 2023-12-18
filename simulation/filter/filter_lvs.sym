@@ -1,7 +1,7 @@
 v {xschem version=3.4.3 file_version=1.2
 }
 G {}
-K {type=subcircuit
+K {type=subciruit
 format="@name @pinlist @symname"
 template="name=x1"}
 V {}

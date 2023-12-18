@@ -1,0 +1,25 @@
+** sch_path: /home/madvlsi/VLSI_Sine_Gen/simulation/post_layout_sim/post_layout_tran.sch
+**.subckt post_layout_tran
+V_CLK CLK GND pulse(0 1.8 1n 1n 1n 4n 10n)
+Vdd VDD GND 1.8
+x1 Vphi1 Vphi2 Vphi3 Vphi4 Vphi5 Vphi6 Vphi7 Vff8 Vff9 Vff10 Vff11 Vff12 Vff13 Vff14 Vff15 Vff16 Vb
++ CLK Vout+ Vout- final
+Ib GND Vb 1u
+**** begin user architecture code
+
+.option wnflag=1
+.param MC_SWITCH=0.0
+.lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt
+
+
+.include ~/VLSI_Sine_Gen/layout/final.spice
+.ic v(Vphi1)=0 v(Vphi2)=0 v(Vphi3)=0 v(Vphi4)=0 v(Vphi5)=0 v(Vphi6)=0 v(Vphi7)=0 v(Vff8)=0
++ v(Vff9)=1.8 v(Vff10)=1.8 v(Vff11)=1.8 v(Vff12)=1.8 v(Vff13)=1.8 v(Vff14)=1.8 v(Vff15)=1.8 v(Vff16)=1.8
+.tran 0.1n 1u
+.save all
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.GLOBAL VDD
+.end
