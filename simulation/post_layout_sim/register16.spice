@@ -1,0 +1,73 @@
+* SPICE3 file created from register16.ext - technology: sky130A
+
+.subckt csrl_dff2 D DB Q QB CLK VP VN
+X0 VP a_n950_630# a_n950_1180# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3.16 as=0.25 ps=1.5 w=1 l=0.15
+X1 a_n950_630# a_n950_1180# a_n950_n280# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.433 ps=3.03 w=1 l=0.15
+X2 a_n950_630# CLK DB VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.75 ps=3.5 w=1 l=0.15
+X3 QB CLK a_n950_630# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X4 VP a_n950_1180# a_n950_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3.16 as=0.25 ps=1.5 w=1 l=0.15
+X5 VN Q QB VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X6 a_n690_630# CLK VP VP sky130_fd_pr__pfet_01v8 ad=0.433 pd=3.03 as=0.5 ps=3.16 w=4 l=0.15
+X7 a_n950_n280# CLK VN VN sky130_fd_pr__nfet_01v8 ad=0.433 pd=3.03 as=2 ps=10.5 w=4 l=0.15
+X8 a_n950_1180# a_n950_630# a_n950_n280# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.433 ps=3.03 w=1 l=0.15
+X9 Q CLK a_n950_1180# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X10 VN QB Q VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X11 Q QB a_n690_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1 l=0.15
+X12 QB Q a_n690_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1 l=0.15
+X13 a_n950_1180# CLK D VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.75 ps=3.5 w=1 l=0.15
+.ends
+
+.subckt csrl_dff3 D DB Q QB CLK VP VN
+X0 VP a_n950_630# a_n950_1180# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3.16 as=0.25 ps=1.5 w=1 l=0.15
+X1 a_n950_630# a_n950_1180# a_n950_n280# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.433 ps=3.03 w=1 l=0.15
+X2 a_n950_630# CLK DB VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.75 ps=3.5 w=1 l=0.15
+X3 QB CLK a_n950_630# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X4 VP a_n950_1180# a_n950_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3.16 as=0.25 ps=1.5 w=1 l=0.15
+X5 VN Q QB VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X6 a_n690_630# CLK VP VP sky130_fd_pr__pfet_01v8 ad=0.433 pd=3.03 as=0.5 ps=3.16 w=4 l=0.15
+X7 a_n950_n280# CLK VN VN sky130_fd_pr__nfet_01v8 ad=0.433 pd=3.03 as=2 ps=10.5 w=4 l=0.15
+X8 a_n950_1180# a_n950_630# a_n950_n280# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.433 ps=3.03 w=1 l=0.15
+X9 Q CLK a_n950_1180# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X10 VN QB Q VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X11 Q QB a_n690_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1 l=0.15
+X12 QB Q a_n690_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1 l=0.15
+X13 a_n950_1180# CLK D VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.75 ps=3.5 w=1 l=0.15
+.ends
+
+.subckt csrl_dff1 D DB Q QB CLK VP VN
+X0 VP a_n950_630# a_n950_1180# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3.16 as=0.25 ps=1.5 w=1 l=0.15
+X1 a_n950_630# a_n950_1180# a_n950_n280# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.433 ps=3.03 w=1 l=0.15
+X2 a_n950_630# CLK DB VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.55 ps=3.1 w=1 l=0.15
+X3 QB CLK a_n950_630# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X4 VP a_n950_1180# a_n950_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3.16 as=0.25 ps=1.5 w=1 l=0.15
+X5 VN Q QB VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X6 a_n690_630# CLK VP VP sky130_fd_pr__pfet_01v8 ad=0.433 pd=3.03 as=0.5 ps=3.16 w=4 l=0.15
+X7 a_n950_n280# CLK VN VN sky130_fd_pr__nfet_01v8 ad=0.433 pd=3.03 as=1.6 ps=9.7 w=4 l=0.15
+X8 a_n950_1180# a_n950_630# a_n950_n280# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.433 ps=3.03 w=1 l=0.15
+X9 Q CLK a_n950_1180# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X10 VN QB Q VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X11 Q QB a_n690_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1 l=0.15
+X12 QB Q a_n690_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1 l=0.15
+X13 a_n950_1180# CLK D VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.55 ps=3.1 w=1 l=0.15
+.ends
+
+.subckt register16 VP VN Vphi1 Vphi2 Vphi3 Vphi4 Vphi5 Vphi6 Vphi7 Vff8 Vff9 Vff10
++ Vff11 Vff12 Vff13 Vff14 Vff15 Vff16 CLK
+Xcsrl_dff2_10 Vff11 csrl_dff2_9/QB Vff12 csrl_dff2_11/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_11 Vff12 csrl_dff2_11/DB Vff13 csrl_dff2_12/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_12 Vff13 csrl_dff2_12/DB Vff14 csrl_dff2_13/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_0 Vphi1 csrl_dff2_0/DB Vphi2 csrl_dff2_1/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_13 Vff14 csrl_dff2_13/DB Vff15 csrl_dff3_0/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_2 Vphi3 csrl_dff2_2/DB Vphi4 csrl_dff2_3/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_1 Vphi2 csrl_dff2_1/DB Vphi3 csrl_dff2_2/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_3 Vphi4 csrl_dff2_3/DB Vphi5 csrl_dff2_4/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_4 Vphi5 csrl_dff2_4/DB Vphi6 csrl_dff2_5/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_5 Vphi6 csrl_dff2_5/DB Vphi7 csrl_dff2_6/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_6 Vphi7 csrl_dff2_6/DB Vff8 csrl_dff2_7/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_7 Vff8 csrl_dff2_7/DB Vff9 csrl_dff2_8/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_8 Vff9 csrl_dff2_8/DB Vff10 csrl_dff2_9/DB CLK VP VN csrl_dff2
+Xcsrl_dff2_9 Vff10 csrl_dff2_9/DB Vff11 csrl_dff2_9/QB CLK VP VN csrl_dff2
+Xcsrl_dff3_0 Vff15 csrl_dff3_0/DB Vff16 csrl_dff3_0/QB CLK VP VN csrl_dff3
+Xcsrl_dff1_0 Vff16 csrl_dff3_0/QB Vphi1 csrl_dff2_0/DB CLK VP VN csrl_dff1
+.ends
+

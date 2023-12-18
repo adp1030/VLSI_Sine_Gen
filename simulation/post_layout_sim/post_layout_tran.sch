@@ -23,28 +23,34 @@ C {devices/lab_pin.sym} 1030 520 2 0 {name=p1 sig_type=std_logic lab=CLK}
 C {madvlsi/vsource.sym} 950 550 0 0 {name=Vdd
 value=1.8}
 C {madvlsi/gnd.sym} 950 580 0 0 {name=l2 lab=GND}
-C {madvlsi/vdd.sym} 950 520 0 0 {name=l3 lab=VDD}
-C {devices/lab_pin.sym} 770 340 2 0 {name=p2 sig_type=std_logic lab=CLK}
-C {devices/lab_pin.sym} 630 320 2 1 {name=p3 sig_type=std_logic lab=Vphi1}
-C {devices/lab_pin.sym} 630 340 2 1 {name=p4 sig_type=std_logic lab=Vphi2}
-C {devices/lab_pin.sym} 630 360 2 1 {name=p5 sig_type=std_logic lab=Vphi3}
-C {devices/lab_pin.sym} 630 380 2 1 {name=p6 sig_type=std_logic lab=Vphi4}
-C {devices/lab_pin.sym} 630 400 2 1 {name=p7 sig_type=std_logic lab=Vphi5}
-C {devices/lab_pin.sym} 630 420 2 1 {name=p8 sig_type=std_logic lab=Vphi6}
-C {devices/lab_pin.sym} 630 440 2 1 {name=p9 sig_type=std_logic lab=Vphi7}
-C {devices/lab_pin.sym} 630 460 2 1 {name=p10 sig_type=std_logic lab=Vff8}
-C {devices/lab_pin.sym} 770 360 2 0 {name=p11 sig_type=std_logic lab=Vout+}
-C {devices/lab_pin.sym} 770 380 2 0 {name=p12 sig_type=std_logic lab=Vout-}
-C {devices/lab_pin.sym} 630 620 2 1 {name=p13 sig_type=std_logic lab=Vff16}
-C {devices/lab_pin.sym} 630 480 2 1 {name=p14 sig_type=std_logic lab=Vff9}
-C {devices/lab_pin.sym} 630 500 2 1 {name=p15 sig_type=std_logic lab=Vff10}
-C {devices/lab_pin.sym} 630 520 2 1 {name=p16 sig_type=std_logic lab=Vff11}
-C {devices/lab_pin.sym} 630 540 2 1 {name=p17 sig_type=std_logic lab=Vff12}
-C {devices/lab_pin.sym} 630 560 2 1 {name=p18 sig_type=std_logic lab=Vff13}
-C {devices/lab_pin.sym} 630 580 2 1 {name=p19 sig_type=std_logic lab=Vff14}
-C {devices/lab_pin.sym} 630 600 2 1 {name=p20 sig_type=std_logic lab=Vff15}
+C {devices/lab_pin.sym} 630 340 2 1 {name=p2 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 770 320 2 0 {name=p3 sig_type=std_logic lab=Vphi1}
+C {devices/lab_pin.sym} 770 340 2 0 {name=p4 sig_type=std_logic lab=Vphi2}
+C {devices/lab_pin.sym} 770 360 2 0 {name=p5 sig_type=std_logic lab=Vphi3}
+C {devices/lab_pin.sym} 770 380 2 0 {name=p6 sig_type=std_logic lab=Vphi4}
+C {devices/lab_pin.sym} 770 400 2 0 {name=p7 sig_type=std_logic lab=Vphi5}
+C {devices/lab_pin.sym} 770 420 2 0 {name=p8 sig_type=std_logic lab=Vphi6}
+C {devices/lab_pin.sym} 770 440 2 0 {name=p9 sig_type=std_logic lab=Vphi7}
+C {devices/lab_pin.sym} 770 460 2 0 {name=p10 sig_type=std_logic lab=Vff8}
+C {devices/lab_pin.sym} 630 400 2 1 {name=p11 sig_type=std_logic lab=Voutp}
+C {devices/lab_pin.sym} 630 420 2 1 {name=p12 sig_type=std_logic lab=Voutn}
+C {devices/lab_pin.sym} 770 620 2 0 {name=p13 sig_type=std_logic lab=Vff16}
+C {devices/lab_pin.sym} 770 480 2 0 {name=p14 sig_type=std_logic lab=Vff9}
+C {devices/lab_pin.sym} 770 500 2 0 {name=p15 sig_type=std_logic lab=Vff10}
+C {devices/lab_pin.sym} 770 520 2 0 {name=p16 sig_type=std_logic lab=Vff11}
+C {devices/lab_pin.sym} 770 540 2 0 {name=p17 sig_type=std_logic lab=Vff12}
+C {devices/lab_pin.sym} 770 560 2 0 {name=p18 sig_type=std_logic lab=Vff13}
+C {devices/lab_pin.sym} 770 580 2 0 {name=p19 sig_type=std_logic lab=Vff14}
+C {devices/lab_pin.sym} 770 600 2 0 {name=p20 sig_type=std_logic lab=Vff15}
 C {madvlsi/gnd.sym} 880 580 0 0 {name=l4 lab=GND}
 C {devices/lab_pin.sym} 880 520 2 0 {name=p28 sig_type=std_logic lab=Vb}
-C {devices/lab_pin.sym} 770 320 0 1 {name=p29 sig_type=std_logic lab=Vb}
+C {devices/lab_pin.sym} 630 320 0 0 {name=p29 sig_type=std_logic lab=Vb}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/post_layout_sim/final.sym} 420 0 0 0 {}
 C {devices/isource.sym} 880 550 2 0 {name=Ib value=1u}
+C {devices/lab_pin.sym} 950 520 2 0 {name=p21 sig_type=std_logic lab=VP}
+C {madvlsi/vsource.sym} 1240 550 0 0 {name=Vdd1
+value=0}
+C {madvlsi/gnd.sym} 1240 580 0 0 {name=l3 lab=GND}
+C {devices/lab_pin.sym} 1240 520 2 0 {name=p22 sig_type=std_logic lab=VN}
+C {devices/lab_pin.sym} 630 360 2 1 {name=p23 sig_type=std_logic lab=VP}
+C {devices/lab_pin.sym} 630 380 2 1 {name=p24 sig_type=std_logic lab=VN}
