@@ -5,7 +5,7 @@ K {}
 V {}
 S {}
 E {}
-N 1150 550 1170 550 {
+N 1220 550 1240 550 {
 lab=GND}
 C {madvlsi/tt_models.sym} 830 400 0 0 {
 name=TT_MODELS
@@ -21,7 +21,6 @@ C {devices/lab_pin.sym} 850 550 2 0 {name=p1 sig_type=std_logic lab=CLK}
 C {madvlsi/vsource.sym} 1060 580 0 0 {name=Vdd
 value=1.8}
 C {madvlsi/gnd.sym} 1060 610 0 0 {name=l2 lab=GND}
-C {madvlsi/vdd.sym} 1060 550 0 0 {name=l3 lab=VDD}
 C {devices/lab_pin.sym} 820 290 2 0 {name=p2 sig_type=std_logic lab=CLK}
 C {devices/lab_pin.sym} 680 270 2 1 {name=p3 sig_type=std_logic lab=Vphi1}
 C {devices/lab_pin.sym} 680 290 2 1 {name=p4 sig_type=std_logic lab=Vphi2}
@@ -31,8 +30,8 @@ C {devices/lab_pin.sym} 680 350 2 1 {name=p7 sig_type=std_logic lab=Vphi5}
 C {devices/lab_pin.sym} 680 370 2 1 {name=p8 sig_type=std_logic lab=Vphi6}
 C {devices/lab_pin.sym} 680 390 2 1 {name=p9 sig_type=std_logic lab=Vphi7}
 C {devices/lab_pin.sym} 680 410 2 1 {name=p10 sig_type=std_logic lab=Vff8}
-C {devices/lab_pin.sym} 820 310 2 0 {name=p11 sig_type=std_logic lab=Vout+}
-C {devices/lab_pin.sym} 820 330 2 0 {name=p12 sig_type=std_logic lab=Vout-}
+C {devices/lab_pin.sym} 820 350 2 0 {name=p11 sig_type=std_logic lab=Vout+}
+C {devices/lab_pin.sym} 820 370 2 0 {name=p12 sig_type=std_logic lab=Vout-}
 C {devices/lab_pin.sym} 680 570 2 1 {name=p13 sig_type=std_logic lab=Vff16}
 C {devices/lab_pin.sym} 680 430 2 1 {name=p14 sig_type=std_logic lab=Vff9}
 C {devices/lab_pin.sym} 680 450 2 1 {name=p15 sig_type=std_logic lab=Vff10}
@@ -59,9 +58,16 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
 .endc
 "
 }
-C {madvlsi/isource.sym} 1170 580 0 0 {name=I1
+C {madvlsi/isource.sym} 1240 580 0 0 {name=I1
 value=1u}
-C {madvlsi/gnd.sym} 1150 550 0 0 {name=l4 lab=GND}
-C {devices/lab_pin.sym} 1170 610 2 0 {name=p28 sig_type=std_logic lab=Vb}
+C {madvlsi/gnd.sym} 1220 550 0 0 {name=l4 lab=GND}
+C {devices/lab_pin.sym} 1240 610 2 0 {name=p28 sig_type=std_logic lab=Vb}
 C {devices/lab_pin.sym} 820 270 2 0 {name=p29 sig_type=std_logic lab=Vb}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/post_layout_sim/final.sym} 470 -50 0 0 {name=x1}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/post_layout_sim/final_postlayout.sym} 1030 -50 0 1 {name=x1}
+C {devices/lab_pin.sym} 1060 550 2 1 {name=p21 sig_type=std_logic lab=VP}
+C {madvlsi/vsource.sym} 1140 580 0 0 {name=V_gnd
+value=0}
+C {madvlsi/gnd.sym} 1140 610 0 0 {name=l3 lab=GND}
+C {devices/lab_pin.sym} 1140 550 2 1 {name=p22 sig_type=std_logic lab=VN}
+C {devices/lab_pin.sym} 820 310 2 0 {name=p23 sig_type=std_logic lab=VP}
+C {devices/lab_pin.sym} 820 330 2 0 {name=p24 sig_type=std_logic lab=VN}

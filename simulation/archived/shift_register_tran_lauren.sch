@@ -5,31 +5,28 @@ K {}
 V {}
 S {}
 E {}
-L 4 190 290 210 290 {}
-B 5 187.5 287.5 192.5 292.5 {name=XXX
-dir=inout}
 N -10 130 460 130 {
 lab=CLK}
 N 70 -10 70 20 {
-lab=phi_1}
+lab=Vphi1}
 N 520 -10 520 20 {
-lab=phi_4}
+lab=Vphi4}
 N 540 20 580 20 {
-lab=phi_4}
+lab=Vphi4}
 N 70 50 90 50 {
 lab=phi_1B}
 N 370 -10 370 20 {
-lab=phi_3}
+lab=Vphi3}
 N 370 20 390 20 {
-lab=phi_3}
+lab=Vphi3}
 N 370 50 390 50 {
 lab=phi_3B}
 N 220 -10 220 20 {
-lab=phi_2}
+lab=Vphi2}
 N 220 50 240 50 {
 lab=phi_2B}
 N 220 20 240 20 {
-lab=phi_2}
+lab=Vphi2}
 N 370 50 370 60 {
 lab=phi_3B}
 N 220 50 220 60 {
@@ -47,25 +44,25 @@ lab=CLK}
 N -10 360 460 360 {
 lab=CLK}
 N 70 220 70 250 {
-lab=phi_5}
+lab=Vphi5}
 N 520 220 520 250 {
 lab=ff_8}
 N 70 280 90 280 {
 lab=phi_5B}
 N 70 250 90 250 {
-lab=phi_5}
+lab=Vphi5}
 N 370 220 370 250 {
-lab=phi_7}
+lab=Vphi7}
 N 370 250 390 250 {
-lab=phi_7}
+lab=Vphi7}
 N 370 280 390 280 {
 lab=phi_7B}
 N 220 220 220 250 {
-lab=phi_6}
+lab=Vphi6}
 N 220 280 240 280 {
 lab=phi_6B}
 N 220 250 240 250 {
-lab=phi_6}
+lab=Vphi6}
 N 370 280 370 290 {
 lab=phi_7B}
 N 220 280 220 290 {
@@ -81,9 +78,9 @@ lab=CLK}
 N 460 330 460 360 {
 lab=CLK}
 N 580 140 580 190 {
-lab=phi_4}
+lab=Vphi4}
 N -60 190 580 190 {
-lab=phi_4}
+lab=Vphi4}
 N -80 170 -80 280 {
 lab=phi_4B}
 N -80 280 -60 280 {
@@ -187,7 +184,7 @@ lab=ff_16}
 N -140 20 -60 20 {
 lab=ff_16}
 N -60 190 -60 250 {
-lab=phi_4}
+lab=Vphi4}
 N -60 430 -60 490 {
 lab=ff_8}
 N -60 660 -60 720 {
@@ -197,25 +194,25 @@ lab=phi_4B}
 N -80 170 500 170 {
 lab=phi_4B}
 N 50 20 90 20 {
-lab=phi_1}
+lab=Vphi1}
 N 200 50 220 50 {
 lab=phi_2B}
 N 350 50 370 50 {
 lab=phi_3B}
 N 580 20 580 140 {
-lab=phi_4}
+lab=Vphi4}
 N 500 20 540 20 {
-lab=phi_4}
+lab=Vphi4}
 N 350 20 370 20 {
-lab=phi_3}
+lab=Vphi3}
 N 200 20 220 20 {
-lab=phi_2}
+lab=Vphi2}
 N 50 250 70 250 {
-lab=phi_5}
+lab=Vphi5}
 N 200 250 220 250 {
-lab=phi_6}
+lab=Vphi6}
 N 350 250 370 250 {
-lab=phi_7}
+lab=Vphi7}
 N 500 250 520 250 {
 lab=ff_8}
 N 520 250 580 250 {
@@ -278,14 +275,14 @@ N 350 750 370 750 {
 lab=ff_15B}
 N 50 50 70 50 {
 lab=phi_1B}
-C {madvlsi/tt_models.sym} 650 -20 0 0 {
+C {madvlsi/tt_models.sym} 650 50 0 0 {
 name=TT_MODELS
 only_toplevel=false
 value=".option wnflag=1
 .param MC_SWITCH=0.0
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
-C {devices/code_shown.sym} 660 370 0 0 {name=SPICE only_toplevel=false value=".ic v(phi_1)=0 v(phi_2)=0 v(phi_3)=0 v(phi_4)=0 v(phi_5)=0 v(phi_6)=0 v(phi_7)=0 v(ff_8)=0 v(ff_9)=1.8 v(ff_10)=1.8 v(ff_11)=1.8 v(ff_12)=1.8 v(ff_13)=1.8 v(ff_14)=1.8 v(ff_15)=1.8 v(ff_16)=1.8
+C {devices/code_shown.sym} 660 370 0 0 {name=SPICE only_toplevel=false value=".ic v(Vphi1)=0 v(Vphi2)=0 v(Vphi3)=0 v(Vphi4)=0 v(Vphi5)=0 v(Vphi6)=0 v(Vphi7)=0 v(ff_8)=0 v(ff_9)=1.8 v(ff_10)=1.8 v(ff_11)=1.8 v(ff_12)=1.8 v(ff_13)=1.8 v(ff_14)=1.8 v(ff_15)=1.8 v(ff_16)=1.8
 .tran 0.01n 1u
 .save all"}
 C {madvlsi/vsource.sym} 670 260 0 0 {name=V_CLK
@@ -293,8 +290,8 @@ value="pulse(0 1.8 1n 1n 1n 4n 10n)"}
 C {madvlsi/gnd.sym} 670 290 0 0 {name=l1 lab=GND}
 C {devices/lab_pin.sym} 670 230 2 0 {name=p1 sig_type=std_logic lab=CLK}
 C {devices/lab_pin.sym} -10 130 0 0 {name=p2 sig_type=std_logic lab=CLK}
-C {devices/lab_pin.sym} 70 -10 2 0 {name=p9 sig_type=std_logic lab=phi_1}
-C {devices/lab_pin.sym} 520 -10 2 0 {name=p12 sig_type=std_logic lab=phi_4}
+C {devices/lab_pin.sym} 70 -10 2 0 {name=p9 sig_type=std_logic lab=Vphi1}
+C {devices/lab_pin.sym} 520 -10 2 0 {name=p12 sig_type=std_logic lab=Vphi4}
 C {devices/lab_pin.sym} 70 460 2 0 {name=p14 sig_type=std_logic lab=ff_9}
 C {devices/lab_pin.sym} 220 460 2 0 {name=p15 sig_type=std_logic lab=ff_10}
 C {devices/lab_pin.sym} 370 460 2 0 {name=p16 sig_type=std_logic lab=ff_11}
@@ -319,11 +316,11 @@ C {devices/lab_pin.sym} 370 760 3 0 {name=p36 sig_type=std_logic lab=ff_15B}
 C {devices/lab_pin.sym} 500 750 2 0 {name=p37 sig_type=std_logic lab=ff_16B}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 0 0 0 {name=X1}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 0 0 0 {name=X2}
-C {devices/lab_pin.sym} 370 -10 2 0 {name=p38 sig_type=std_logic lab=phi_3}
+C {devices/lab_pin.sym} 370 -10 2 0 {name=p38 sig_type=std_logic lab=Vphi3}
 C {devices/lab_pin.sym} 370 60 3 0 {name=p39 sig_type=std_logic lab=phi_3B}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 0 0 0 {name=X3}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 0 0 0 {name=X4}
-C {devices/lab_pin.sym} 220 -10 2 0 {name=p10 sig_type=std_logic lab=phi_2}
+C {devices/lab_pin.sym} 220 -10 2 0 {name=p10 sig_type=std_logic lab=Vphi2}
 C {devices/lab_pin.sym} 220 60 3 0 {name=p11 sig_type=std_logic lab=phi_2B}
 C {devices/lab_pin.sym} -10 360 0 0 {name=p23 sig_type=std_logic lab=CLK}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 230 0 0 {name=X5}
@@ -340,11 +337,39 @@ C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_d
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 700 0 0 {name=X14}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 700 0 0 {name=X15}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 700 0 0 {name=X16}
-C {devices/lab_pin.sym} 70 220 2 0 {name=p24 sig_type=std_logic lab=phi_5}
-C {devices/lab_pin.sym} 220 220 2 0 {name=p40 sig_type=std_logic lab=phi_6}
-C {devices/lab_pin.sym} 370 220 2 0 {name=p41 sig_type=std_logic lab=phi_7}
+C {devices/lab_pin.sym} 70 220 2 0 {name=p24 sig_type=std_logic lab=Vphi5}
+C {devices/lab_pin.sym} 220 220 2 0 {name=p40 sig_type=std_logic lab=Vphi6}
+C {devices/lab_pin.sym} 370 220 2 0 {name=p41 sig_type=std_logic lab=Vphi7}
 C {devices/lab_pin.sym} 520 220 2 0 {name=p42 sig_type=std_logic lab=ff_8}
 C {madvlsi/vsource.sym} 880 260 0 0 {name=Vdd
 value=1.8}
 C {madvlsi/gnd.sym} 880 290 0 0 {name=l2 lab=GND}
 C {madvlsi/vdd.sym} 880 230 0 0 {name=l3 lab=VDD}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 800 490 0 0 {name=X17}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 870 490 0 0 {name=X18}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 800 560 0 0 {name=X19}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 870 560 0 0 {name=X20}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 800 630 0 0 {name=X21}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 870 630 0 0 {name=X22}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 800 700 0 0 {name=X23}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 870 700 0 0 {name=X24}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 800 770 0 0 {name=X25}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 870 770 0 0 {name=X26}
+C {devices/lab_pin.sym} 720 490 2 1 {name=p3 sig_type=std_logic lab=Vphi1}
+C {devices/lab_pin.sym} 720 560 2 1 {name=p4 sig_type=std_logic lab=Vphi2}
+C {devices/lab_pin.sym} 720 630 2 1 {name=p5 sig_type=std_logic lab=Vphi3}
+C {devices/lab_pin.sym} 720 700 2 1 {name=p6 sig_type=std_logic lab=Vphi4}
+C {devices/lab_pin.sym} 720 770 2 1 {name=p7 sig_type=std_logic lab=Vphi5}
+C {devices/lab_pin.sym} 720 840 2 1 {name=p8 sig_type=std_logic lab=Vphi6}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 800 840 0 0 {name=X27}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 800 910 0 0 {name=X28}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 870 840 0 0 {name=X29}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/inverter.sym} 870 910 0 0 {name=X30}
+C {devices/lab_pin.sym} 720 910 2 1 {name=p13 sig_type=std_logic lab=Vphi7}
+C {devices/lab_pin.sym} 860 490 2 0 {name=p43 sig_type=std_logic lab=Vphi1f}
+C {devices/lab_pin.sym} 860 560 2 0 {name=p44 sig_type=std_logic lab=Vphi2f}
+C {devices/lab_pin.sym} 860 630 2 0 {name=p45 sig_type=std_logic lab=Vphi3f}
+C {devices/lab_pin.sym} 860 700 2 0 {name=p46 sig_type=std_logic lab=Vphi4f}
+C {devices/lab_pin.sym} 860 770 2 0 {name=p48 sig_type=std_logic lab=Vphi5f}
+C {devices/lab_pin.sym} 860 840 2 0 {name=p49 sig_type=std_logic lab=Vphi6f}
+C {devices/lab_pin.sym} 860 910 2 0 {name=p50 sig_type=std_logic lab=Vphi7f}

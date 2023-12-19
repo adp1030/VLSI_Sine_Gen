@@ -177,6 +177,38 @@ N 50 750 90 750 {
 lab=#net16}
 N 50 720 90 720 {
 lab=Vff13}
+N 70 -10 70 20 {
+lab=Vphi1}
+N 220 -10 220 20 {
+lab=Vphi2}
+N 370 -10 370 20 {
+lab=Vphi3}
+N 70 220 70 250 {
+lab=Vphi5}
+N 220 220 220 250 {
+lab=Vphi6}
+N 370 220 370 250 {
+lab=Vphi7}
+N 520 -10 520 20 {
+lab=Vphi4}
+N 520 220 520 250 {
+lab=Vff8}
+N 520 460 520 490 {
+lab=Vff12}
+N 520 690 520 720 {
+lab=Vff16}
+N 70 460 70 490 {
+lab=Vff9}
+N 220 460 220 490 {
+lab=Vff10}
+N 370 460 370 490 {
+lab=Vff11}
+N 370 690 370 720 {
+lab=Vff15}
+N 220 690 220 720 {
+lab=Vff14}
+N 70 690 70 720 {
+lab=Vff13}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} -130 0 0 0 {name=X1}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 0 0 0 {name=X2}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 0 0 0 {name=X3}
@@ -193,20 +225,20 @@ C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_d
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 20 700 0 0 {name=X14}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 170 700 0 0 {name=X15}
 C {/home/madvlsi/VLSI_Sine_Gen/simulation/shift_register/lauren_mp2_files/csrl_dff3_lds.sym} 320 700 0 0 {name=X16}
-C {devices/opin.sym} 90 20 0 0 {name=p1 lab=Vphi1}
-C {devices/opin.sym} 240 20 0 0 {name=p3 lab=Vphi2}
-C {devices/opin.sym} 390 20 0 0 {name=p4 lab=Vphi3}
-C {devices/opin.sym} 500 20 0 0 {name=p5 lab=Vphi4}
-C {devices/opin.sym} 90 250 0 0 {name=p6 lab=Vphi5}
-C {devices/opin.sym} 240 250 0 0 {name=p7 lab=Vphi6}
-C {devices/opin.sym} 390 250 0 0 {name=p8 lab=Vphi7}
-C {devices/opin.sym} 500 250 0 0 {name=p9 lab=Vff8}
-C {devices/opin.sym} 90 490 0 0 {name=p10 lab=Vff9}
-C {devices/opin.sym} 240 490 0 0 {name=p11 lab=Vff10}
-C {devices/opin.sym} 390 490 0 0 {name=p12 lab=Vff11}
-C {devices/opin.sym} 500 490 0 0 {name=p13 lab=Vff12}
-C {devices/opin.sym} 90 720 0 0 {name=p14 lab=Vff13}
-C {devices/opin.sym} 240 720 0 0 {name=p15 lab=Vff14}
-C {devices/opin.sym} 390 720 0 0 {name=p16 lab=Vff15}
-C {devices/opin.sym} 500 720 0 0 {name=p17 lab=Vff16}
+C {devices/opin.sym} 70 -10 0 0 {name=p1 lab=Vphi1}
+C {devices/opin.sym} 220 -10 0 0 {name=p3 lab=Vphi2}
+C {devices/opin.sym} 370 -10 0 0 {name=p4 lab=Vphi3}
+C {devices/opin.sym} 520 -10 0 0 {name=p5 lab=Vphi4}
+C {devices/opin.sym} 70 220 0 0 {name=p6 lab=Vphi5}
+C {devices/opin.sym} 220 220 0 0 {name=p7 lab=Vphi6}
+C {devices/opin.sym} 370 220 0 0 {name=p8 lab=Vphi7}
+C {devices/opin.sym} 520 220 0 0 {name=p9 lab=Vff8}
+C {devices/opin.sym} 70 460 0 0 {name=p10 lab=Vff9}
+C {devices/opin.sym} 220 460 0 0 {name=p11 lab=Vff10}
+C {devices/opin.sym} 370 460 0 0 {name=p12 lab=Vff11}
+C {devices/opin.sym} 520 460 0 0 {name=p13 lab=Vff12}
+C {devices/opin.sym} 70 690 0 0 {name=p14 lab=Vff13}
+C {devices/opin.sym} 220 690 0 0 {name=p15 lab=Vff14}
+C {devices/opin.sym} 370 690 0 0 {name=p16 lab=Vff15}
+C {devices/opin.sym} 520 690 0 0 {name=p17 lab=Vff16}
 C {devices/ipin.sym} -210 130 0 0 {name=p2 lab=V_CLK}

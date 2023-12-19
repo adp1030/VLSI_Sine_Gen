@@ -57,7 +57,7 @@ C {madvlsi/gnd.sym} 1800 1730 0 0 {name=l4 lab=GND}
 C {devices/opin.sym} 1550 1710 0 0 {name=p1 lab=Vout+}
 C {devices/opin.sym} 1630 1710 0 0 {name=p2 lab=Vout-}
 C {devices/ipin.sym} 1380 1630 0 0 {name=p3 lab=Viout+}
-C {devices/ipin.sym} 1800 1630 0 1 {name=p4 lab=Viout-}
+C {devices/ipin.sym} 1800 1630 0 0 {name=p4 lab=Viout-}
 C {madvlsi/resistor.sym} 1440 1660 1 0 {name=R5
 value=20k
 m=1}

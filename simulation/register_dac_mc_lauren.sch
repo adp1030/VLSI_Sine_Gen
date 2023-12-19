@@ -29,7 +29,7 @@ C {madvlsi/tt_models.sym} 830 400 0 0 {
 name=TT_MODELS
 only_toplevel=false
 value=".option wnflag=1
-.param MC_SWITCH=0.0
+.param MC_SWITCH=1.0
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
 C {madvlsi/vsource.sym} 850 580 0 0 {name=V_CLK
@@ -40,8 +40,8 @@ C {madvlsi/vsource.sym} 1060 580 0 0 {name=Vdd
 value=1.8}
 C {madvlsi/gnd.sym} 1060 610 0 0 {name=l2 lab=GND}
 C {madvlsi/vdd.sym} 1060 550 0 0 {name=l3 lab=VDD}
-C {./dac.sym} 420 200 0 0 {name=x1}
-C {./register_lauren.sym} 590 580 0 0 {name=x2}
+C {./dac/dac.sym} 420 200 0 0 {name=x1}
+C {./shift_register/register_lauren.sym} 590 580 0 0 {name=x2}
 C {devices/lab_pin.sym} 400 590 2 1 {name=p2 sig_type=std_logic lab=V_CLK}
 C {devices/lab_pin.sym} 470 390 2 0 {name=p3 sig_type=std_logic lab=phi1}
 C {devices/lab_pin.sym} 470 410 2 0 {name=p4 sig_type=std_logic lab=phi2}
@@ -92,7 +92,7 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
   let run = 1
   dowhile run <= mc_runs
     tran 0.1n 1u
-    wrdata ~/VLSI_Sine_Gen/simulation/sim_data/mc_data/register_dac_mc_m0\{$&run\}.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)
+    wrdata ~/VLSI_Sine_Gen/simulation/sim_data/mc_data/register_dac_mc_\{$&run\}.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)
     reset
     let run = run + 1
   end
@@ -104,4 +104,4 @@ C {/home/madvlsi/VLSI_Sine_Gen/simulation/dac/v_gen_lds.sym} 540 240 0 0 {name=X
 C {madvlsi/isource.sym} 560 300 0 0 {name=I1
 value=1u}
 C {madvlsi/gnd.sym} 540 270 0 0 {name=l4 lab=GND}
-C {/home/madvlsi/VLSI_Sine_Gen/simulation/filter/filter_lvs.sym} 410 360 0 0 {name=x17}
+C {/home/madvlsi/VLSI_Sine_Gen/simulation/filter/filter.sym} 910 360 0 1 {name=x17}
