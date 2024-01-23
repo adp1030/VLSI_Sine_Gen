@@ -11,7 +11,7 @@ C {madvlsi/tt_models.sym} 830 400 0 0 {
 name=TT_MODELS
 only_toplevel=false
 value=".option wnflag=1
-.param MC_SWITCH=0.0
+.param MC_SWITCH=1.0
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
 C {madvlsi/vsource.sym} 850 580 0 0 {name=V_CLK
@@ -30,8 +30,8 @@ C {devices/lab_pin.sym} 680 350 2 1 {name=p7 sig_type=std_logic lab=Vphi5}
 C {devices/lab_pin.sym} 680 370 2 1 {name=p8 sig_type=std_logic lab=Vphi6}
 C {devices/lab_pin.sym} 680 390 2 1 {name=p9 sig_type=std_logic lab=Vphi7}
 C {devices/lab_pin.sym} 680 410 2 1 {name=p10 sig_type=std_logic lab=Vff8}
-C {devices/lab_pin.sym} 820 350 2 0 {name=p11 sig_type=std_logic lab=Vout+}
-C {devices/lab_pin.sym} 820 370 2 0 {name=p12 sig_type=std_logic lab=Vout-}
+C {devices/lab_pin.sym} 820 350 2 0 {name=p11 sig_type=std_logic lab=Voutp}
+C {devices/lab_pin.sym} 820 370 2 0 {name=p12 sig_type=std_logic lab=Voutn}
 C {devices/lab_pin.sym} 680 570 2 1 {name=p13 sig_type=std_logic lab=Vff16}
 C {devices/lab_pin.sym} 680 430 2 1 {name=p14 sig_type=std_logic lab=Vff9}
 C {devices/lab_pin.sym} 680 450 2 1 {name=p15 sig_type=std_logic lab=Vff10}
@@ -41,6 +41,7 @@ C {devices/lab_pin.sym} 680 510 2 1 {name=p18 sig_type=std_logic lab=Vff13}
 C {devices/lab_pin.sym} 680 530 2 1 {name=p19 sig_type=std_logic lab=Vff14}
 C {devices/lab_pin.sym} 680 550 2 1 {name=p20 sig_type=std_logic lab=Vff15}
 C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
+.include ~/VLSI_Sine_Gen/simulation/post_layout_sim/final_postlayout.spice
 .ic v(Vphi1)=0 v(Vphi2)=0 v(Vphi3)=0 v(Vphi4)=0 v(Vphi5)=0 v(Vphi6)=0 v(Vphi7)=0 v(Vff8)=0 v(Vff9)=1.8 v(Vff10)=1.8 v(Vff11)=1.8 v(Vff12)=1.8 v(Vff13)=1.8 v(Vff14)=1.8 v(Vff15)=1.8 v(Vff16)=1.8
 .control
   set wr_vecnames
@@ -50,7 +51,7 @@ C {devices/code.sym} 980 400 0 0 {name=SPICE1 only_toplevel=false value="
   let run = 1
   dowhile run <= mc_runs
     tran 0.1n 1u
-    wrdata ~/VLSI_Sine_Gen/simulation/sim_data/mc_data/register_dac_mc_m0\{$&run\}.txt v(Vout+) v(Vout-) v(Vout+)-v(Vout-)
+    wrdata ~/VLSI_Sine_Gen/simulation/sim_data/mc_data/register_dac_mc_post\{$&run\}.txt v(Voutp)-v(Voutn)
     reset
     let run = run + 1
   end

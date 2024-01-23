@@ -81,7 +81,7 @@ C {devices/lab_pin.sym} 610 470 2 0 {name=p25 sig_type=std_logic lab=phi5f}
 C {devices/lab_pin.sym} 610 490 2 0 {name=p26 sig_type=std_logic lab=phi6f}
 C {devices/lab_pin.sym} 610 510 2 0 {name=p27 sig_type=std_logic lab=phi7f}
 C {madvlsi/isource.sym} 1250 560 2 0 {name=Ib
-value=1u}
+value=10u}
 C {madvlsi/gnd.sym} 1250 590 0 0 {name=l4 lab=GND}
 C {devices/lab_pin.sym} 1250 530 2 0 {name=p28 sig_type=std_logic lab=VB}
 C {devices/lab_pin.sym} 560 310 0 0 {name=p29 sig_type=std_logic lab=VB}
